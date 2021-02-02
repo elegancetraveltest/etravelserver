@@ -48,7 +48,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 72,
+    "uniqCompNum": 73,
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png"
   },
@@ -403,173 +403,22 @@
           "_params": {}
         },
         {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
-            "overflow": "hidden",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@reverse)": {
-              ".title__block": {
-                "z-index": "5"
-              }
-            },
-            ".figure when (@showFigure)": {
-              "display": "block",
-              "position": "relative",
-              "z-index": "1",
-              "&:before": {
-                "content": "\"\"",
-                "position": "absolute",
-                "z-index": "-1",
-                "width": "110px",
-                "height": "110px",
-                "bottom": "-85px",
-                "left": "-105px",
-                "background-image": "url(@figure)",
-                "background-repeat": "no-repeat",
-                "background-size": "cover"
-              }
-            },
-            ".link": {
-              "display": "block",
-              "margin-bottom": "0",
-              "white-space": "nowrap",
-              "padding-right": "10px",
-              "margin-top": "45px",
-              "text-align": "right",
-              "position": "relative",
-              "z-index": "5",
-              "a": {
-                "font-weight": "700"
-              },
-              "span": {
-                "display": "inline-block !important",
-                "transition": "all 0.3s ease",
-                "margin-left": "13px"
-              },
-              "&:hover span": {
-                "transform": "translateX(9px)"
-              }
-            },
-            "& when (@bgColor2) and (@bg-type = 'color')": {
-              ".card__block:before": {
-                "content": "\"\"",
-                "position": "absolute",
-                "top": "-128px",
-                "left": "205px",
-                "width": "100vw",
-                "height": "~'calc(100% + 182px)'",
-                "background-color": "@twoBgColor"
-              }
-            },
-            ".card__item": {
-              "max-width": "45%",
-              "padding": "0 23px",
-              "margin-bottom": "65px"
-            },
-            ".card__content": {
-              "position": "relative",
-              "width": "100%",
-              "height": "280px",
-              "transition": "all .3s ease",
-              "&:hover": {
-                "transform": "scale(0.95)"
-              },
-              "img": {
-                "position": "absolute",
-                "height": "100%",
-                "width": "100%",
-                "object-fit": "cover",
-                "z-index": "0"
-              },
-              ".card__title": {
-                "z-index": "5",
-                "position": "relative",
-                "padding": "28px 28px 7px",
-                "margin-bottom": "0",
-                "pointer-events": "none"
-              },
-              ".card__text": {
-                "z-index": "5",
-                "position": "relative",
-                "padding": "0 28px",
-                "margin-bottom": "0",
-                "pointer-events": "none",
-                "& when not (@cardTitle)": {
-                  "padding-top": "28px"
-                }
-              },
-              ".is-builder & .card__title": {
-                "pointer-events": "all"
-              },
-              ".is-builder & .card__text": {
-                "pointer-events": "all"
-              }
-            },
-            "@media (max-width: 1024px)": {
-              ".figure:before": {
-                "width": "60px",
-                "height": "60px",
-                "bottom": "-100px",
-                "left": "-15px"
-              },
-              ".link": {
-                "margin-top": "15px",
-                "padding-right": "0",
-                "text-align": "left"
-              },
-              ".title__block": {
-                "margin-bottom": "74px"
-              },
-              "& when (@bgColor2)": {
-                ".card__block:before": {
-                  "top": "-50px",
-                  "left": "115px",
-                  "height": "~'calc(100% + 90px)'"
-                }
-              },
-              ".card__item": {
-                "max-width": "348px",
-                "margin": "0 auto 25px"
-              }
-            },
-            "@media (max-width: 767px)": {
-              ".card__block > [class*=\"col-\"]": {
-                "padding-right": "5px",
-                "padding-left": "5px"
-              },
-              ".card__content": {
-                "height": "200px"
-              },
-              ".card__text": {
-                "font-size": "14px",
-                "line-height": "18px"
-              }
-            },
-            "@media (max-width: 575px)": {
-              ".card__item": {
-                "max-width": "274px"
-              }
-            },
-            ".mbr-section-title, .link": {
-              "color": "#ffffff"
-            }
-          },
-          "_name": "features3",
-          "_sourceTheme": "voyagem4",
-          "_customHTML": "<section class=\"features3\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"8\">\n        <input type=\"checkbox\" title=\"Left/Right Content\" name=\"reverse\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Show Figure\" name=\"showFigure\" condition=\"showTitle\" checked>\n        <input type=\"image\" title=\"Figure\" name=\"figure\" value=\"@PROJECT_PATH@/assets/images/mbr-1911x1920.png\" condition=\"showFigure && showTitle\">\n        <header>Card</header>\n        <input type=\"checkbox\" title=\"Card Title\" name=\"cardTitle\" checked>\n        <input type=\"checkbox\" title=\"Card Text\" name=\"cardText\" checked>\n        <select name=\"cardCount\" title=\"Card Count\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\" selected>6</option>\n        </select>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/mbr-3-1920x1280.jpg\" selected parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"2 BG Color\" name=\"bgColor2\" condition=\"bg.type == 'color'\" checked>\n        <input type=\"color\" title=\"2 Background Color\" value=\"#cce4f0\" name=\"twoBgColor\" condition=\"bgColor2 && bg.type == 'color'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row\" mbr-class=\"{'flex-row-reverse' : reverse}\">\n           <div class=\"col-lg-3 title__block\" mbr-if=\"showTitle || showButtons\">\n               <h3 class=\"mbr-section-title figure mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-title, .link\">Още дестинации</h3>\n               <p class=\"link mbr-fonts-style\" mbr-if=\"showButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\">Виж всички<a href=\"#\"><span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a></p>\n            </div> \n            <div class=\"col-lg-9 col-12\">\n                <div class=\"row card__block\">\n                    <div class=\"col-lg-6 col-sm-6 col-12 card__item\">\n                        <div class=\"card__content text-white\">\n                            <a href=\"index.html\"><img src=\"../_images/voyage8.jpg\" alt title></a>\n                        <h5 class=\"card__title mbr-normal  mbr-fonts-style\" mbr-if=\"cardTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".card__content .card__title\">Italy</h5>\n                        <p class=\"card__text mbr-fonts-style\" mbr-if=\"cardText\" mbr-theme-style=\"display-4\" data-app-selector=\".card__content .card__text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>\n                        </div>\n                    </div>\n                    \n                    <div class=\"col-lg-6 col-sm-6 col-12 card__item\" mbr-if=\"cardCount > 1\">\n                        <div class=\"card__content text-white\">\n                            <a href=\"index.html\"><img src=\"../_images/voyage9.jpg\" alt title></a>\n                        <h5 class=\"card__title mbr-normal  mbr-fonts-style\" mbr-if=\"cardTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".card__content .card__title\">Spain</h5>\n                        <p class=\"card__text  mbr-fonts-style\" mbr-if=\"cardText\" mbr-theme-style=\"display-4\" data-app-selector=\".card__content .card__text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>\n                        </div>\n                    </div>\n                    \n                    <div class=\"col-lg-6 col-sm-6 col-12 card__item\" mbr-if=\"cardCount > 2\">\n                        <div class=\"card__content text-white\">\n                            <a href=\"index.html\"><img src=\"../_images/voyage10.jpg\" alt title></a>\n                        <h5 class=\"card__title mbr-normal  mbr-fonts-style\" mbr-if=\"cardTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".card__content .card__title\">Germany</h5>\n                        <p class=\"card__text  mbr-fonts-style\" mbr-if=\"cardText\" mbr-theme-style=\"display-4\" data-app-selector=\".card__content .card__text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>\n                        </div>\n                    </div>\n                    \n                    <div class=\"col-lg-6 col-sm-6 col-12 card__item\" mbr-if=\"cardCount > 3\">\n                        <div class=\"card__content text-white\">\n                            <a href=\"index.html\"><img src=\"../_images/voyage11.jpg\" alt title></a>\n                        <h5 class=\"card__title mbr-normal  mbr-fonts-style\" mbr-if=\"cardTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".card__content .card__title\">Norway</h5>\n                        <p class=\"card__text  mbr-fonts-style\" mbr-if=\"cardText\" mbr-theme-style=\"display-4\" data-app-selector=\".card__content .card__text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>\n                        </div>\n                    </div>\n                    \n                    <div class=\"col-lg-6 col-sm-6 col-12 card__item\" mbr-if=\"cardCount > 4\">\n                        <div class=\"card__content text-white\">\n                            <a href=\"index.html\"><img src=\"@PROJECT_PATH@/assets/images/mbr-677x440.jpg\" alt title></a>\n                        <h5 class=\"card__title mbr-normal  mbr-fonts-style\" mbr-if=\"cardTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".card__content .card__title\">Finland</h5>\n                        <p class=\"card__text  mbr-fonts-style\" mbr-if=\"cardText\" mbr-theme-style=\"display-4\" data-app-selector=\".card__content .card__text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>\n                        </div>\n                    </div>\n                    \n                    <div class=\"col-lg-6 col-sm-6 col-12 card__item\" mbr-if=\"cardCount > 5\">\n                        <div class=\"card__content text-white\">\n                            <a href=\"index.html\"><img src=\"@PROJECT_PATH@/assets/images/mbr-677x448.jpg\" alt title></a>\n                        <h5 class=\"card__title mbr-normal  mbr-fonts-style\" mbr-if=\"cardTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".card__content .card__title\">Russia</h5>\n                        <p class=\"card__text  mbr-fonts-style\" mbr-if=\"cardText\" mbr-theme-style=\"display-4\" data-app-selector=\".card__content .card__text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            \n        </div>\n    </div>\n</section>",
-          "_cid": "sjzCbAzf3s",
-          "_anchor": "features3-g",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n<div>\n    <h1 class=\"display-1\">Custom HTML Block</h1>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"#777\" width=\"200\" height=\"200\"><path d=\"M6.1 8.7L2.8 12l3.3 3.3-1.4 1.4L0 12l4.7-4.7 1.4 1.4zm13.2-1.4l-1.4 1.4 3.3 3.3-3.3 3.3 1.4 1.4L24 12l-4.7-4.7zM8.1 18.6l1.8.8 6-14-1.8-.8-6 14z\"></path></svg>\n    <p class=\"display-3\">Click to Open Code Editor</p>\n</div>\n<iframe width=\"100%\" src=\"//iframe.peakview.bg/?cl=717&amp;ifr_id=10727\" scrolling=\"no\" frameborder=\"0\" onload=\"window.scroll(0,0);\"></iframe>\n[JS_CODE_0]\n[JS_CODE_1]\n",
+          "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_anchor": "custom-html-20",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script type=\"text/javascript\" src=\"//iframe.peakview.bg/js/iframeResizer.min.js\"></script>",
+            "<script type=\"text/javascript\">iFrameResize({checkOrigin:false,heightCalculationMethod : 'max' })</script>"
+          ]
         },
         {
           "alias": false,
