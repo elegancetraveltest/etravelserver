@@ -987,6 +987,18 @@ a {
 .cid-sjzwz0aicT .link {
   color: #ffffff;
 }
+#custom-html-1z {
+  /* Type valid CSS here */
+}
+#custom-html-1z div {
+  padding: 80px 0;
+  color: #777;
+  text-align: center;
+}
+#custom-html-1z p {
+  font-size: 60px;
+  color: #777;
+}
 .cid-sjzCbAzf3s {
   padding-top: 8rem;
   padding-bottom: 8rem;
