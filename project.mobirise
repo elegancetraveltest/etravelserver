@@ -48,7 +48,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 81,
+    "uniqCompNum": 82,
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png"
   },
@@ -475,47 +475,19 @@
           "_anchor": "content4-28"
         },
         {
-          "alias": false,
-          "_styles": {
-            ".google-map": {
-              "height": "25rem",
-              "position": "relative",
-              "iframe": {
-                "height": "100%",
-                "width": "100%"
-              },
-              "[data-state-details]": {
-                "color": "#6b6763",
-                "font-family": "Montserrat",
-                "height": "1.5em",
-                "margin-top": "-0.75em",
-                "padding-left": "1.25rem",
-                "padding-right": "1.25rem",
-                "position": "absolute",
-                "text-align": "center",
-                "top": "50%",
-                "width": "100%"
-              },
-              "&[data-state]": {
-                "background": "#e9e5dc"
-              },
-              "&[data-state=\"loading\"]": {
-                "[data-state-details]": {
-                  "display": "none"
-                },
-                "&::after": {}
-              }
-            }
-          },
-          "_name": "map1",
-          "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"map1\" group=\"Maps\">\n\n    <mbr-parameters>   \n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"iframe\" value=\"iframe\">   \n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"google-map\" mbr-map=\"googleMap\">\n    </div>\n</section>",
-          "_cid": "sjzFTeXBLM",
-          "_anchor": "map1-h",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<iframe src=\"https://www.google.com/maps/d/u/0/embed?mid=1j9umAm30ezrh84pnbR2Xc95CfNeZujeL\" width=\"640\" height=\"480\"></iframe>",
+          "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_anchor": "custom-html-29",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
         },
         {
           "alias": "mobirise4-blocks/components",

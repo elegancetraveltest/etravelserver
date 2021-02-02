@@ -1023,31 +1023,17 @@ a {
   padding-bottom: 0rem;
   background-color: #ffffff;
 }
-.cid-sjzFTeXBLM .google-map {
-  height: 25rem;
-  position: relative;
+#custom-html-29 {
+  /* Type valid CSS here */
 }
-.cid-sjzFTeXBLM .google-map iframe {
-  height: 100%;
-  width: 100%;
-}
-.cid-sjzFTeXBLM .google-map [data-state-details] {
-  color: #6b6763;
-  font-family: Montserrat;
-  height: 1.5em;
-  margin-top: -0.75em;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-  position: absolute;
+#custom-html-29 div {
+  padding: 80px 0;
+  color: #777;
   text-align: center;
-  top: 50%;
-  width: 100%;
 }
-.cid-sjzFTeXBLM .google-map[data-state] {
-  background: #e9e5dc;
-}
-.cid-sjzFTeXBLM .google-map[data-state="loading"] [data-state-details] {
-  display: none;
+#custom-html-29 p {
+  font-size: 60px;
+  color: #777;
 }
 .cid-sjztgFndKa {
   padding-top: 90px;
