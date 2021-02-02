@@ -405,7 +405,7 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here --> \n<iframe width=\"100%\" src=\"//iframe.peakview.bg/?cl=717&amp;ifr_id=10727\" scrolling=\"no\" frameborder=\"0\" onload=\"window.scroll(0,0);\"></iframe>\n[JS_CODE_0]\n[JS_CODE_1]\n",
+          "_customHTML": "<iframe width=\"100%\" src=\"//iframe.peakview.bg/?cl=717&amp;ifr_id=10734\" scrolling=\"no\" frameborder=\"0\" onload=\"window.scroll(0,0);\"></iframe>\n[JS_CODE_0]\n[JS_CODE_1]\n",
           "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
           "alias": "code-editor",
           "_tags": [
@@ -417,7 +417,7 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [
             "<script type=\"text/javascript\" src=\"//iframe.peakview.bg/js/iframeResizer.min.js\"></script>",
-            "<script type=\"text/javascript\">iFrameResize({checkOrigin:false,heightCalculationMethod : 'max' })</script>"
+            "<script type=\"text/javascript\">iFrameResize({checkOrigin:false,heightCalculationMethod : 'max'\t})</script>"
           ]
         },
         {
