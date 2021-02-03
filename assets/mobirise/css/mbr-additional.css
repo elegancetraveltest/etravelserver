@@ -696,6 +696,18 @@ a {
 .cid-snXyHcTA3i .mbr-section-btn {
   color: #fafafa;
 }
+@media (min-aspect-ratio 1.77777778) {
+  .cid-snXyHcTA3i .video-background {
+    width: 100%;
+    Height: auto;
+  }
+}
+@media (max-aspect-ratio 1.77777778) {
+  .cid-snXyHcTA3i .video-background {
+    width: auto;
+    Height: 100%;
+  }
+}
 .cid-sjzwz0aicT {
   padding-top: 10rem;
   padding-bottom: 8rem;
