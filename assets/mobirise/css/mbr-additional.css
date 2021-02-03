@@ -5218,23 +5218,33 @@ a {
     left: -1rem;
   }
 }
-.cid-snY54xpqrQ {
+.cid-snYd7jEjUM {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-image: url("../../../assets/images/mbr-5-1920x1280.jpg");
+  background-image: url("../../../assets/images/mbr-1920x1285.jpg");
 }
-.cid-snY54xpqrQ .mbr-section-title {
+.cid-snYd7jEjUM .mbr-section-title {
   color: #ffffff;
 }
-#custom-html-2j {
+#custom-html-2m {
   /* Type valid CSS here */
 }
-#custom-html-2j div {
+#custom-html-2m div {
   padding: 80px 0;
   color: #777;
   text-align: center;
 }
-#custom-html-2j p {
+#custom-html-2m p {
   font-size: 60px;
   color: #777;
+}
+.cid-snYdTxyMtU {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+.cid-snYdTxyMtU .mbr-section-btn {
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
 }
