@@ -1,3 +1,6 @@
 backend:
-  name: github
-  repo: elegancetraveltest/etravelserver # Path to your GitHub repository
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master
+
+  media_folder: "elegancetraveltest/etravelserver"
+  public_folder: "etravelserver"
