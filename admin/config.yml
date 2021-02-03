@@ -3,5 +3,5 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
 
 
-  media_folder: "assets/images"
-  public_folder: "images"
+  media_folder: "etravelserver/assets"
+  public_folder: "etravelserver"
