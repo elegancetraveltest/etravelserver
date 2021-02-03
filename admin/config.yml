@@ -3,5 +3,5 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
 
 
-  media_folder: "etravelserver/assets"
-  public_folder: "etravelserver"
+  media_folder: "elegancetraveltest/etravelserver.git"
+  public_folder: "etravelserver.git"
