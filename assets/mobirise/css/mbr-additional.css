@@ -692,6 +692,37 @@ a {
 .cid-snXRIQF1Xf H1 {
   color: #48ca96;
 }
+.cid-sjzHUxHWKN {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+.cid-sjzHUxHWKN .card-box {
+  z-index: 10;
+  position: relative;
+}
+@media (min-width: 1500px) {
+  .cid-sjzHUxHWKN .container {
+    max-width: 1400px;
+  }
+}
+.cid-sjzHUxHWKN .card {
+  margin: auto;
+}
+.cid-sjzHUxHWKN .mbr-iconfont {
+  display: block;
+  font-size: 5rem;
+  color: #6592e6;
+  margin-bottom: 2rem;
+}
+.cid-sjzHUxHWKN .card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cid-sjzHUxHWKN .row {
+  justify-content: center;
+}
 .cid-sjzwz0aicT {
   padding-top: 10rem;
   padding-bottom: 8rem;
@@ -980,36 +1011,51 @@ a {
 .cid-sjzwz0aicT .link {
   color: #ffffff;
 }
-.cid-sjzHUxHWKN {
-  padding-top: 0rem;
-  padding-bottom: 0rem;
-  background-color: #ffffff;
+.cid-snYIMsVXdB {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-image: url("../../../assets/images/mbr-1920x1135.jpg");
 }
-.cid-sjzHUxHWKN .card-box {
-  z-index: 10;
-  position: relative;
+.cid-snYIMsVXdB .nav-tabs .nav-item.open .nav-link:focus,
+.cid-snYIMsVXdB .nav-tabs .nav-link.active:focus {
+  outline: none;
 }
-@media (min-width: 1500px) {
-  .cid-sjzHUxHWKN .container {
-    max-width: 1400px;
+.cid-snYIMsVXdB .nav-tabs {
+  flex-wrap: wrap;
+  border-bottom: 1px solid #6592e6;
+}
+@media (max-width: 767px) {
+  .cid-snYIMsVXdB .nav-item {
+    width: 100%;
+    margin: 0;
   }
 }
-.cid-sjzHUxHWKN .card {
-  margin: auto;
+.cid-snYIMsVXdB .nav-tabs .nav-link {
+  transition: all .5s;
+  border: none;
+  border-bottom: 3px solid transparent;
+  border-radius: 0 !important;
 }
-.cid-sjzHUxHWKN .mbr-iconfont {
-  display: block;
-  font-size: 5rem;
+.cid-snYIMsVXdB .nav-tabs .nav-link:not(.active) {
+  color: #000000;
+}
+.cid-snYIMsVXdB .nav-tabs .nav-item {
+  margin-right: 1.5rem;
+}
+.cid-snYIMsVXdB .nav-link,
+.cid-snYIMsVXdB .nav-link.active {
+  padding: 1rem 0;
+  background-color: transparent;
+}
+.cid-snYIMsVXdB .nav-tabs .nav-link.active {
   color: #6592e6;
-  margin-bottom: 2rem;
+  border-bottom: 3px solid #6592e6;
 }
-.cid-sjzHUxHWKN .card-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.cid-snYIMsVXdB H4 {
+  text-align: center;
 }
-.cid-sjzHUxHWKN .row {
-  justify-content: center;
+.cid-snYIMsVXdB H3 {
+  text-align: center;
 }
 .cid-snTNyxYPiD {
   padding-top: 5rem;
