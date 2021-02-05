@@ -48,7 +48,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 130,
+    "uniqCompNum": 131,
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "favicon": false,
@@ -356,7 +356,7 @@
           },
           "_name": "slider1",
           "_sourceTheme": "voyagem4",
-          "_customHTML": "<section class=\"carousel slider1 voyagem4_slider1 testimonials-slider\" group=\"Sliders\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"BootstrapCarouselSwipe,mbr-testimonials-slider\" data-interval=\"false\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\" inline>\n\t\t<input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"10\" inline>\n\t\t<input type=\"checkbox\" title=\"Left/Right Content\" name=\"reverse\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n\t\t<input type=\"checkbox\" title=\"Figure\" name=\"showFigure\" checked>\n\t\t<input type=\"image\" title=\"Figure\" name=\"figure\" value=\"@PROJECT_PATH@/assets/images/elegance-travel-28-160x160.png\" condition=\"showFigure\">\n\t\t<input type=\"range\" inline title=\"Count Items\" name=\"testimonialsSlides\" min=\"1\" max=\"10\" step=\"1\" value=\"10\">\n\t\t<input type=\"checkbox\" title=\"Arrows\" name=\"showArrows\">\n\t\t<input type=\"color\" title=\"Arrows Color\" name=\"arrowsColor\" value=\"#48ca96\" condition=\"showArrows\">\n\t\t<input type=\"checkbox\" title=\"Autoplay\" name=\"showAutoplay\" checked>\n\t\t<input type=\"range\" inline title=\"Autoplay Interval (ms)\" name=\"interval\" min=\"1000\" max=\"8000\" step=\"1000\" value=\"6000\" condition=\"showAutoplay\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1279.jpg\" selected parallax>\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\">\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n\n\t<div class=\"container\">\n\t\t<div class=\"carousel slide\" role=\"listbox\" data-pause=\"true\" data-keyboard=\"false\" data-ride=\"{{showAutoplay ? 'carousel' : 'false'}}\" data-interval=\"{{showAutoplay ? interval : 'false'}}\">\n\t\t\t<div class=\"carousel-inner\" mbr-list mbr-list-grow=\"testimonialsSlides\">\n\t\t\t\t<div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-lg-5 col-8 img-wrap\">\n\t\t\t\t\t\t\t<a href=\"Dubai.html\"><img src=\"@PROJECT_PATH@/assets/images/mbr-1440x1920.jpg\" alt title></a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-lg-5 col-xl-4 col-12 col-md-10 col-sm-10 slider__content align-left\">\n\t\t\t\t\t\t\t<h4 class=\"slider__title mbr-medium mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".slider__title\">Dubai</h4>\n\t\t\t\t\t\t\t<h5 class=\"slider__subtitle mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".slider__subtitle\">6/8 нощувки</h5>\n\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".slider__text, .link\">Пътуване до Дубай на цени от 1015лв.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>\n\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"showButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\"><a href=\"#\"></a><a href=\"Dubai.html\" class=\"text-primary\">Виж още</a><span class=\"fa fa-long-arrow-right mbr-iconfont\" style=\"color: rgb(72, 202, 150);\"></span>\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-lg-5 col-8 img-wrap\">\n\t\t\t\t\t\t\t<a href=\"Maldives.html\"><img src=\"@PROJECT_PATH@/assets/images/mbr-637x956.jpg\" alt title></a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-lg-5 col-xl-4 col-12 col-md-10 col-sm-10 slider__content align-left\">\n\t\t\t\t\t\t\t<h4 class=\"slider__title mbr-medium mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".slider__title\">Maldives</h4>\n\t\t\t\t\t\t\t<h5 class=\"slider__subtitle mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".slider__subtitle\">6/7 нощувки</h5>\n\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".slider__text\">Пътуване до Малдиви на цени от 2515лв.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>\n\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"showButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\"><a href=\"Maldives.html\" class=\"text-primary\">Виж още<span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-lg-5 col-8 img-wrap\">\n\t\t\t\t\t\t\t<a href=\"Santorini.html\"><img src=\"@PROJECT_PATH@/assets/images/mbr-1-637x956.jpg\" alt title></a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-lg-5 col-xl-4 col-12 col-md-10 col-sm-10 slider__content align-left\">\n\t\t\t\t\t\t\t<h4 class=\"slider__title mbr-medium mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".slider__title\">Santorini</h4>\n\t\t\t\t\t\t\t<h5 class=\"slider__subtitle mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".slider__subtitle\">3/4 Нощувки</h5>\n\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".slider__text\">Пътуване до о-в Санторини на цени от 2515лв.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>\n\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"showButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\"><a href=\"#\"></a><a href=\"Santorini.html\" class=\"text-primary\">Виж още</a><span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span>\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t<div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-lg-5 col-8 img-wrap\">\n\t\t\t\t\t\t\t<a href=\"Zanzibar.html\"><img src=\"@PROJECT_PATH@/assets/images/mbr-524x786.jpg\" alt title></a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-lg-5 col-xl-4 col-12 col-md-10 col-sm-10 slider__content align-left\">\n\t\t\t\t\t\t\t<h4 class=\"slider__title mbr-medium mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".slider__title\">Zanzibar</h4>\n\t\t\t\t\t\t\t<h5 class=\"slider__subtitle mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".slider__subtitle\">7 нощувки</h5>\n\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".slider__text\">Екзотична почивка в Занзибар на цени от 1956лв.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>\n\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"showButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\"><a href=\"#\"></a><a href=\"Zanzibar.html\" class=\"text-primary\">Виж още</a><span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span>\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div><div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-lg-5 col-8 img-wrap\">\n\t\t\t\t\t\t\t<a href=\"Tenerife.html\"><img src=\"@PROJECT_PATH@/assets/images/mbr-564x376.jpg\" alt title></a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-lg-5 col-xl-4 col-12 col-md-10 col-sm-10 slider__content align-left\">\n\t\t\t\t\t\t\t<h4 class=\"slider__title mbr-medium mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".slider__title\">Tenerife</h4>\n\t\t\t\t\t\t\t<h5 class=\"slider__subtitle mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".slider__subtitle\">\n\t\t\t\t\t\t\t\tQuibusdam fuga, earu\n\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".slider__text\">Почивка на остров Тенерифе на цени от 1560лв.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>\n\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"showButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\"><a href=\"#\" style=\"font-weight: normal;\"></a><a href=\"Tenerife.html\" class=\"text-primary\">Виж още</a><span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span>\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div><div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-lg-5 col-8 img-wrap\">\n\t\t\t\t\t\t\t<img src=\"../_images/voyage6.jpg\" alt title>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-lg-5 col-xl-4 col-12 col-md-10 col-sm-10 slider__content align-left\">\n\t\t\t\t\t\t\t<h4 class=\"slider__title mbr-medium mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".slider__title\">\n\t\t\t\t\t\t\t\tIncredible View\n\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t<h5 class=\"slider__subtitle mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".slider__subtitle\">\n\t\t\t\t\t\t\t\tQuibusdam fuga, earu\n\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".slider__text\">\n\t\t\t\t\t\t\t\tLorem ipsum dolor sit amet, consectetur adipisicing elit. Iste a et esse ratione\n\t\t\t\t\t\t\t\tperspiciatis eius ex, recusandae, est\n\t\t\t\t\t\t\t\tcorporis eos quos ipsa aliquam incidunt soluta veniam ab aspernatur. Eligendi, ut!\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"showButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\">\n\t\t\t\t\t\t\t\t<a href=\"#\">View All<span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div><div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-lg-5 col-8 img-wrap\">\n\t\t\t\t\t\t\t<img src=\"../_images/voyage6.jpg\" alt title>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-lg-5 col-xl-4 col-12 col-md-10 col-sm-10 slider__content align-left\">\n\t\t\t\t\t\t\t<h4 class=\"slider__title mbr-medium mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".slider__title\">\n\t\t\t\t\t\t\t\tIncredible View\n\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t<h5 class=\"slider__subtitle mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".slider__subtitle\">\n\t\t\t\t\t\t\t\tQuibusdam fuga, earu\n\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".slider__text\">\n\t\t\t\t\t\t\t\tLorem ipsum dolor sit amet, consectetur adipisicing elit. Iste a et esse ratione\n\t\t\t\t\t\t\t\tperspiciatis eius ex, recusandae, est\n\t\t\t\t\t\t\t\tcorporis eos quos ipsa aliquam incidunt soluta veniam ab aspernatur. Eligendi, ut!\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"showButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\">\n\t\t\t\t\t\t\t\t<a href=\"#\">View All<span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div><div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-lg-5 col-8 img-wrap\">\n\t\t\t\t\t\t\t<img src=\"../_images/voyage6.jpg\" alt title>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-lg-5 col-xl-4 col-12 col-md-10 col-sm-10 slider__content align-left\">\n\t\t\t\t\t\t\t<h4 class=\"slider__title mbr-medium mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".slider__title\">\n\t\t\t\t\t\t\t\tIncredible View\n\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t<h5 class=\"slider__subtitle mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".slider__subtitle\">\n\t\t\t\t\t\t\t\tQuibusdam fuga, earu\n\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".slider__text\">\n\t\t\t\t\t\t\t\tLorem ipsum dolor sit amet, consectetur adipisicing elit. Iste a et esse ratione\n\t\t\t\t\t\t\t\tperspiciatis eius ex, recusandae, est\n\t\t\t\t\t\t\t\tcorporis eos quos ipsa aliquam incidunt soluta veniam ab aspernatur. Eligendi, ut!\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"showButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\">\n\t\t\t\t\t\t\t\t<a href=\"#\">View All<span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div><div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-lg-5 col-8 img-wrap\">\n\t\t\t\t\t\t\t<img src=\"../_images/voyage6.jpg\" alt title>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-lg-5 col-xl-4 col-12 col-md-10 col-sm-10 slider__content align-left\">\n\t\t\t\t\t\t\t<h4 class=\"slider__title mbr-medium mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".slider__title\">\n\t\t\t\t\t\t\t\tIncredible View\n\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t<h5 class=\"slider__subtitle mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".slider__subtitle\">\n\t\t\t\t\t\t\t\tQuibusdam fuga, earu\n\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".slider__text\">\n\t\t\t\t\t\t\t\tLorem ipsum dolor sit amet, consectetur adipisicing elit. Iste a et esse ratione\n\t\t\t\t\t\t\t\tperspiciatis eius ex, recusandae, est\n\t\t\t\t\t\t\t\tcorporis eos quos ipsa aliquam incidunt soluta veniam ab aspernatur. Eligendi, ut!\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"showButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\">\n\t\t\t\t\t\t\t\t<a href=\"#\">View All<span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div><div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-lg-5 col-8 img-wrap\">\n\t\t\t\t\t\t\t<img src=\"../_images/voyage6.jpg\" alt title>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-lg-5 col-xl-4 col-12 col-md-10 col-sm-10 slider__content align-left\">\n\t\t\t\t\t\t\t<h4 class=\"slider__title mbr-medium mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".slider__title\">\n\t\t\t\t\t\t\t\tIncredible View\n\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t<h5 class=\"slider__subtitle mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".slider__subtitle\">\n\t\t\t\t\t\t\t\tQuibusdam fuga, earu\n\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".slider__text\">\n\t\t\t\t\t\t\t\tLorem ipsum dolor sit amet, consectetur adipisicing elit. Iste a et esse ratione\n\t\t\t\t\t\t\t\tperspiciatis eius ex, recusandae, est\n\t\t\t\t\t\t\t\tcorporis eos quos ipsa aliquam incidunt soluta veniam ab aspernatur. Eligendi, ut!\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"showButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\">\n\t\t\t\t\t\t\t\t<a href=\"#\">View All<span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div></div>\n\n\t\t\t<div class=\"carousel-controls\">\n\t\t\t\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_customHTML": "<section class=\"carousel slider1 voyagem4_slider1 testimonials-slider\" group=\"Sliders\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"BootstrapCarouselSwipe,mbr-testimonials-slider\" data-interval=\"false\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\" inline>\n\t\t<input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"10\" inline>\n\t\t<input type=\"checkbox\" title=\"Left/Right Content\" name=\"reverse\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n\t\t<input type=\"checkbox\" title=\"Figure\" name=\"showFigure\" checked>\n\t\t<input type=\"image\" title=\"Figure\" name=\"figure\" value=\"@PROJECT_PATH@/assets/images/elegance-travel-28-160x160.png\" condition=\"showFigure\">\n\t\t<input type=\"range\" inline title=\"Count Items\" name=\"testimonialsSlides\" min=\"1\" max=\"10\" step=\"1\" value=\"10\">\n\t\t<input type=\"checkbox\" title=\"Arrows\" name=\"showArrows\">\n\t\t<input type=\"color\" title=\"Arrows Color\" name=\"arrowsColor\" value=\"#48ca96\" condition=\"showArrows\">\n\t\t<input type=\"checkbox\" title=\"Autoplay\" name=\"showAutoplay\" checked>\n\t\t<input type=\"range\" inline title=\"Autoplay Interval (ms)\" name=\"interval\" min=\"1000\" max=\"8000\" step=\"1000\" value=\"6000\" condition=\"showAutoplay\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1279.jpg\" selected parallax>\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\">\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n\n\t<div class=\"container\">\n\t\t<div class=\"carousel slide\" role=\"listbox\" data-pause=\"true\" data-keyboard=\"false\" data-ride=\"{{showAutoplay ? 'carousel' : 'false'}}\" data-interval=\"{{showAutoplay ? interval : 'false'}}\">\n\t\t\t<div class=\"carousel-inner\" mbr-list mbr-list-grow=\"testimonialsSlides\">\n\t\t\t\t<div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-lg-5 col-8 img-wrap\">\n\t\t\t\t\t\t\t<a href=\"Dubai.html\"><img src=\"@PROJECT_PATH@/assets/images/mbr-1440x1920.jpg\" alt title></a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-lg-5 col-xl-4 col-12 col-md-10 col-sm-10 slider__content align-left\">\n\t\t\t\t\t\t\t<h4 class=\"slider__title mbr-medium mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".slider__title\">Dubai</h4>\n\t\t\t\t\t\t\t<h5 class=\"slider__subtitle mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".slider__subtitle\">6/8 нощувки</h5>\n\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".slider__text, .link\">Пътуване до Дубай на цени от 1015лв.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>\n\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"showButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\"><a href=\"#\"></a><a href=\"Dubai.html\" class=\"text-primary\">Виж още</a><span class=\"fa fa-long-arrow-right mbr-iconfont\" style=\"color: rgb(72, 202, 150);\"></span>\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-lg-5 col-8 img-wrap\">\n\t\t\t\t\t\t\t<a href=\"Maldives.html\"><img src=\"@PROJECT_PATH@/assets/images/mbr-637x956.jpg\" alt title></a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-lg-5 col-xl-4 col-12 col-md-10 col-sm-10 slider__content align-left\">\n\t\t\t\t\t\t\t<h4 class=\"slider__title mbr-medium mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".slider__title\">Maldives</h4>\n\t\t\t\t\t\t\t<h5 class=\"slider__subtitle mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".slider__subtitle\">6/7 нощувки</h5>\n\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".slider__text\">Пътуване до Малдиви на цени от 2515лв.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>\n\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"showButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\"><a href=\"Maldives.html\" class=\"text-primary\">Виж още<span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-lg-5 col-8 img-wrap\">\n\t\t\t\t\t\t\t<a href=\"Santorini.html\"><img src=\"@PROJECT_PATH@/assets/images/mbr-1-637x956.jpg\" alt title></a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-lg-5 col-xl-4 col-12 col-md-10 col-sm-10 slider__content align-left\">\n\t\t\t\t\t\t\t<h4 class=\"slider__title mbr-medium mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".slider__title\">Santorini</h4>\n\t\t\t\t\t\t\t<h5 class=\"slider__subtitle mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".slider__subtitle\">3/4 Нощувки</h5>\n\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".slider__text\">Пътуване до о-в Санторини на цени от 2515лв.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>\n\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"showButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\"><a href=\"#\"></a><a href=\"Santorini.html\" class=\"text-primary\">Виж още</a><span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span>\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t<div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-lg-5 col-8 img-wrap\">\n\t\t\t\t\t\t\t<a href=\"Zanzibar.html\"><img src=\"@PROJECT_PATH@/assets/images/mbr-524x786.jpg\" alt title></a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-lg-5 col-xl-4 col-12 col-md-10 col-sm-10 slider__content align-left\">\n\t\t\t\t\t\t\t<h4 class=\"slider__title mbr-medium mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".slider__title\">Zanzibar</h4>\n\t\t\t\t\t\t\t<h5 class=\"slider__subtitle mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".slider__subtitle\">7 нощувки</h5>\n\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".slider__text\">Екзотична почивка в Занзибар на цени от 1956лв.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>\n\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"showButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\"><a href=\"#\"></a><a href=\"Zanzibar.html\" class=\"text-primary\">Виж още</a><span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span>\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div><div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-lg-5 col-8 img-wrap\">\n\t\t\t\t\t\t\t<a href=\"Tenerife.html\"><img src=\"@PROJECT_PATH@/assets/images/mbr-564x376.jpg\" alt title></a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-lg-5 col-xl-4 col-12 col-md-10 col-sm-10 slider__content align-left\">\n\t\t\t\t\t\t\t<h4 class=\"slider__title mbr-medium mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".slider__title\">Tenerife</h4>\n\t\t\t\t\t\t\t<h5 class=\"slider__subtitle mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".slider__subtitle\">\n\t\t\t\t\t\t\t\tQuibusdam fuga, earu\n\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".slider__text\">Почивка на остров Тенерифе на цени от 1560лв.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>\n\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"showButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\"><a href=\"#\" style=\"font-weight: normal;\"></a><a href=\"Tenerife.html\" class=\"text-primary\">Виж още</a><span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span>\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div><div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-lg-5 col-8 img-wrap\">\n\t\t\t\t\t\t\t<img src=\"../_images/voyage6.jpg\" alt title>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-lg-5 col-xl-4 col-12 col-md-10 col-sm-10 slider__content align-left\">\n\t\t\t\t\t\t\t<h4 class=\"slider__title mbr-medium mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".slider__title\">\n\t\t\t\t\t\t\t\tIncredible View\n\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t<h5 class=\"slider__subtitle mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".slider__subtitle\">\n\t\t\t\t\t\t\t\tQuibusdam fuga, earu\n\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".slider__text\">\n\t\t\t\t\t\t\t\tLorem ipsum dolor sit amet, consectetur adipisicing elit. Iste a et esse ratione\n\t\t\t\t\t\t\t\tperspiciatis eius ex, recusandae, est\n\t\t\t\t\t\t\t\tcorporis eos quos ipsa aliquam incidunt soluta veniam ab aspernatur. Eligendi, ut!\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"showButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\">\n\t\t\t\t\t\t\t\t<a href=\"#\">View All<span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div><div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-lg-5 col-8 img-wrap\">\n\t\t\t\t\t\t\t<img src=\"../_images/voyage6.jpg\" alt title>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-lg-5 col-xl-4 col-12 col-md-10 col-sm-10 slider__content align-left\">\n\t\t\t\t\t\t\t<h4 class=\"slider__title mbr-medium mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".slider__title\">\n\t\t\t\t\t\t\t\tIncredible View\n\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t<h5 class=\"slider__subtitle mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".slider__subtitle\">\n\t\t\t\t\t\t\t\tQuibusdam fuga, earu\n\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".slider__text\">\n\t\t\t\t\t\t\t\tLorem ipsum dolor sit amet, consectetur adipisicing elit. Iste a et esse ratione\n\t\t\t\t\t\t\t\tperspiciatis eius ex, recusandae, est\n\t\t\t\t\t\t\t\tcorporis eos quos ipsa aliquam incidunt soluta veniam ab aspernatur. Eligendi, ut!\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"showButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\">\n\t\t\t\t\t\t\t\t<a href=\"#\">View All<span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div><div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-lg-5 col-8 img-wrap\">\n\t\t\t\t\t\t\t<img src=\"../_images/voyage6.jpg\" alt title>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-lg-5 col-xl-4 col-12 col-md-10 col-sm-10 slider__content align-left\">\n\t\t\t\t\t\t\t<h4 class=\"slider__title mbr-medium mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".slider__title\">\n\t\t\t\t\t\t\t\tIncredible View\n\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t<h5 class=\"slider__subtitle mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".slider__subtitle\">\n\t\t\t\t\t\t\t\tQuibusdam fuga, earu\n\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".slider__text\">\n\t\t\t\t\t\t\t\tLorem ipsum dolor sit amet, consectetur adipisicing elit. Iste a et esse ratione\n\t\t\t\t\t\t\t\tperspiciatis eius ex, recusandae, est\n\t\t\t\t\t\t\t\tcorporis eos quos ipsa aliquam incidunt soluta veniam ab aspernatur. Eligendi, ut!\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"showButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\">\n\t\t\t\t\t\t\t\t<a href=\"#\">View All<span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div><div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-lg-5 col-8 img-wrap\">\n\t\t\t\t\t\t\t<img src=\"../_images/voyage6.jpg\" alt title>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-lg-5 col-xl-4 col-12 col-md-10 col-sm-10 slider__content align-left\">\n\t\t\t\t\t\t\t<h4 class=\"slider__title mbr-medium mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".slider__title\">\n\t\t\t\t\t\t\t\tIncredible View\n\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t<h5 class=\"slider__subtitle mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".slider__subtitle\">\n\t\t\t\t\t\t\t\tQuibusdam fuga, earu\n\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".slider__text\">\n\t\t\t\t\t\t\t\tLorem ipsum dolor sit amet, consectetur adipisicing elit. Iste a et esse ratione\n\t\t\t\t\t\t\t\tperspiciatis eius ex, recusandae, est\n\t\t\t\t\t\t\t\tcorporis eos quos ipsa aliquam incidunt soluta veniam ab aspernatur. Eligendi, ut!\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"showButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\">\n\t\t\t\t\t\t\t\t<a href=\"#\">View All<span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div><div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-lg-5 col-8 img-wrap\">\n\t\t\t\t\t\t\t<img src=\"../_images/voyage6.jpg\" alt title>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-lg-5 col-xl-4 col-12 col-md-10 col-sm-10 slider__content align-left\">\n\t\t\t\t\t\t\t<h4 class=\"slider__title mbr-medium mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".slider__title\">\n\t\t\t\t\t\t\t\tIncredible View\n\t\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t\t<h5 class=\"slider__subtitle mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".slider__subtitle\">\n\t\t\t\t\t\t\t\tQuibusdam fuga, earu\n\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".slider__text\">\n\t\t\t\t\t\t\t\tLorem ipsum dolor sit amet, consectetur adipisicing elit. Iste a et esse ratione\n\t\t\t\t\t\t\t\tperspiciatis eius ex, recusandae, est\n\t\t\t\t\t\t\t\tcorporis eos quos ipsa aliquam incidunt soluta veniam ab aspernatur. Eligendi, ut!\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"showButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\">\n\t\t\t\t\t\t\t\t<a href=\"#\">View All<span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div></div>\n\n\t\t\t<div class=\"carousel-controls\">\n\t\t\tmbr-if=\"showArrows\">\n\t\t\t\t<a data-app-prevent-settings=\"\" class=\"carousel-control carousel-control-prev\" role=\"button\" data-slide=\"prev\">\n\t\t\t\t\t<span aria-hidden=\"true\" class=\"mbr-iconfont mobi-mbri-left mobi-mbri\"></span>\n\t\t\t\t\t<span class=\"sr-only\">Previous</span>\n\t\t\t\t</a>\n\t\t\t\t<a data-app-prevent-settings=\"\" class=\"carousel-control carousel-control-next\" role=\"button\" data-slide=\"next\">\n\t\t\t\t\t<span aria-hidden=\"true\" class=\"mbr-iconfont mobi-mbri-right mobi-mbri\"></span>\n\t\t\t\t\t<span class=\"sr-only\">Next</span>\n\t\t\t\t</a>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
           "_cid": "so69Ps3uck",
           "_anchor": "slider1-3l",
           "_PHPplaceholders": [],
@@ -365,6 +365,302 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "overflow": "hidden",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-text": {
+              "margin-top": "20px",
+              "margin-bottom": "50px",
+              "padding-right": "70px"
+            },
+            ".title__block": {
+              "padding-left": "96px",
+              "margin-bottom": "20px",
+              "& when not (@showText)": {
+                "margin-bottom": "120px"
+              },
+              ".mbr-section-title": {
+                "display": "inline-block",
+                "margin-bottom": "25px"
+              }
+            },
+            ".figure when (@showFigure)": {
+              "display": "block",
+              "position": "relative",
+              "z-index": "1",
+              "&:before": {
+                "content": "\"\"",
+                "position": "absolute",
+                "z-index": "-1",
+                "width": "119px",
+                "height": "119px",
+                "bottom": "-90px",
+                "right": "-95px",
+                "background-image": "url(@figure)",
+                "background-repeat": "no-repeat",
+                "background-size": "cover"
+              }
+            },
+            ".carousel-item": {
+              "justify-content": "center",
+              "text-align": "left",
+              ".media-container-row": {
+                "flex-grow": "1"
+              },
+              ".slider__item": {
+                "margin-right": "30px",
+                "position": "relative",
+                "border-radius": "4px",
+                "border": "2px solid transparent",
+                "opacity": "1",
+                "transition": "border .3s linear",
+                "&:hover": {
+                  "border": "2px solid @successColor",
+                  ".slider__content": {
+                    "border": "1px solid transparent"
+                  }
+                },
+                ".slider__image": {
+                  "width": "100%",
+                  "img": {
+                    "border-radius": "4px 4px 0 0",
+                    "width": "100%",
+                    "height": "100%",
+                    "object-fit": "cover"
+                  }
+                }
+              }
+            },
+            ".slider__content": {
+              "display": "flex",
+              "flex-direction": "column",
+              "width": "100%",
+              "min-height": "320px",
+              "position": "relative",
+              "padding": "30px 40px 32px",
+              "border-radius": "0 0 4px 4px",
+              "border": "1px solid @borderColor",
+              "border-top": "1px solid transparent",
+              "transition": "border .3s",
+              "& when not (@cardImage)": {
+                "border-top": "1px solid @borderColor",
+                "border-radius": "4px"
+              },
+              ".slider__content-wrap": {
+                "margin-bottom": "38px",
+                "min-height": "210px"
+              },
+              ".slider__subtitle": {
+                "margin-bottom": "8px",
+                "color": "@successColor"
+              },
+              ".slider__title": {
+                "margin-bottom": "13px"
+              },
+              ".slider__text": {
+                "margin-bottom": "0"
+              }
+            },
+            ".link": {
+              "display": "block",
+              "margin-bottom": "0",
+              "white-space": "nowrap",
+              "a": {
+                "font-weight": "700"
+              },
+              "span": {
+                "display": "inline-block !important",
+                "transition": "all 0.3s ease",
+                "margin-left": "13px"
+              },
+              "&:hover span": {
+                "transform": "translateX(9px)"
+              }
+            },
+            ".carousel-item.active, .carousel-item-next, .carousel-item-prev": {
+              "display": "flex"
+            },
+            ".mbr-iconfont": {
+              "transition": "0.3s",
+              "display": "flex",
+              "justify-content": "center",
+              "align-items": "center"
+            },
+            ".carousel-controls": {
+              "a": {
+                "transition": "all .3s",
+                "border-radius": "50%",
+                "border": "2px solid @arrowsColor",
+                "background-color": "transparent",
+                "span": {
+                  "color": "@arrowsColor",
+                  "font-size": "18px"
+                },
+                "&:hover": {
+                  ".mobi-mbri-left": {
+                    "transform": "translateX(-5px)"
+                  },
+                  ".mobi-mbri-right": {
+                    "transform": "translateX(5px)"
+                  }
+                }
+              },
+              ".carousel-control-next, .carousel-control-prev": {
+                "opacity": "1",
+                "width": "44px",
+                "height": "44px"
+              },
+              ".carousel-control-next": {
+                "right": "-40px",
+                "bottom": "auto",
+                "top": "44%"
+              },
+              ".carousel-control-prev": {
+                "left": "-70px",
+                "bottom": "auto",
+                "top": "44%"
+              }
+            },
+            ".cloneditem-1, .cloneditem-2, .cloneditem-3, .cloneditem-4, .cloneditem-5": {
+              "display": "none"
+            },
+            ".col-lg-15": {
+              "flex": "0 0 100%",
+              "max-width": "100%",
+              "position": "relative",
+              "min-height": "1px",
+              "padding-right": "10px",
+              "padding-left": "10px",
+              "width": "100%"
+            },
+            "@media (min-width: 992px)": {
+              ".col-lg-15": {
+                "flex": "0 0 20%",
+                "max-width": "20%",
+                "width": "20%"
+              },
+              ".carousel-inner": {
+                "padding-bottom": "3px",
+                "&.slides2": {
+                  "> .carousel-item.active.carousel-item-right, > .carousel-item.carousel-item-next": {
+                    "left": "0",
+                    "transform": "translate3d(50%, 0, 0)"
+                  },
+                  "> .carousel-item.active.carousel-item-left, > .carousel-item.carousel-item-prev": {
+                    "left": "0",
+                    "transform": "translate3d(-50%, 0, 0)"
+                  },
+                  "> .carousel-item.carousel-item-left, > .carousel-item.carousel-item-prev.carousel-item-right, > .carousel-item.active": {
+                    "left": "0",
+                    "transform": "translate3d(0, 0, 0)"
+                  },
+                  ".cloneditem-1, .cloneditem-2, .cloneditem-3": {
+                    "display": "block"
+                  }
+                },
+                "&.slides3": {
+                  "> .carousel-item.active.carousel-item-right, > .carousel-item.carousel-item-next": {
+                    "left": "0",
+                    "transform": "translate3d(33.333333%, 0, 0)"
+                  },
+                  "> .carousel-item.active.carousel-item-left, > .carousel-item.carousel-item-prev": {
+                    "left": "0",
+                    "transform": "translate3d(-33.333333%, 0, 0)"
+                  },
+                  "> .carousel-item.carousel-item-left, > .carousel-item.carousel-item-prev.carousel-item-right, > .carousel-item.active": {
+                    "left": "0",
+                    "transform": "translate3d(0, 0, 0)"
+                  },
+                  ".cloneditem-1, .cloneditem-2, .cloneditem-3": {
+                    "display": "block"
+                  }
+                }
+              }
+            },
+            "@media (max-width: 1200px)": {
+              ".carousel-inner .carousel-item .cloneditem-2": {
+                "display": "none !important"
+              }
+            },
+            "@media (max-width: 1440px)": {
+              ".figure when (@showFigure)": {
+                "&:before": {
+                  "width": "99px",
+                  "height": "99px"
+                }
+              },
+              ".slider__content .slider__title": {
+                "font-size": "25px",
+                "line-height": "30px"
+              },
+              ".slider__content": {
+                "min-height": "235px"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".title__block": {
+                "& when not (@showText)": {
+                  "margin-bottom": "50px"
+                },
+                ".mbr-section-title": {
+                  "margin-bottom": "0"
+                },
+                "padding-left": "63px"
+              },
+              ".figure when (@showFigure)": {
+                "&:before": {
+                  "display": "none"
+                }
+              },
+              ".mbr-text": {
+                "padding-right": "0",
+                "margin-bottom": "10px"
+              },
+              ".carousel-item .slider__item": {
+                "margin-right": "0"
+              },
+              ".slider__content": {
+                "padding": "18px 18px 22px",
+                "min-height": "197px"
+              },
+              ".carousel-controls": {
+                ".carousel-control-next": {
+                  "right": "-35px",
+                  "bottom": "auto",
+                  "top": "44%"
+                },
+                ".carousel-control-prev": {
+                  "left": "-35px",
+                  "bottom": "auto",
+                  "top": "44%"
+                }
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".carousel-controls": {
+                "display": "none"
+              }
+            }
+          },
+          "_name": "slider2",
+          "_sourceTheme": "voyagem4",
+          "_customHTML": "<section class=\"clients slider2 voyagem4_slider2\" group=\"Sliders &amp; Galleries\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"BootstrapCarouselSwipe,mbr-clients-slider\" data-interval=\"false\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"8\">\n\t\t<input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"8\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked=\"\">\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked=\"\">\n\t\t<input type=\"checkbox\" title=\"Text\" name=\"showText\" checked=\"\">\n\t\t<input type=\"checkbox\" title=\"Figure\" name=\"showFigure\" condition=\"showTitle\" checked=\"\">\n\t\t<input type=\"image\" title=\"Figure\" name=\"figure\" value=\"../_images/svg/compass.svg\" condition=\"showFigure &amp;&amp; showTitle\">\n\t\t<header>Slider</header>\n\t\t<input type=\"range\" inline=\"\" title=\"Items\" name=\"slidesCount\" min=\"1\" max=\"20\" step=\"1\" value=\"4\">\n\t\t<select title=\"Visible Slides\" name=\"visibleSlides\" condition=\"false\">\n\t\t\t<option value=\"1\">1</option>\n\t\t\t<option value=\"2\">2</option>\n\t\t\t<option value=\"3\" selected=\"\">3</option>\n\t\t</select>\n\t\t<input type=\"checkbox\" title=\"Autoplay\" name=\"showAutoplay\">\n\t\t<input type=\"range\" inline=\"\" title=\"Autoplay Interval (ms)\" name=\"interval\" min=\"1000\" max=\"8000\" step=\"1000\" value=\"5000\" condition=\"showAutoplay\">\n\t\t<input type=\"checkbox\" title=\"Show Arrows\" name=\"showArrows\" checked=\"\">\n\t\t<input type=\"color\" title=\"Arrows Color\" name=\"arrowsColor\" value=\"#003d59\" condition=\"showArrows\">\n\t\t<header>Card</header>\n\t\t<input type=\"checkbox\" title=\"Card Image\" name=\"cardImage\" checked=\"\">\n\t\t<input type=\"checkbox\" title=\"Card Subtitle\" name=\"cardSubtitle\" checked=\"\">\n\t\t<input type=\"checkbox\" title=\"Card Title\" name=\"cardTitle\" checked=\"\">\n\t\t<input type=\"checkbox\" title=\"Card Text\" name=\"cardText\" checked=\"\">\n\t\t<input type=\"checkbox\" title=\"Card Buttons\" name=\"cardButtons\" checked=\"\">\n\t\t<input type=\"color\" title=\"Border Color\" value=\"#ddebe9\" name=\"borderColor\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax=\"\">\n\t\t\t<input type=\"image\" title=\"Image\" value=\"../_images/background.jpg\">\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\" selected=\"\">\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n\t\t<input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n\n\t<div class=\"container\" mbr-if=\"showTitle || showText || showSubtitle\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col-lg-8 col-12\">\n\t\t\t\t<h3 class=\"mbr-section-subtitle mbr-medium mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n\t\t\t\t\tPOPULAR\n\t\t\t\t</h3>\n\t\t\t</div>\n\t\t\t<div class=\"col-12 col-lg-11 offset-lg-1 title__block\">\n\t\t\t\t<h3 class=\"mbr-section-title figure mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n\t\t\t\t\tGROUP TOURS\n\t\t\t\t</h3>\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<div class=\"col-xl-6 col-lg-7 col-12\">\n\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" mbr-if=\"showText\">\n\t\t\t\t\t\t\tLorem ipsum dolor sit amet, consectetur adipisicing elit. Quis debitis, illo ex cupiditate\n\t\t\t\t\t\t\terror laboriosam earum\n\t\t\t\t\t\t\trepellendus amet facere fugiat, similique, et aut obcaecati quisquam beatae. Odit,\n\t\t\t\t\t\t\texplicabo, excepturi. Quae.\n\t\t\t\t\t\t</p>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\n\t<div class=\"container\">\n\t\t<div class=\"carousel slide\" role=\"listbox\" data-pause=\"true\" data-keyboard=\"false\" data-ride=\"{{showAutoplay ? 'carousel' : 'false'}}\" data-interval=\"{{showAutoplay ? interval : 'false'}}\">\n\t\t\t<div class=\"carousel-inner\" mbr-list=\"\" mbr-list-grow=\"slidesCount\" data-visible=\"{{visibleSlides}}\">\n\t\t\t\t<div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t<div class=\"slider__item\">\n\t\t\t\t\t\t\t\t<div class=\"slider__image\" mbr-if=\"cardImage\">\n\t\t\t\t\t\t\t\t\t<img src=\"../_images/voyage8.jpg\" alt=\"\" title=\"\">\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"slider__content\">\n\t\t\t\t\t\t\t\t\t<div class=\"slider__content-wrap\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"slider__subtitle mbr-fonts-style\" mbr-if=\"cardSubtitle\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__subtitle\">\n\t\t\t\t\t\t\t\t\t\t\t7 days\n\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t<h5 class=\"slider__title mbr-fonts-style\" mbr-if=\"cardTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".slider__content .slider__title\">\n\t\t\t\t\t\t\t\t\t\t\tRome, Venice, Milan, Florence\n\t\t\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-if=\"cardText\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__text, .link\">\n\t\t\t\t\t\t\t\t\t\t\tItaly\n\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"cardButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\">\n\t\t\t\t\t\t\t\t\t\t<a href=\"#\">Learn More<span mbr-icon=\"\" class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t<div class=\"slider__item\">\n\t\t\t\t\t\t\t\t<div class=\"slider__image\" mbr-if=\"cardImage\">\n\t\t\t\t\t\t\t\t\t<img src=\"../_images/voyage9.jpg\" alt=\"\" title=\"\">\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"slider__content\">\n\t\t\t\t\t\t\t\t\t<div class=\"slider__content-wrap\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"slider__subtitle mbr-fonts-style\" mbr-if=\"cardSubtitle\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__subtitle\">\n\t\t\t\t\t\t\t\t\t\t\t8 days\n\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t<h5 class=\"slider__title mbr-fonts-style\" mbr-if=\"cardTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".slider__content .slider__title\">\n\t\t\t\t\t\t\t\t\t\t\tBarcelona, Valencia, Madrid\n\t\t\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-if=\"cardText\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__text, .link\">\n\t\t\t\t\t\t\t\t\t\t\tSpain\n\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"cardButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\">\n\t\t\t\t\t\t\t\t\t\t<a href=\"#\">Learn More<span mbr-icon=\"\" class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t<div class=\"slider__item\">\n\t\t\t\t\t\t\t\t<div class=\"slider__image\" mbr-if=\"cardImage\">\n\t\t\t\t\t\t\t\t\t<img src=\"../_images/voyage10.jpg\" alt=\"\" title=\"\">\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"slider__content\">\n\t\t\t\t\t\t\t\t\t<div class=\"slider__content-wrap\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"slider__subtitle mbr-fonts-style\" mbr-if=\"cardSubtitle\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__subtitle\">\n\t\t\t\t\t\t\t\t\t\t\t8 days\n\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t<h5 class=\"slider__title mbr-fonts-style\" mbr-if=\"cardTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".slider__content .slider__title\">\n\t\t\t\t\t\t\t\t\t\t\tBerlin, Munich, Hamburg\n\t\t\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-if=\"cardText\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__text, .link\">\n\t\t\t\t\t\t\t\t\t\t\tGermany\n\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"cardButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\">\n\t\t\t\t\t\t\t\t\t\t<a href=\"#\">Learn More<span mbr-icon=\"\" class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t<div class=\"slider__item\">\n\t\t\t\t\t\t\t\t<div class=\"slider__image\" mbr-if=\"cardImage\">\n\t\t\t\t\t\t\t\t\t<img src=\"../_images/voyage11.jpg\" alt=\"\" title=\"\">\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"slider__content\">\n\t\t\t\t\t\t\t\t\t<div class=\"slider__content-wrap\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"slider__subtitle mbr-fonts-style\" mbr-if=\"cardSubtitle\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__subtitle\">\n\t\t\t\t\t\t\t\t\t\t\t6 days\n\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t\t<h5 class=\"slider__title mbr-fonts-style\" mbr-if=\"cardTitle\" mbr-theme-style=\"display-5\" data-app-selector=\".slider__content .slider__title\">\n\t\t\t\t\t\t\t\t\t\t\tOslo, Bergen, Trondheim\n\t\t\t\t\t\t\t\t\t\t</h5>\n\t\t\t\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-if=\"cardText\" mbr-theme-style=\"display-4\" data-app-selector=\".slider__content .slider__text, .link\">\n\t\t\t\t\t\t\t\t\t\t\tNorway\n\t\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"cardButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\">\n\t\t\t\t\t\t\t\t\t\t<a href=\"#\">Learn More<span mbr-icon=\"\" class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"carousel-controls\" mbr-if=\"showArrows\">\n\t\t\t\t<a data-app-prevent-settings=\"\" class=\"carousel-control carousel-control-prev\" role=\"button\" data-slide=\"prev\">\n\t\t\t\t\t<span aria-hidden=\"true\" class=\"mbr-iconfont mobi-mbri-left mobi-mbri\"></span>\n\t\t\t\t\t<span class=\"sr-only\">Previous</span>\n\t\t\t\t</a>\n\t\t\t\t<a data-app-prevent-settings=\"\" class=\"carousel-control carousel-control-next\" role=\"button\" data-slide=\"next\">\n\t\t\t\t\t<span aria-hidden=\"true\" class=\"mbr-iconfont mobi-mbri-right mobi-mbri\"></span>\n\t\t\t\t\t<span class=\"sr-only\">Next</span>\n\t\t\t\t</a>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_cid": "so9hQKM3CF",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "slider2-3m"
         },
         {
           "alias": false,
