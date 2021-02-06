@@ -911,13 +911,16 @@ a {
 .cid-so69Ps3uck .link {
   color: #ffffff;
 }
-.cid-so4sTnU84Z {
+.cid-socPuNBr8x {
   padding-top: 5rem;
-  padding-bottom: 4rem;
-  background-image: url("../../../assets/images/mbr-3-1920x1280.jpg");
+  padding-bottom: 5rem;
+  background-color: #ffffff;
 }
-.cid-so4sTnU84Z .mbr-section-title {
-  color: #48ca96;
+.cid-socPuNBr8x .line {
+  background-color: #48ca96;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
 }
 .cid-so4n193W6Q {
   padding-top: 45px;
