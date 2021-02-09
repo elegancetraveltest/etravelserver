@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Elegance Travel",
-    "currentPage": "Tours.html",
+    "currentPage": "Vacantion.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -10448,9 +10448,9 @@
                 "onSale": false,
                 "oldPrice": false,
                 "itemTitle": "Малта",
-                "itemDescription": "Република Малта е островна държава, разположена върху архипелаг в центъра на Средиземно море, южно от Италия, източно от Тунис и северно от Либия. Първи финикийците откриват стратегическото значение на архипелага при своята колонизация на западното Средиземноморие. След тях идват Рим, Византия, Арабският халифат, Арагон, норманите, Малтийският орден, Франция и Великобритания, като всички са търсели добри пристанища за контрол върху Средиземно море.",
+                "itemDescription": "Република Малта на цени от 410лв.",
                 "itemPriceTitle": "From: ",
-                "itemPrice": "от 410лв.",
+                "itemPrice": "",
                 "oldPriceValue": "$54",
                 "sale": "-50%",
                 "button": "<a data-app-btn=\"true\" href=\"Malta.html\" data-app-placeholder=\"Type Text\" class=\"btn display-7 btn-primary\">Виж офертите ни за Малта</a>",
@@ -11866,9 +11866,9 @@
                 "onSale": false,
                 "oldPrice": false,
                 "itemTitle": "Италия",
-                "itemDescription": "Италия е държава в Европа.\n<div>\nРазположена е на юг от Алпите, на Апенинския полуостров. Включва двата най-големи острова в Средиземно море – Сицилия и Сардиния, и много по-малки в Тиренско и Адриатическо море. Площта ѝ е 301 338 km² , от които 7200 km² водна площ.&nbsp;</div><div>\nИталия е членка на Европейския съюз и на Еврозоната и е част от Шенгенското пространство.&nbsp;</div><div>\nРим е столица на Италия от 1870 г. Преди него столици на Кралство Италия са били Торино и Флоренция.</div>",
+                "itemDescription": "Италия на цени от 378лв.",
                 "itemPriceTitle": "From: ",
-                "itemPrice": "от 378лв.",
+                "itemPrice": "",
                 "oldPriceValue": "$192",
                 "sale": "-50%",
                 "button": "<a data-app-btn=\"true\" href=\"Italy.html\" data-app-placeholder=\"Type Text\" class=\"btn display-7 btn-primary\">Виж офертите ни за Италия</a>",
