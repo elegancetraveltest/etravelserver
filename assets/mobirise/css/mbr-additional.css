@@ -1073,11 +1073,6 @@ a {
   padding-bottom: 10rem;
   background-image: url("../../../assets/images/mbr-1920x1279.jpg");
 }
-.cid-so69Ps3uck .carousel-item.active,
-.cid-so69Ps3uck .carousel-item-next,
-.cid-so69Ps3uck .carousel-item-prev {
-  display: flex;
-}
 .cid-so69Ps3uck .mbr-iconfont {
   transition: 0.3s;
   display: flex;
