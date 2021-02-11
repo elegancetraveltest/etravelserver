@@ -49,7 +49,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 258,
+    "uniqCompNum": 259,
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "favicon": false,
@@ -75,121 +75,6 @@
         "html_before": ""
       },
       "components": [
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".ico": {
-              "position": "absolute",
-              "right": "30px",
-              "top": "12px",
-              "z-index": "100",
-              "span": {
-                "font-size": "1.5rem",
-                "color": "@iconColor"
-              }
-            },
-            ".relative": {
-              "position": "relative"
-            },
-            ".row": {
-              "-webkit-justify-content": "center",
-              "justify-content": "center"
-            },
-            ".jq-selectbox__trigger-arrow": {
-              "display": "none"
-            },
-            ".jq-selectbox__select": {
-              "padding": "10px 25px",
-              "min-height": "20px",
-              "height": "100%"
-            },
-            ".form-control": {
-              "min-height": "49px",
-              "padding": "0"
-            },
-            ".form-group": {
-              "text-align": "left",
-              "border": "0px solid #CCC",
-              "border-radius": "5px"
-            },
-            ".jq-selectbox li.selected": {
-              "background-color": "@hover"
-            },
-            ".jq-selectbox li:hover": {
-              "background-color": "@hover"
-            },
-            ".jq-selectbox:hover .jq-selectbox__trigger-arrow": {
-              "border-top-color": "@hover"
-            },
-            ".mbr-iconfont-btn": {
-              "margin": "0"
-            },
-            ".jq-selectbox__dropdown": {
-              "top": "45px !important"
-            },
-            "input.form-control": {
-              "padding": "10px 25px",
-              "min-height": "49px",
-              "&:focus": {
-                "outline": "none",
-                "box-shadow": "0"
-              },
-              "&:active": {
-                "outline": "none",
-                "box-shadow": "0"
-              }
-            },
-            ".input-group-btn .btn": {
-              "margin": "0 !important",
-              "border-radius": "5px",
-              "height": "49px",
-              "display": "block",
-              "width": "100%"
-            },
-            ".input-group-btn": {
-              "max-width": "260px",
-              "width": "100%"
-            },
-            "@media (max-width: 991px)": {
-              ".form-group": {
-                "margin-bottom": "2rem"
-              },
-              ".align-left": {
-                "text-align": "center"
-              }
-            },
-            "@media (max-width: 576px)": {
-              ".input-group-btn": {
-                "margin": "auto"
-              }
-            },
-            ".mbr-section-title": {
-              "text-align": "center",
-              "color": "#48ca96"
-            },
-            ".mbr-section-sub-title": {
-              "color": "#ececec",
-              "text-align": "center"
-            }
-          },
-          "_name": "header3",
-          "_sourceTheme": "travelm4",
-          "_customHTML": "<section class=\"header3 travelm4_header3\" plugins=\"formstyler, datepicker\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"20\" value=\"20\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"20\" value=\"20\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Main Subtitle\" name=\"showMainsubtitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Icon\" name=\"showIcon\" checked>\n\t\t<header>Colors</header>\n\t\t<input type=\"color\" title=\"Hover\" name=\"hover\" value=\"#1ec6b6\">\n\t\t<input type=\"color\" title=\"Icon\" name=\"iconColor\" value=\"#656565\" condition=\"showIcon\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" value=\"../_images/background2.jpg\" title=\"Image\">\n\t\t\t<input type=\"color\" value=\"#1ec6b6\" title=\"Color\">\n\t\t\t<input type=\"video\" value=\"https://www.youtube.com/watch?v=JPe2mwq96cw\" title=\"Video\" selected>\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n\t\t<input type=\"color\" title=\"Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t<input type=\"hidden\" name=\"usedRecaptcha\" value=\"false\"></mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n\n\t<div class=\"container\">\n\t\t<h1 class=\"mbr-section-title mbr-bold align-left mbr-white pb-1 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">We have your dreams</h1>\n\n\t\t<h3 class=\"mbr-section-sub-title pb-4 mbr-normal mbr-fonts-style align-left\" mbr-theme-style=\"display-5\" mbr-if=\"showMainsubtitle\" data-app-selector=\".mbr-section-sub-title\">Къде искаш да отидеш ?</h3>\n\t\t<div class=\"row justify-content-center align-center\">\n\t\t\t<div mbr-form class=\"media-container-column col-lg-12 col-md-10 col-sm-12 align-center\">\n<!--Formbuilder Form-->\n<form action name=\"Mobirise Form\" method=\"POST\" class=\"mbr-form form-with-styler\">\n<div class=\"row\">\n<div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Thanks for filling out the form!</div>\n<div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\">\n</div>\n</div>\n<div class=\"dragArea row\">\n<div class=\"col-lg-3 col-md-12 relative form-group\" data-for=\"message\">\n<input type=\"text\" name=\"message\" placeholder=\"Destination, city\" data-form-field=\"Message\" mbr-theme-style=\"display-7\" class=\"form-control input\" value>\n</div>\n<div class=\"col-lg-3 col-md-6 relative form-group\" data-for=\"type\">\n<select name=\"type\" data-form-field=\"Type\" mbr-theme-style=\"display-7\" class=\"form-control\">\n<option value=\"Any Month\">Any Month</option>\n<option value=\"January\">January</option>\n<option value=\"February\">February</option>\n<option value=\"March\">March</option>\n<option value=\"April\">April</option>\n<option value=\"May\">May</option>\n<option value=\"June\">June</option>\n<option value=\"July\">July</option>\n<option value=\"August\">August</option>\n<option value=\"September\">September</option>\n<option value=\"October\">October</option>\n<option value=\"November\">November</option>\n<option value=\"December\">December</option>\n</select>\n</div>\n<div data-for=\"email\" class=\"col form-group\">\n<input type=\"email\" name=\"email\" placeholder=\"test@email.com\" data-form-field=\"email\" mbr-theme-style=\"display-7\" class=\"form-control\" value>\n</div>\n<div class=\"col-lg-3 col-md-12 input-group-btn\" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\">\n<a data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" type=\"submit\" class=\"btn btn-md btn-form btn-primary\">Запитване</a>\n</div>\n</div>\n</form><!--Formbuilder Form-->\n</div>\n\t\t</div>\n\t</div>\n</section>",
-          "_cid": "soF5ZLO8HF",
-          "_anchor": "header3-73",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
         {
           "_name": "menu2",
           "_sourceTheme": "mobirise5",
@@ -608,6 +493,171 @@
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
+            ".ico": {
+              "position": "absolute",
+              "right": "30px",
+              "top": "12px",
+              "z-index": "100",
+              "span": {
+                "font-size": "1.5rem",
+                "color": "@iconColor"
+              }
+            },
+            ".relative": {
+              "position": "relative"
+            },
+            ".row": {
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".jq-selectbox__trigger-arrow": {
+              "display": "none"
+            },
+            ".jq-selectbox__select": {
+              "padding": "10px 25px",
+              "min-height": "20px",
+              "height": "100%"
+            },
+            ".form-control": {
+              "min-height": "49px",
+              "padding": "0"
+            },
+            ".form-group": {
+              "text-align": "left",
+              "border": "0px solid #CCC",
+              "border-radius": "5px"
+            },
+            ".jq-selectbox li.selected": {
+              "background-color": "@hover"
+            },
+            ".jq-selectbox li:hover": {
+              "background-color": "@hover"
+            },
+            ".jq-selectbox:hover .jq-selectbox__trigger-arrow": {
+              "border-top-color": "@hover"
+            },
+            ".mbr-iconfont-btn": {
+              "margin": "0"
+            },
+            ".jq-selectbox__dropdown": {
+              "top": "45px !important"
+            },
+            "input.form-control": {
+              "padding": "10px 25px",
+              "min-height": "49px",
+              "&:focus": {
+                "outline": "none",
+                "box-shadow": "0"
+              },
+              "&:active": {
+                "outline": "none",
+                "box-shadow": "0"
+              }
+            },
+            ".input-group-btn .btn": {
+              "margin": "0 !important",
+              "border-radius": "5px",
+              "height": "49px",
+              "display": "block",
+              "width": "100%"
+            },
+            ".input-group-btn": {
+              "max-width": "260px",
+              "width": "100%"
+            },
+            "@media (max-width: 991px)": {
+              ".form-group": {
+                "margin-bottom": "2rem"
+              },
+              ".align-left": {
+                "text-align": "center"
+              }
+            },
+            "@media (max-width: 576px)": {
+              ".input-group-btn": {
+                "margin": "auto"
+              }
+            },
+            ".mbr-section-title": {
+              "text-align": "center",
+              "color": "#48ca96"
+            },
+            ".mbr-section-sub-title": {
+              "color": "#ececec",
+              "text-align": "center"
+            }
+          },
+          "_name": "header3",
+          "_sourceTheme": "travelm4",
+          "_customHTML": "<section class=\"header3 travelm4_header3\" plugins=\"formstyler, datepicker\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"20\" value=\"20\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"20\" value=\"20\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Main Subtitle\" name=\"showMainsubtitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Icon\" name=\"showIcon\" checked>\n\t\t<header>Colors</header>\n\t\t<input type=\"color\" title=\"Hover\" name=\"hover\" value=\"#1ec6b6\">\n\t\t<input type=\"color\" title=\"Icon\" name=\"iconColor\" value=\"#000000\" condition=\"showIcon\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" value=\"../_images/background2.jpg\" title=\"Image\">\n\t\t\t<input type=\"color\" value=\"#1ec6b6\" title=\"Color\">\n\t\t\t<input type=\"video\" value=\"https://www.youtube.com/watch?v=JPe2mwq96cw\" title=\"Video\" selected>\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n\t\t<input type=\"color\" title=\"Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t<input type=\"hidden\" name=\"usedRecaptcha\" value=\"false\"></mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n\n\t<div class=\"container\">\n\t\t<h1 class=\"mbr-section-title mbr-bold align-left mbr-white pb-1 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">We have your dreams</h1>\n\n\t\t<h3 class=\"mbr-section-sub-title pb-4 mbr-normal mbr-fonts-style align-left\" mbr-theme-style=\"display-5\" mbr-if=\"showMainsubtitle\" data-app-selector=\".mbr-section-sub-title\">Къде искаш да отидеш?</h3>\n\t\t<div class=\"row justify-content-center align-center\">\n\t\t\t<div mbr-form class=\"media-container-column col-lg-12 col-md-10 col-sm-12 align-center\">\n<!--Formbuilder Form-->\n<form action name=\"Mobirise Form\" method=\"POST\" class=\"mbr-form form-with-styler\">\n<div class=\"row\">\n<div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Thanks for filling out the form!</div>\n<div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\">\n</div>\n</div>\n<div class=\"dragArea row\">\n<div class=\"col-lg-3 col-md-12 relative form-group\" data-for=\"message\">\n<input type=\"text\" name=\"message\" placeholder=\"Дестинация\" data-form-field=\"Message\" mbr-theme-style=\"display-7\" class=\"form-control input\" value><div class=\"ico\" mbr-if=\"showIcon\">\n\t\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mbri-search\"></span>\n\t\t\t\t\t\t\t</div>\n</div>\n<div class=\"col-lg-3 col-md-6 relative form-group\" data-for=\"type\">\n<select name=\"type\" data-form-field=\"Type\" mbr-theme-style=\"display-7\" class=\"form-control\">\n<option value=\"Месец\">Месец</option>\n<option value=\"January\">January</option>\n<option value=\"February\">February</option>\n<option value=\"March\">March</option>\n<option value=\"April\">April</option>\n<option value=\"May\">May</option>\n<option value=\"June\">June</option>\n<option value=\"July\">July</option>\n<option value=\"August\">August</option>\n<option value=\"September\">September</option>\n<option value=\"October\">October</option>\n<option value=\"November\">November</option>\n<option value=\"December\">December</option>\n    </select>\n\t\t\t\t\t\t\t<div class=\"ico\" mbr-if=\"showIcon\">\n\t\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mbri-calendar\"></span>\n\t\t\t\t\t\t\t</div>\n\n</div>\n<div class=\"col form-group\" data-for=\"email\">\n<input type=\"email\" name=\"email\" placeholder=\"Имейл\" data-form-field=\"email\" mbr-theme-style=\"display-7\" class=\"form-control\" value><div class=\"ico\" mbr-if=\"showIcon\">\n\t\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont icon54-v1-mail-at\"></span>\n\t\t\t\t\t\t\t</div>\n</div>\n<div class=\"col-lg-3 col-md-12 input-group-btn\" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" style>\n<a data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" type=\"submit\" class=\"btn btn-md btn-form btn-primary\">Запитване</a>\n</div>\n</div>\n</form><!--Formbuilder Form-->\n</div>\n\t\t</div>\n         </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n\t</div>\n</section>",
+          "_cid": "soFgPIxjUs",
+          "_anchor": "header3-76",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".card-box": {
+              "z-index": "10",
+              "position": "relative"
+            },
+            "@media (min-width: 1500px)": {
+              ".container": {
+                "max-width": "1400px"
+              }
+            },
+            ".card": {
+              "margin": "auto"
+            },
+            ".mbr-iconfont": {
+              "display": "block",
+              "font-size": "5rem",
+              "color": "@iconColor",
+              "margin-bottom": "2rem"
+            },
+            ".card-wrapper": {
+              "display": "flex",
+              "justify-content": "center",
+              "align-items": "center"
+            },
+            ".row": {
+              "justify-content": "center"
+            }
+          },
+          "_name": "features14",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"features13\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showmainTitle\">\n        <header>Card</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcon\" checked>\n        <input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#48ca96\" selected condition=\"showIcon\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\" selected>5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\">\n            <div class=\"col-12\" mbr-if=\"showmainTitle\">\n                <h3 class=\"mbr-section-title align-center mb-4 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showmainTitle\"><b>What you get</b></h3>\n            </div>\n            <div class=\"card col-12 col-md-4 col-lg-2 p-3\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <span mbr-icon class=\"mbr-iconfont imind-car-3\" mbr-if=\"showIcon\"></span>\n                        <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\"><b>Rent a car</b></h4>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card p-3 col-12 col-md-4 col-lg-2\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <span mbr-icon class=\"mbr-iconfont icon54-v1-starhotel1\" mbr-if=\"showIcon\"></span>\n                        <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\"><b>Hotels</b></h4>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card p-3 col-12 col-md-4 col-lg-2\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <span mbr-icon class=\"mbr-iconfont imind-ship\" mbr-if=\"showIcon\"></span>\n                        <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\"><b>Cruise</b></h4>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card p-3 col-12 col-md-4 col-lg-2\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <span mbr-icon class=\"mbr-iconfont li_calendar\" mbr-if=\"showIcon\"></span>\n                        <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\"><b>New year 2021</b></h4>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card p-3 col-12 col-md-4 col-lg-2\" mbr-if=\"cardsAmount > 4\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <a href=\"Top.html\"><span mbr-icon class=\"mbr-iconfont icon54-v1-palm-tree\" mbr-if=\"showIcon\"></span></a>\n                        <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\"><b><a href=\"Top.html\" class=\"text-primary\">Топ оферти</a></b></h4>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card p-3 col-12 col-md-4 col-lg-2\" mbr-if=\"cardsAmount > 5\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <span mbr-icon class=\"mbr-iconfont mobi-mbri-devices mobi-mbri\" mbr-if=\"showIcon\"></span>\n                        <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\">\n                            <b>Mobile-friendly</b></h4>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sjzHUxHWKN",
+          "_anchor": "features14-j",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
             ".card-title": {
               "line-height": "1.6",
               "margin": "0"
@@ -673,305 +723,16 @@
               ".card:not(.last-child)": {
                 "padding-bottom": "1.5rem !important"
               }
+            },
+            ".mbr-section-title": {
+              "color": "#48ca96"
             }
           },
           "_name": "features1",
           "_sourceTheme": "travelm4",
-          "_customHTML": "<section class=\"features1 travelm4_features1\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n\t\t<select title=\"Rows\" name=\"cardsAmount\">\n\t\t\t<option value=\"1\" selected>1</option>\n\t\t\t<option value=\"2\">2</option>\n\t\t</select>\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Main Title\" name=\"showMaintitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Main Subtitle\" name=\"showMainsubtitle\">\n\t\t<input type=\"checkbox\" title=\"Card Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Card Text\" name=\"showText\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" value=\"../_images/background1.jpg\" title=\"Image\" selected parallax>\n\t\t\t<input type=\"color\" value=\"#ffffff\" title=\"Color\">\n\t\t\t<input type=\"video\" value=\"https://www.youtube.com/watch?v=JPe2mwq96cw\" title=\"Video\">\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n\t\t<input type=\"color\" title=\"Color\" name=\"overlayColor\" value=\"#656565\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n\n\t<div class=\"container\">\n\t\t<h2 class=\"mbr-section-title pb-2 mbr-bold mbr-fonts-style align-center\" mbr-theme-style=\"display-2\" mbr-if=\"showMaintitle\" data-app-selector=\".mbr-section-title\">Top offers</h2>\n\n\t\t<h3 class=\"mbr-section-sub-title pb-4 mbr-normal mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showMainsubtitle\" data-app-selector=\".mbr-section-sub-title\">\n\t\t\tLorem ipsum dolor sit amet, consectetur elit\n\t\t</h3>\n\n\t\t<div class=\"row row-content justify-content-center\">\n\t\t\t<div class=\"card col-12 col-lg-3 col-md-6 pb-md-4\" mbr-if=\"cardsAmount > 0\" mbr-class=\"{'pb-lg-5': cardsAmount == 2, 'pb-lg-0': cardsAmount == 1}\">\n\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t<div class=\"card-img small\">\n\t\t\t\t\t\t<img src=\"../_images/img/01.jpg\" title alt>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h4 class=\"card-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n\t\t\t\t\t\t\tTokyo\n\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t<h5 class=\"card-sub-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-sub-title\">\n\t\t\t\t\t\t\t3 Properties\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"card col-12 col-lg-3 col-md-6 pb-md-4\" mbr-if=\"cardsAmount > 0\" mbr-class=\"{'pb-lg-5': cardsAmount == 2, 'pb-lg-0': cardsAmount == 1}\">\n\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t<div class=\"card-img small\">\n\t\t\t\t\t\t<img src=\"../_images/img/02.jpg\" title alt>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h4 class=\"card-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n\t\t\t\t\t\t\tSeoul\n\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t<h5 class=\"card-sub-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-sub-title\">\n\t\t\t\t\t\t\t4 Properties\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"card col-12 col-lg-3 col-md-6\" mbr-if=\"cardsAmount > 0\" mbr-class=\"{'pb-md-4 pb-lg-5': cardsAmount == 2}\">\n\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t<div class=\"card-img small\">\n\t\t\t\t\t\t<img src=\"../_images/img/03.jpg\" title alt>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h4 class=\"card-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">France</h4>\n\t\t\t\t\t\t<h5 class=\"card-sub-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-sub-title\">\n\t\t\t\t\t\t\t4 Properties\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"card col-12 col-lg-3 col-md-6\" mbr-if=\"cardsAmount > 0\" mbr-class=\"{'last-child': cardsAmount == 1, 'pb-md-4 pb-lg-5': cardsAmount == 2}\">\n\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t<div class=\"card-img small\">\n\t\t\t\t\t\t<img src=\"../_images/img/04.jpg\" title alt>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h4 class=\"card-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">United Kingdom</h4>\n\t\t\t\t\t\t<h5 class=\"card-sub-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-sub-title\">\n\t\t\t\t\t\t\t4 Properties\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"card col-12 col-lg-3 col-md-6 pb-md-4 pb-lg-0\" mbr-if=\"cardsAmount > 1\">\n\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t<div class=\"card-img small\">\n\t\t\t\t\t\t<img src=\"../_images/img/01.jpg\" title alt>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h4 class=\"card-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n\t\t\t\t\t\t\tTokyo\n\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t<h5 class=\"card-sub-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-sub-title\">\n\t\t\t\t\t\t\t3 Properties\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"card col-12 col-lg-3 col-md-6 pb-md-4 pb-lg-0\" mbr-if=\"cardsAmount > 1\">\n\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t<div class=\"card-img small\">\n\t\t\t\t\t\t<img src=\"../_images/img/02.jpg\" title alt>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h4 class=\"card-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n\t\t\t\t\t\t\tSeoul\n\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t<h5 class=\"card-sub-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-sub-title\">\n\t\t\t\t\t\t\t4 Properties\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"card col-12 col-lg-3 col-md-6\" mbr-if=\"cardsAmount > 1\">\n\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t<div class=\"card-img small\">\n\t\t\t\t\t\t<img src=\"../_images/img/03.jpg\" title alt>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h4 class=\"card-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n\t\t\t\t\t\t\tParis\n\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t<h5 class=\"card-sub-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-sub-title\">\n\t\t\t\t\t\t\t4 Properties\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"card col-12 col-lg-3 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'last-child': cardsAmount == 2}\">\n\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t<div class=\"card-img small\">\n\t\t\t\t\t\t<img src=\"../_images/img/04.jpg\" title alt>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h4 class=\"card-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n\t\t\t\t\t\t\tLondon\n\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t<h5 class=\"card-sub-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-sub-title\">\n\t\t\t\t\t\t\t4 Properties\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_customHTML": "<section class=\"features1 travelm4_features1\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"9\">\n\t\t<select title=\"Rows\" name=\"cardsAmount\">\n\t\t\t<option value=\"1\">1</option>\n\t\t\t<option value=\"2\" selected>2</option>\n\t\t</select>\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Main Title\" name=\"showMaintitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Main Subtitle\" name=\"showMainsubtitle\">\n\t\t<input type=\"checkbox\" title=\"Card Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Card Text\" name=\"showText\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1279.jpg\" title=\"Image\" selected parallax>\n\t\t\t<input type=\"color\" value=\"#ffffff\" title=\"Color\">\n\t\t\t<input type=\"video\" value=\"https://www.youtube.com/watch?v=JPe2mwq96cw\" title=\"Video\">\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n\t\t<input type=\"color\" title=\"Color\" name=\"overlayColor\" value=\"#656565\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n\n\t<div class=\"container\">\n\t\t<h2 class=\"mbr-section-title pb-2 mbr-bold mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showMaintitle\" data-app-selector=\".mbr-section-title\">Топ оферти</h2>\n\n\t\t<h3 class=\"mbr-section-sub-title pb-4 mbr-normal mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showMainsubtitle\" data-app-selector=\".mbr-section-sub-title\">\n\t\t\tLorem ipsum dolor sit amet, consectetur elit\n\t\t</h3>\n\n\t\t<div class=\"row row-content justify-content-center\">\n\t\t\t<div class=\"card col-12 col-lg-3 col-md-6 pb-md-4\" mbr-if=\"cardsAmount > 0\" mbr-class=\"{'pb-lg-5': cardsAmount == 2, 'pb-lg-0': cardsAmount == 1}\">\n\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t<div class=\"card-img small\">\n\t\t\t\t\t\t<a href=\"Dubai.html\"><img src=\"@PROJECT_PATH@/assets/images/mbr-1-506x337.jpeg\" title alt></a>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h4 class=\"card-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Дубай</h4>\n\t\t\t\t\t\t<h5 class=\"card-sub-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-sub-title\">\n\t\t\t\t\t\t\t3 Properties\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"card col-12 col-lg-3 col-md-6 pb-md-4\" mbr-if=\"cardsAmount > 0\" mbr-class=\"{'pb-lg-5': cardsAmount == 2, 'pb-lg-0': cardsAmount == 1}\">\n\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t<div class=\"card-img small\">\n\t\t\t\t\t\t<a href=\"Maldives.html\"><img src=\"@PROJECT_PATH@/assets/images/mbr-2-506x337.jpeg\" title alt></a>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h4 class=\"card-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Малдиви</h4>\n\t\t\t\t\t\t<h5 class=\"card-sub-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-sub-title\">\n\t\t\t\t\t\t\t4 Properties\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"card col-12 col-lg-3 col-md-6\" mbr-if=\"cardsAmount > 0\" mbr-class=\"{'pb-md-4 pb-lg-5': cardsAmount == 2}\">\n\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t<div class=\"card-img small\">\n\t\t\t\t\t\t<a href=\"Santorini.html\"><img src=\"@PROJECT_PATH@/assets/images/mbr-3-506x337.jpeg\" title alt></a>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h4 class=\"card-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Санторини</h4>\n\t\t\t\t\t\t<h5 class=\"card-sub-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-sub-title\">\n\t\t\t\t\t\t\t4 Properties\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"card col-12 col-lg-3 col-md-6\" mbr-if=\"cardsAmount > 0\" mbr-class=\"{'last-child': cardsAmount == 1, 'pb-md-4 pb-lg-5': cardsAmount == 2}\">\n\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t<div class=\"card-img small\">\n\t\t\t\t\t\t<a href=\"Zanzibar.html\"><img src=\"@PROJECT_PATH@/assets/images/mbr-506x335.jpeg\" title alt></a>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h4 class=\"card-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Занзибар</h4>\n\t\t\t\t\t\t<h5 class=\"card-sub-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-sub-title\">\n\t\t\t\t\t\t\t4 Properties\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"card col-12 col-lg-3 col-md-6 pb-md-4 pb-lg-0\" mbr-if=\"cardsAmount > 1\">\n\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t<div class=\"card-img small\">\n\t\t\t\t\t\t<a href=\"Tenerife.html\"><img src=\"@PROJECT_PATH@/assets/images/mbr-4-506x337.jpeg\" title alt></a>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h4 class=\"card-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Тенерифе</h4>\n\t\t\t\t\t\t<h5 class=\"card-sub-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-sub-title\">\n\t\t\t\t\t\t\t3 Properties\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"card col-12 col-lg-3 col-md-6 pb-md-4 pb-lg-0\" mbr-if=\"cardsAmount > 1\">\n\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t<div class=\"card-img small\">\n\t\t\t\t\t\t<a href=\"Egypt.html\"><img src=\"@PROJECT_PATH@/assets/images/mbr-506x336.jpeg\" title alt></a>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h4 class=\"card-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Египет</h4>\n\t\t\t\t\t\t<h5 class=\"card-sub-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-sub-title\">\n\t\t\t\t\t\t\t4 Properties\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"card col-12 col-lg-3 col-md-6\" mbr-if=\"cardsAmount > 1\">\n\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t<div class=\"card-img small\">\n\t\t\t\t\t\t<a href=\"Krit.html\"><img src=\"@PROJECT_PATH@/assets/images/mbr-506x336.jpg\" title alt></a>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h4 class=\"card-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">о.Крит</h4>\n\t\t\t\t\t\t<h5 class=\"card-sub-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-sub-title\">\n\t\t\t\t\t\t\t4 Properties\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"card col-12 col-lg-3 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'last-child': cardsAmount == 2}\">\n\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t<div class=\"card-img small\">\n\t\t\t\t\t\t<a href=\"Rodos.html\"><img src=\"@PROJECT_PATH@/assets/images/mbr-2-506x337.jpg\" title alt></a>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h4 class=\"card-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">о.Родос</h4>\n\t\t\t\t\t\t<h5 class=\"card-sub-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-sub-title\">\n\t\t\t\t\t\t\t4 Properties\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
           "_cid": "soF9w4pMdX",
           "_anchor": "features1-75",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "H1": {
-              "color": "#48ca96"
-            }
-          },
-          "_name": "header2",
-          "_sourceTheme": "mobirise4",
-          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': 16/9,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://youtu.be/8pYStUROeX8\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">We have your dreams<br></h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-primary\" href=\"popup:#mbr-popup-25\" data-app-placeholder=\"Type Text\" data-toggle=\"modal\" data-target=\"#mbr-popup-25\">Бързо запитване</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
-          "_cid": "snXRIQF1Xf",
-          "_anchor": "header2-2g",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".card-box": {
-              "z-index": "10",
-              "position": "relative"
-            },
-            "@media (min-width: 1500px)": {
-              ".container": {
-                "max-width": "1400px"
-              }
-            },
-            ".card": {
-              "margin": "auto"
-            },
-            ".mbr-iconfont": {
-              "display": "block",
-              "font-size": "5rem",
-              "color": "@iconColor",
-              "margin-bottom": "2rem"
-            },
-            ".card-wrapper": {
-              "display": "flex",
-              "justify-content": "center",
-              "align-items": "center"
-            },
-            ".row": {
-              "justify-content": "center"
-            }
-          },
-          "_name": "features14",
-          "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"features13\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showmainTitle\">\n        <header>Card</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcon\" checked>\n        <input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#48ca96\" selected condition=\"showIcon\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\" selected>5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\">\n            <div class=\"col-12\" mbr-if=\"showmainTitle\">\n                <h3 class=\"mbr-section-title align-center mb-4 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showmainTitle\"><b>What you get</b></h3>\n            </div>\n            <div class=\"card col-12 col-md-4 col-lg-2 p-3\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <span mbr-icon class=\"mbr-iconfont imind-car-3\" mbr-if=\"showIcon\"></span>\n                        <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\"><b>Rent a car</b></h4>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card p-3 col-12 col-md-4 col-lg-2\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <span mbr-icon class=\"mbr-iconfont icon54-v1-starhotel1\" mbr-if=\"showIcon\"></span>\n                        <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\"><b>Hotels</b></h4>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card p-3 col-12 col-md-4 col-lg-2\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <span mbr-icon class=\"mbr-iconfont imind-ship\" mbr-if=\"showIcon\"></span>\n                        <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\"><b>Cruise</b></h4>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card p-3 col-12 col-md-4 col-lg-2\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <span mbr-icon class=\"mbr-iconfont li_calendar\" mbr-if=\"showIcon\"></span>\n                        <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\"><b>New year 2021</b></h4>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card p-3 col-12 col-md-4 col-lg-2\" mbr-if=\"cardsAmount > 4\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <a href=\"Top.html\"><span mbr-icon class=\"mbr-iconfont icon54-v1-palm-tree\" mbr-if=\"showIcon\"></span></a>\n                        <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\"><b><a href=\"Top.html\" class=\"text-primary\">Топ оферти</a></b></h4>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card p-3 col-12 col-md-4 col-lg-2\" mbr-if=\"cardsAmount > 5\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <span mbr-icon class=\"mbr-iconfont mobi-mbri-devices mobi-mbri\" mbr-if=\"showIcon\"></span>\n                        <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\">\n                            <b>Mobile-friendly</b></h4>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "sjzHUxHWKN",
-          "_anchor": "features14-j",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".carousel-item.active, .carousel-item-next, .carousel-item-prev": {
-              "display": "flex"
-            },
-            ".mbr-iconfont": {
-              "transition": "0.3s",
-              "display": "flex",
-              "justify-content": "center",
-              "align-items": "center"
-            },
-            ".carousel-controls": {
-              "display": "flex",
-              "justify-content": "center",
-              "align-items": "center",
-              "margin-top": "60px",
-              "a": {
-                "transition": ".3s",
-                "border-radius": "50%",
-                "border": "2px solid @arrowsColor",
-                "background-color": "transparent",
-                "span": {
-                  "color": "@arrowsColor",
-                  "font-size": "18px"
-                },
-                "&:hover": {
-                  ".mobi-mbri-left": {
-                    "transform": "translateX(-5px)"
-                  },
-                  ".mobi-mbri-right": {
-                    "transform": "translateX(5px)"
-                  }
-                }
-              },
-              ".carousel-control-next, .carousel-control-prev": {
-                "opacity": "1",
-                "width": "44px",
-                "height": "44px",
-                "margin": "0 15px",
-                "position": "static !important"
-              }
-            },
-            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
-              ".image-element": {
-                "min-width": "50%"
-              },
-              ".media-container-row": {
-                "width": "100%"
-              }
-            },
-            ".media-container-row": {
-              "position": "relative",
-              "min-height": "540px",
-              "& when (@showFigure)": {
-                "&:before": {
-                  "content": "\"\"",
-                  "position": "absolute",
-                  "width": "119px",
-                  "height": "119px",
-                  "top": "150px",
-                  "left": "5px",
-                  "background-image": "url(@figure)",
-                  "z-index": "1",
-                  "background-repeat": "no-repeat",
-                  "background-size": "cover"
-                }
-              }
-            },
-            ".slider__content": {
-              "margin-top": "85px",
-              "margin-left": "8.333%"
-            },
-            ".img-wrap": {
-              "position": "relative",
-              "&:before": {
-                "display": "block",
-                "content": "\"\"",
-                "width": "100%",
-                "padding-top": "57%"
-              },
-              "img": {
-                "height": "auto",
-                "max-height": "480px",
-                "max-width": "100%",
-                "position": "absolute",
-                "top": "11%",
-                "right": "8%",
-                "width": "69%",
-                "transform": "rotate(-10deg)"
-              }
-            },
-            ".slider__title": {
-              "color": "#48ca96",
-              "margin-bottom": "15px"
-            },
-            ".slider__subtitle": {
-              "margin-bottom": "20px",
-              "color": "#ffffff"
-            },
-            ".slider__text when (@showButtons)": {
-              "margin-bottom": "50px"
-            },
-            ".link": {
-              "display": "block",
-              "margin-bottom": "0",
-              "white-space": "nowrap",
-              "a": {
-                "font-weight": "700"
-              },
-              "span": {
-                "display": "inline-block !important",
-                "transition": "all 0.3s ease",
-                "margin-left": "13px"
-              },
-              "&:hover span": {
-                "transform": "translateX(9px)"
-              }
-            },
-            "& when (@reverse)": {
-              ".media-container-row": {
-                "flex-direction": "row-reverse",
-                "&:before": {
-                  "left": "auto",
-                  "right": "-5px"
-                }
-              },
-              ".img-wrap img": {
-                "transform": "rotate(10deg)"
-              },
-              ".slider__content": {
-                "margin-left": "0",
-                "margin-right": "8.333%"
-              }
-            },
-            "@media (max-width: 991px)": {
-              ".media-container-row": {
-                "& when (@showFigure)": {
-                  "&:before": {
-                    "display": "none"
-                  }
-                }
-              },
-              ".img-wrap": {
-                "margin-bottom": "40px",
-                "display": "flex",
-                "justify-content": "center",
-                "align-items": "center",
-                "&:before": {
-                  "display": "none"
-                },
-                "img": {
-                  "position": "static",
-                  "width": "86%",
-                  "transform": "none"
-                }
-              },
-              ".slider__content": {
-                "margin-top": "0"
-              },
-              ".slider__title": {
-                "margin-bottom": "10px",
-                "font-size": "25px",
-                "line-height": "30px"
-              },
-              ".slider__subtitle": {
-                "font-size": "17px",
-                "line-height": "21px"
-              },
-              ".slider__text": {
-                "font-size": "18px",
-                "line-height": "23px",
-                "& when (@showButtons)": {
-                  "margin-bottom": "20px"
-                }
-              },
-              ".carousel-controls": {
-                "margin-top": "20px"
-              }
-            },
-            "@media (max-width: 575px)": {
-              ".media-container-row": {
-                "min-height": "440px"
-              },
-              ".img-wrap img": {
-                "width": "100%"
-              },
-              ".slider__content": {
-                "margin": "0"
-              }
-            },
-            ".slider__text, .link": {
-              "color": "#ffffff"
-            }
-          },
-          "_name": "slider1",
-          "_sourceTheme": "voyagem4",
-          "_customHTML": "<section class=\"carousel slider1 voyagem4_slider1 testimonials-slider\" group=\"Sliders\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"BootstrapCarouselSwipe,mbr-testimonials-slider\" data-interval=\"false\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\" inline>\n\t\t<input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"10\" inline>\n\t\t<input type=\"checkbox\" title=\"Left/Right Content\" name=\"reverse\" checked>\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n\t\t<input type=\"checkbox\" title=\"Figure\" name=\"showFigure\" checked>\n\t\t<input type=\"image\" title=\"Figure\" name=\"figure\" value=\"@PROJECT_PATH@/assets/images/elegance-travel-28-160x160.png\" condition=\"showFigure\">\n\t\t<input type=\"range\" inline title=\"Count Items\" name=\"testimonialsSlides\" min=\"1\" max=\"10\" step=\"1\" value=\"8\">\n\t\t<input type=\"checkbox\" title=\"Arrows\" name=\"showArrows\">\n\t\t<input type=\"color\" title=\"Arrows Color\" name=\"arrowsColor\" value=\"#48ca96\" condition=\"showArrows\">\n\t\t<input type=\"checkbox\" title=\"Autoplay\" name=\"showAutoplay\" checked>\n\t\t<input type=\"range\" inline title=\"Autoplay Interval (ms)\" name=\"interval\" min=\"1000\" max=\"8000\" step=\"1000\" value=\"5000\" condition=\"showAutoplay\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1279.jpg\" selected parallax>\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\">\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n\n\t<div class=\"container\">\n\t\t<div class=\"carousel slide\" role=\"listbox\" data-pause=\"true\" data-keyboard=\"false\" data-ride=\"{{showAutoplay ? 'carousel' : 'false'}}\" data-interval=\"{{showAutoplay ? interval : 'false'}}\">\n\t\t\t<div class=\"carousel-inner\" mbr-list mbr-list-grow=\"testimonialsSlides\">\n\t\t\t\t<div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-lg-5 col-8 img-wrap\">\n\t\t\t\t\t\t\t<a href=\"Dubai.html\"><img src=\"@PROJECT_PATH@/assets/images/mbr-1440x1920.jpeg\" alt title></a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-lg-5 col-xl-4 col-12 col-md-10 col-sm-10 slider__content align-left\">\n\t\t\t\t\t\t\t<h4 class=\"slider__title mbr-medium mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".slider__title\"><a href=\"Dubai.html\" class=\"text-primary\">Dubai</a></h4>\n\t\t\t\t\t\t\t<h5 class=\"slider__subtitle mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".slider__subtitle\">6/8 нощувки</h5>\n\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".slider__text, .link\">Пътуване до Дубай на цени от 1015лв.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>\n\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"showButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\"><a href=\"#\"></a><a href=\"Dubai.html\" class=\"text-primary\">Виж още</a><span class=\"fa fa-long-arrow-right mbr-iconfont\" style=\"color: rgb(72, 202, 150);\"></span>\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-lg-5 col-8 img-wrap\">\n\t\t\t\t\t\t\t<a href=\"Maldives.html\"><img src=\"@PROJECT_PATH@/assets/images/mbr-637x956.jpeg\" alt title></a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-lg-5 col-xl-4 col-12 col-md-10 col-sm-10 slider__content align-left\">\n\t\t\t\t\t\t\t<h4 class=\"slider__title mbr-medium mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".slider__title\"><a href=\"Maldives.html\" class=\"text-primary\">Maldives</a></h4>\n\t\t\t\t\t\t\t<h5 class=\"slider__subtitle mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".slider__subtitle\">6/7 нощувки</h5>\n\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".slider__text\">Пътуване до Малдиви на цени от 2515лв.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>\n\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"showButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\"><a href=\"Maldives.html\" class=\"text-primary\">Виж още<span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span></a>\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-lg-5 col-8 img-wrap\">\n\t\t\t\t\t\t\t<a href=\"Santorini.html\"><img src=\"@PROJECT_PATH@/assets/images/mbr-1-637x956.jpeg\" alt title></a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-lg-5 col-xl-4 col-12 col-md-10 col-sm-10 slider__content align-left\">\n\t\t\t\t\t\t\t<h4 class=\"slider__title mbr-medium mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".slider__title\"><a href=\"Santorini.html\" class=\"text-primary\">Santorini</a></h4>\n\t\t\t\t\t\t\t<h5 class=\"slider__subtitle mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".slider__subtitle\">3/4 Нощувки</h5>\n\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".slider__text\">Пътуване до о-в Санторини на цени от 2515лв.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>\n\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"showButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\"><a href=\"#\"></a><a href=\"Santorini.html\" class=\"text-primary\">Виж още</a><span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span>\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t<div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-lg-5 col-8 img-wrap\">\n\t\t\t\t\t\t\t<a href=\"Zanzibar.html\"><img src=\"@PROJECT_PATH@/assets/images/mbr-1-524x786.jpeg\" alt title></a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-lg-5 col-xl-4 col-12 col-md-10 col-sm-10 slider__content align-left\">\n\t\t\t\t\t\t\t<h4 class=\"slider__title mbr-medium mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".slider__title\"><a href=\"Zanzibar.html\" class=\"text-primary\">Zanzibar</a></h4>\n\t\t\t\t\t\t\t<h5 class=\"slider__subtitle mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".slider__subtitle\">7 нощувки</h5>\n\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".slider__text\">Екзотична почивка в Занзибар на цени от 1956лв.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>\n\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"showButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\"><a href=\"#\"></a><a href=\"Zanzibar.html\" class=\"text-primary\">Виж още</a><span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span>\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div><div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-lg-5 col-8 img-wrap\">\n\t\t\t\t\t\t\t<a href=\"Tenerife.html\"><img src=\"@PROJECT_PATH@/assets/images/mbr-582x873.jpg\" alt title></a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-lg-5 col-xl-4 col-12 col-md-10 col-sm-10 slider__content align-left\">\n\t\t\t\t\t\t\t<h4 class=\"slider__title mbr-medium mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".slider__title\"><a href=\"Tenerife.html\" class=\"text-primary\">Tenerife</a></h4>\n\t\t\t\t\t\t\t<h5 class=\"slider__subtitle mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".slider__subtitle\">7 нощувки</h5>\n\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".slider__text\">Почивка на остров Тенерифе на цени от 1560лв.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>\n\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"showButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\"><a href=\"#\" style=\"font-weight: normal;\"></a><a href=\"Tenerife.html\" class=\"text-primary\">Виж още</a><span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span>\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div><div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-lg-5 col-8 img-wrap\">\n\t\t\t\t\t\t\t<a href=\"Egypt.html\"><img src=\"@PROJECT_PATH@/assets/images/mbr-2-637x956.jpeg\" alt title></a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-lg-5 col-xl-4 col-12 col-md-10 col-sm-10 slider__content align-left\">\n\t\t\t\t\t\t\t<h4 class=\"slider__title mbr-medium mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".slider__title\"><a href=\"Egypt.html\" class=\"text-primary\">Egypt</a></h4>\n\t\t\t\t\t\t\t<h5 class=\"slider__subtitle mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".slider__subtitle\">6/7 нощувки</h5>\n\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".slider__text\">Египет с полет от София на цени от 664лв.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>\n\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"showButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\"><a href=\"#\"></a><a href=\"Egypt.html\" class=\"text-primary\">Виж още</a><span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span>\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div><div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-lg-5 col-8 img-wrap\">\n\t\t\t\t\t\t\t<a href=\"Krit.html\"><img src=\"@PROJECT_PATH@/assets/images/mbr-3-637x956.jpeg\" alt title></a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-lg-5 col-xl-4 col-12 col-md-10 col-sm-10 slider__content align-left\">\n\t\t\t\t\t\t\t<h4 class=\"slider__title mbr-medium mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".slider__title\"><a href=\"Krit.html\" class=\"text-primary\">Krit,Greece</a></h4>\n\t\t\t\t\t\t\t<h5 class=\"slider__subtitle mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".slider__subtitle\">7 нощувки</h5>\n\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".slider__text\">РАННИ РЕЗЕРВАЦИИ ДО 28.02.2021 / О. КРИТ ЛЯТО 2021 / САМОЛЕТНА ПРОГРАМА С ДИРЕКТЕН ПОЛЕТ ОТ СОФИЯ&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>\n\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"showButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\"><a href=\"#\"></a><a href=\"Krit.html\" class=\"text-primary\">Виж още</a><span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span>\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div><div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-lg-5 col-8 img-wrap\">\n\t\t\t\t\t\t\t<a href=\"Rodos.html\"><img src=\"@PROJECT_PATH@/assets/images/mbr-601x1070.jpg\" alt title></a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-lg-5 col-xl-4 col-12 col-md-10 col-sm-10 slider__content align-left\">\n\t\t\t\t\t\t\t<h4 class=\"slider__title mbr-medium mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".slider__title\"><a href=\"Rodos.html\" class=\"text-primary\">Rodos,Greece</a></h4>\n\t\t\t\t\t\t\t<h5 class=\"slider__subtitle mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".slider__subtitle\">7 нощувки</h5>\n\t\t\t\t\t\t\t<p class=\"slider__text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".slider__text\">Почивка на остров Родос, Гърция 2021 - 7 нощувки в Калитея/Фалираки на цени от 625лв.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>\n\t\t\t\t\t\t\t<p class=\"link mbr-fonts-style\" mbr-if=\"showButtons\" mbr-theme-style=\"display-4\" data-app-selector=\".link\"><a href=\"#\"></a><a href=\"Rodos.html\" class=\"text-primary\">Виж още</a><span mbr-icon class=\"fa-long-arrow-right fa mbr-iconfont\"></span>\n\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div></div>\n<div class=\"carousel-controls\">\n\t\t\t\t<a data-app-prevent-settings class=\"carousel-control carousel-control-prev\" role=\"button\" data-slide=\"prev\">\n\t\t\t\t\t<span aria-hidden=\"true\" class=\"mbr-iconfont mobi-mbri-left mobi-mbri\"></span>\n\t\t\t\t\t<span class=\"sr-only\">Previous</span>\n\t\t\t\t</a>\n\t\t\t\t<a data-app-prevent-settings class=\"carousel-control carousel-control-next\" role=\"button\" data-slide=\"next\">\n\t\t\t\t\t<span aria-hidden=\"true\" class=\"mbr-iconfont mobi-mbri-right mobi-mbri\"></span>\n\t\t\t\t\t<span class=\"sr-only\">Next</span>\n\t\t\t\t</a>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
-          "_cid": "so69Ps3uck",
-          "_anchor": "slider1-3l",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
           "_protectedParams": [],
           "_global": false,
           "_once": false,
