@@ -49,7 +49,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 256,
+    "uniqCompNum": 258,
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "favicon": false,
@@ -182,13 +182,13 @@
           },
           "_name": "header3",
           "_sourceTheme": "travelm4",
-          "_customHTML": "<section class=\"header3 travelm4_header3\" plugins=\"formstyler\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"20\" value=\"20\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"20\" value=\"20\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Main Subtitle\" name=\"showMainsubtitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Icon\" name=\"showIcon\" checked>\n\t\t<header>Colors</header>\n\t\t<input type=\"color\" title=\"Hover\" name=\"hover\" value=\"#1ec6b6\">\n\t\t<input type=\"color\" title=\"Icon\" name=\"iconColor\" value=\"#656565\" condition=\"showIcon\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" value=\"../_images/background2.jpg\" title=\"Image\" selected>\n\t\t\t<input type=\"color\" value=\"#1ec6b6\" title=\"Color\">\n\t\t\t<input type=\"video\" value=\"https://www.youtube.com/watch?v=JPe2mwq96cw\" title=\"Video\">\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n\t\t<input type=\"color\" title=\"Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n\n\t<div class=\"container\">\n\t\t<h1 class=\"mbr-section-title mbr-bold align-left mbr-white pb-1 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">We have your dreams</h1>\n\n\t\t<h3 class=\"mbr-section-sub-title pb-4 mbr-normal mbr-fonts-style align-left\" mbr-theme-style=\"display-5\" mbr-if=\"showMainsubtitle\" data-app-selector=\".mbr-section-sub-title\">Къде искаш да отидеш ?</h3>\n\t\t<div class=\"row justify-content-center align-center\">\n\t\t\t<div mbr-form class=\"media-container-column col-lg-12 col-md-10 col-sm-12 align-center\">\n\t\t\t\t<!---Formbuilder Form--->\n\t\t\t\t<form action name=\"Mobirise Form\" method=\"POST\" class=\"mbr-form form-with-styler\">\n\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t<div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Thanks for filling out\n\t\t\t\t\t\t\tthe form!</div>\n\t\t\t\t\t\t<div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\"></div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"dragArea row\">\n\t\t\t\t\t\t<div class=\"col-lg-3 col-md-12 relative form-group\" data-for=\"message\">\n\t\t\t\t\t\t\t<input type=\"text\" name=\"message\" placeholder=\"Destination, city\" data-form-field=\"Message\" mbr-theme-style=\"display-7\" class=\"form-control input\">\n\t\t\t\t\t\t\t<div class=\"ico\" mbr-if=\"showIcon\">\n\t\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mbri-search\"></span>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-lg-3 col-md-6 relative form-group\" data-for=\"type\">\n\t\t\t\t\t\t\t<select name=\"type\" data-form-field=\"Type\" mbr-theme-style=\"display-7\" class=\"form-control\" placeholder=\"Any Month\">\n\t\t\t\t\t\t\t\t<option value=\"Any Month\">Any Month</option>\n\t\t\t\t\t\t\t\t<option value=\"January\">January</option>\n\t\t\t\t\t\t\t\t<option value=\"February\">February</option>\n\t\t\t\t\t\t\t\t<option value=\"March\">March</option>\n\t\t\t\t\t\t\t\t<option value=\"April\">April</option>\n\t\t\t\t\t\t\t\t<option value=\"May\">May</option>\n\t\t\t\t\t\t\t\t<option value=\"June\">June</option>\n\t\t\t\t\t\t\t\t<option value=\"July\">July</option>\n\t\t\t\t\t\t\t\t<option value=\"August\">August</option>\n\t\t\t\t\t\t\t\t<option value=\"September\">September</option>\n\t\t\t\t\t\t\t\t<option value=\"October\">October</option>\n\t\t\t\t\t\t\t\t<option value=\"November\">November</option>\n\t\t\t\t\t\t\t\t<option value=\"December\">December</option>\n\t\t\t\t\t\t\t</select>\n\t\t\t\t\t\t\t<div class=\"ico\" mbr-if=\"showIcon\">\n\t\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mbri-calendar\"></span>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div data-for=\"status\" class=\"col-lg-3 col-md-6 form-group\">\n\t\t\t\t\t\t\t<select name=\"status\" data-form-field=\"Status\" mbr-theme-style=\"display-7\" class=\"form-control\" placeholder=\"Sort By Date\">\n\t\t\t\t\t\t\t\t<option value=\"Sort By Date\">Sort By Date</option>\n\t\t\t\t\t\t\t\t<option value=\"Price Low to High\">Price Low to High</option>\n\t\t\t\t\t\t\t\t<option value=\"Price High to Low\">Price High to Low</option>\n\t\t\t\t\t\t\t\t<option value=\"Sort by Name\">Sort by Name</option>\n\t\t\t\t\t\t\t\t<option value=\"Sort by Popularity\">Sort by Popularity</option>\n\t\t\t\t\t\t\t\t<option value=\"Sort by Review Score\">Sort by Review Score</option>\n\t\t\t\t\t\t\t</select>\n\t\t\t\t\t\t\t<div class=\"ico\" mbr-if=\"showIcon\">\n\t\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mbri-up-down\"></span>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-lg-3 col-md-12 input-group-btn selected\" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrBtnLink,-mbrBtnAdd\"><a type=\"submit\" class=\"btn btn-md btn-form btn-primary\" data-app-placeholder=\"Type Text\">Запитване</a></div>\n\t\t\t\t\t</div>\n\t\t\t\t</form>\n\t\t\t\t<!---Formbuilder Form--->\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_customHTML": "<section class=\"header3 travelm4_header3\" plugins=\"formstyler, datepicker\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"20\" value=\"20\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"20\" value=\"20\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Main Subtitle\" name=\"showMainsubtitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Icon\" name=\"showIcon\" checked>\n\t\t<header>Colors</header>\n\t\t<input type=\"color\" title=\"Hover\" name=\"hover\" value=\"#1ec6b6\">\n\t\t<input type=\"color\" title=\"Icon\" name=\"iconColor\" value=\"#656565\" condition=\"showIcon\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" value=\"../_images/background2.jpg\" title=\"Image\">\n\t\t\t<input type=\"color\" value=\"#1ec6b6\" title=\"Color\">\n\t\t\t<input type=\"video\" value=\"https://www.youtube.com/watch?v=JPe2mwq96cw\" title=\"Video\" selected>\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n\t\t<input type=\"color\" title=\"Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t<input type=\"hidden\" name=\"usedRecaptcha\" value=\"false\"></mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n\n\t<div class=\"container\">\n\t\t<h1 class=\"mbr-section-title mbr-bold align-left mbr-white pb-1 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">We have your dreams</h1>\n\n\t\t<h3 class=\"mbr-section-sub-title pb-4 mbr-normal mbr-fonts-style align-left\" mbr-theme-style=\"display-5\" mbr-if=\"showMainsubtitle\" data-app-selector=\".mbr-section-sub-title\">Къде искаш да отидеш ?</h3>\n\t\t<div class=\"row justify-content-center align-center\">\n\t\t\t<div mbr-form class=\"media-container-column col-lg-12 col-md-10 col-sm-12 align-center\">\n<!--Formbuilder Form-->\n<form action name=\"Mobirise Form\" method=\"POST\" class=\"mbr-form form-with-styler\">\n<div class=\"row\">\n<div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Thanks for filling out the form!</div>\n<div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\">\n</div>\n</div>\n<div class=\"dragArea row\">\n<div class=\"col-lg-3 col-md-12 relative form-group\" data-for=\"message\">\n<input type=\"text\" name=\"message\" placeholder=\"Destination, city\" data-form-field=\"Message\" mbr-theme-style=\"display-7\" class=\"form-control input\" value>\n</div>\n<div class=\"col-lg-3 col-md-6 relative form-group\" data-for=\"type\">\n<select name=\"type\" data-form-field=\"Type\" mbr-theme-style=\"display-7\" class=\"form-control\">\n<option value=\"Any Month\">Any Month</option>\n<option value=\"January\">January</option>\n<option value=\"February\">February</option>\n<option value=\"March\">March</option>\n<option value=\"April\">April</option>\n<option value=\"May\">May</option>\n<option value=\"June\">June</option>\n<option value=\"July\">July</option>\n<option value=\"August\">August</option>\n<option value=\"September\">September</option>\n<option value=\"October\">October</option>\n<option value=\"November\">November</option>\n<option value=\"December\">December</option>\n</select>\n</div>\n<div data-for=\"email\" class=\"col form-group\">\n<input type=\"email\" name=\"email\" placeholder=\"test@email.com\" data-form-field=\"email\" mbr-theme-style=\"display-7\" class=\"form-control\" value>\n</div>\n<div class=\"col-lg-3 col-md-12 input-group-btn\" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\">\n<a data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" type=\"submit\" class=\"btn btn-md btn-form btn-primary\">Запитване</a>\n</div>\n</div>\n</form><!--Formbuilder Form-->\n</div>\n\t\t</div>\n\t</div>\n</section>",
           "_cid": "soF5ZLO8HF",
+          "_anchor": "header3-73",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header3-73"
+          "_params": {}
         },
         {
           "_name": "menu2",
@@ -595,6 +595,94 @@
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".card-title": {
+              "line-height": "1.6",
+              "margin": "0"
+            },
+            ".card": {
+              "overflow": "visible",
+              "transition": "all 0.3s",
+              "&:hover": {
+                "margin-top": "-0.6rem"
+              }
+            },
+            ".card-wrapper": {
+              "position": "relative"
+            },
+            ".card-img": {
+              "overflow": "hidden",
+              "position": "relative",
+              "transition": "all 0.3s",
+              "border-radius": "6px",
+              "&:hover": {
+                "box-shadow": "0 15px 20px rgba(0, 0, 0, 0.1)"
+              }
+            },
+            ".card-img:before": {
+              "content": "''",
+              "display": "block",
+              "position": "absolute",
+              "top": "0",
+              "left": "0",
+              "height": "100%",
+              "width": "100%",
+              "transition": "all 0.3s",
+              "background": "black",
+              "opacity": "0.2",
+              "z-index": "10",
+              "pointer-events": "none",
+              "border-radius": "6px"
+            },
+            ".big": {
+              "margin-top": "-25%"
+            },
+            ".card-box": {
+              "position": "absolute",
+              "overflow": "hidden",
+              "margin-bottom": "-8px",
+              "bottom": "0",
+              "left": "0",
+              "width": "100%",
+              "padding": "1rem",
+              "z-index": "100",
+              "-webkit-justify-content": "flex-end",
+              "justify-content": "flex-end",
+              "display": "flex",
+              "-webkit-flex-direction": "column",
+              "flex-direction": "column"
+            },
+            "@media (max-width: 991px)": {
+              ".small": {
+                "margin": "0"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".card:not(.last-child)": {
+                "padding-bottom": "1.5rem !important"
+              }
+            }
+          },
+          "_name": "features1",
+          "_sourceTheme": "travelm4",
+          "_customHTML": "<section class=\"features1 travelm4_features1\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n\t\t<select title=\"Rows\" name=\"cardsAmount\">\n\t\t\t<option value=\"1\" selected>1</option>\n\t\t\t<option value=\"2\">2</option>\n\t\t</select>\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Main Title\" name=\"showMaintitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Main Subtitle\" name=\"showMainsubtitle\">\n\t\t<input type=\"checkbox\" title=\"Card Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Card Text\" name=\"showText\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" value=\"../_images/background1.jpg\" title=\"Image\" selected parallax>\n\t\t\t<input type=\"color\" value=\"#ffffff\" title=\"Color\">\n\t\t\t<input type=\"video\" value=\"https://www.youtube.com/watch?v=JPe2mwq96cw\" title=\"Video\">\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n\t\t<input type=\"color\" title=\"Color\" name=\"overlayColor\" value=\"#656565\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n\n\t<div class=\"container\">\n\t\t<h2 class=\"mbr-section-title pb-2 mbr-bold mbr-fonts-style align-center\" mbr-theme-style=\"display-2\" mbr-if=\"showMaintitle\" data-app-selector=\".mbr-section-title\">Top offers</h2>\n\n\t\t<h3 class=\"mbr-section-sub-title pb-4 mbr-normal mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showMainsubtitle\" data-app-selector=\".mbr-section-sub-title\">\n\t\t\tLorem ipsum dolor sit amet, consectetur elit\n\t\t</h3>\n\n\t\t<div class=\"row row-content justify-content-center\">\n\t\t\t<div class=\"card col-12 col-lg-3 col-md-6 pb-md-4\" mbr-if=\"cardsAmount > 0\" mbr-class=\"{'pb-lg-5': cardsAmount == 2, 'pb-lg-0': cardsAmount == 1}\">\n\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t<div class=\"card-img small\">\n\t\t\t\t\t\t<img src=\"../_images/img/01.jpg\" title alt>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h4 class=\"card-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n\t\t\t\t\t\t\tTokyo\n\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t<h5 class=\"card-sub-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-sub-title\">\n\t\t\t\t\t\t\t3 Properties\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"card col-12 col-lg-3 col-md-6 pb-md-4\" mbr-if=\"cardsAmount > 0\" mbr-class=\"{'pb-lg-5': cardsAmount == 2, 'pb-lg-0': cardsAmount == 1}\">\n\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t<div class=\"card-img small\">\n\t\t\t\t\t\t<img src=\"../_images/img/02.jpg\" title alt>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h4 class=\"card-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n\t\t\t\t\t\t\tSeoul\n\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t<h5 class=\"card-sub-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-sub-title\">\n\t\t\t\t\t\t\t4 Properties\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"card col-12 col-lg-3 col-md-6\" mbr-if=\"cardsAmount > 0\" mbr-class=\"{'pb-md-4 pb-lg-5': cardsAmount == 2}\">\n\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t<div class=\"card-img small\">\n\t\t\t\t\t\t<img src=\"../_images/img/03.jpg\" title alt>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h4 class=\"card-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">France</h4>\n\t\t\t\t\t\t<h5 class=\"card-sub-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-sub-title\">\n\t\t\t\t\t\t\t4 Properties\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"card col-12 col-lg-3 col-md-6\" mbr-if=\"cardsAmount > 0\" mbr-class=\"{'last-child': cardsAmount == 1, 'pb-md-4 pb-lg-5': cardsAmount == 2}\">\n\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t<div class=\"card-img small\">\n\t\t\t\t\t\t<img src=\"../_images/img/04.jpg\" title alt>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h4 class=\"card-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">United Kingdom</h4>\n\t\t\t\t\t\t<h5 class=\"card-sub-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-sub-title\">\n\t\t\t\t\t\t\t4 Properties\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"card col-12 col-lg-3 col-md-6 pb-md-4 pb-lg-0\" mbr-if=\"cardsAmount > 1\">\n\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t<div class=\"card-img small\">\n\t\t\t\t\t\t<img src=\"../_images/img/01.jpg\" title alt>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h4 class=\"card-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n\t\t\t\t\t\t\tTokyo\n\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t<h5 class=\"card-sub-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-sub-title\">\n\t\t\t\t\t\t\t3 Properties\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"card col-12 col-lg-3 col-md-6 pb-md-4 pb-lg-0\" mbr-if=\"cardsAmount > 1\">\n\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t<div class=\"card-img small\">\n\t\t\t\t\t\t<img src=\"../_images/img/02.jpg\" title alt>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h4 class=\"card-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n\t\t\t\t\t\t\tSeoul\n\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t<h5 class=\"card-sub-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-sub-title\">\n\t\t\t\t\t\t\t4 Properties\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"card col-12 col-lg-3 col-md-6\" mbr-if=\"cardsAmount > 1\">\n\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t<div class=\"card-img small\">\n\t\t\t\t\t\t<img src=\"../_images/img/03.jpg\" title alt>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h4 class=\"card-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n\t\t\t\t\t\t\tParis\n\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t<h5 class=\"card-sub-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-sub-title\">\n\t\t\t\t\t\t\t4 Properties\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"card col-12 col-lg-3 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'last-child': cardsAmount == 2}\">\n\t\t\t\t<div class=\"card-wrapper\">\n\t\t\t\t\t<div class=\"card-img small\">\n\t\t\t\t\t\t<img src=\"../_images/img/04.jpg\" title alt>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h4 class=\"card-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n\t\t\t\t\t\t\tLondon\n\t\t\t\t\t\t</h4>\n\t\t\t\t\t\t<h5 class=\"card-sub-title mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".card-sub-title\">\n\t\t\t\t\t\t\t4 Properties\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_cid": "soF9w4pMdX",
+          "_anchor": "features1-75",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
           "_params": {}
         },
         {
