@@ -2441,6 +2441,25 @@ a {
     right: 0 !important;
   }
 }
+.cid-sp7pJtnLkY {
+  padding-top: 0px;
+  padding-bottom: 15px;
+  background-color: #000000;
+}
+@media (min-width: 992px) {
+  .cid-sp7pJtnLkY .mbr-figure {
+    padding-right: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-sp7pJtnLkY .mbr-figure {
+    padding-bottom: 1rem;
+  }
+}
+.cid-sp7pJtnLkY .mbr-text {
+  color: #ffffff;
+  text-align: center;
+}
 .cid-sn9pqqYK1q {
   padding-top: 45px;
   padding-bottom: 15px;
@@ -6996,6 +7015,35 @@ a {
   .cid-sobusrjbWU .md-pb {
     padding-bottom: 1rem;
   }
+}
+.cid-sp9MJVLNmX {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+.cid-sp9MJVLNmX [class^="socicon-"]:before,
+.cid-sp9MJVLNmX [class*=" socicon-"]:before {
+  line-height: 55px;
+}
+.cid-sp9MJVLNmX .btn-social {
+  font-size: 32px;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  padding: 0;
+  position: relative;
+  cursor: pointer;
+  color: #6592e6;
+  border-width: 2px;
+  transition: all .3s;
+  border-color: #6592e6;
+}
+.cid-sp9MJVLNmX .btn-social:hover {
+  background: #6592e6;
+}
+.cid-sp9MJVLNmX .btn-social:hover i.socicon {
+  color: #ffffff !important;
 }
 .cid-sowO9DzT5E {
   padding-top: 0rem;
