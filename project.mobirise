@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Elegance Travel",
-    "currentPage": "Tours.html",
+    "currentPage": "Policy.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -53,19 +53,34 @@
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "favicon": false,
-    "cssOptimize": false,
-    "lazyLoad": false,
-    "lazyType": "nothing",
+    "cssOptimize": true,
+    "lazyLoad": true,
+    "lazyType": "placeholder",
     "robotsSwitcher": false,
-    "sitemapSwitcher": false,
-    "sitemapSwitcherAuto": false,
-    "siteUrl": false,
-    "cookiesAlert": false,
-    "gdpr": false,
+    "sitemapSwitcher": true,
+    "sitemapSwitcherAuto": "on",
+    "siteUrl": "http://elegance-travel.net/",
+    "cookiesAlert": {
+      "customDialogSelector": false,
+      "colorText": "#424a4d",
+      "colorBg": "#eaeff1",
+      "colorButton": "",
+      "colorLink": "#424a4d",
+      "underlineLink": true,
+      "opacity": "99",
+      "opacityOverlay": "80",
+      "text": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
+      "textButton": "Agree"
+    },
+    "gdpr": {
+      "colorText": "#a7a7a7",
+      "colorLink": "#149dcc",
+      "underlineLink": false,
+      "text": "By continuing you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>."
+    },
     "publishChangesOnly": false,
     "global_after_body": "<!-- Load Facebook SDK for JavaScript -->\n      <div id=\"fb-root\"></div>\n      <script>\n        window.fbAsyncInit = function() {\n          FB.init({\n            xfbml            : true,\n            version          : 'v9.0'\n          });\n        };\n\n        (function(d, s, id) {\n        var js, fjs = d.getElementsByTagName(s)[0];\n        if (d.getElementById(id)) return;\n        js = d.createElement(s); js.id = id;\n        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';\n        fjs.parentNode.insertBefore(js, fjs);\n      }(document, 'script', 'facebook-jssdk'));</script>\n\n      <!-- Your Chat Plugin code -->\n      <div class=\"fb-customerchat\"\n        attribution=\"setup_tool\"\n        page_id=\"174942970771599\">\n      </div>",
-    "publishType": "local",
-    "publishPath": "@PROJECT_PATH@"
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n"
   },
   "pages": {
     "index.html": {
@@ -2445,7 +2460,7 @@
           },
           "_name": "content6",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"115\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\">  \n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <a href=\"https://www.neondesign.net/\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/neon%20baller.gif\" alt=\"Mobirise\"></a>  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><br><br><br>Neon design създава отзивчиви, ретинални и мобилни уебсайтове&nbsp;<br><a href=\"https://www.neondesign.net/\" class=\"text-primary\">www.neondesign.net</a></p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"115\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\">  \n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <a href=\"https://www.neondesign.net/\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/neon-baller.gif\" alt=\"Mobirise\"></a>  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><br><br><br>Neon design създава отзивчиви, ретинални и мобилни уебсайтове&nbsp;<br><a href=\"https://www.neondesign.net/\" class=\"text-primary\">www.neondesign.net</a></p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "content6-8c",
           "_isUserblock": true,
           "_cid": "sp7pJtnLkY",
@@ -2885,7 +2900,8 @@
       "settings": {
         "title": "За нас",
         "order": 34,
-        "meta_descr": "Най-добрите оферти за екскурзии в страната - да опознаем България!"
+        "meta_descr": "Най-добрите оферти за екскурзии в страната - да опознаем България!",
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-4-1920x1280.jpg"
       },
       "components": [
         {
@@ -3733,7 +3749,8 @@
       "settings": {
         "title": "Общи условия и политики",
         "order": 33,
-        "meta_descr": ""
+        "meta_descr": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-1920x1276.jpg"
       },
       "components": [
         {
@@ -4270,7 +4287,8 @@
     "contacts.html": {
       "settings": {
         "title": "Контакти",
-        "order": 32
+        "order": 32,
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-1920x1202.jpg"
       },
       "components": [
         {
@@ -5165,7 +5183,8 @@
     "Dubai.html": {
       "settings": {
         "title": "Топ оферта Дубай",
-        "order": 31
+        "order": 31,
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-5-1920x1280.jpg"
       },
       "components": [
         {
@@ -5673,7 +5692,8 @@
     "Maldives.html": {
       "settings": {
         "title": "Топ оферта Малдиви",
-        "order": 30
+        "order": 30,
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-1920x1285.jpg"
       },
       "components": [
         {
@@ -6181,7 +6201,8 @@
       "settings": {
         "title": "Топ оферта Остров Санторини",
         "order": 29,
-        "meta_descr": ""
+        "meta_descr": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-1920x1309.jpg"
       },
       "components": [
         {
@@ -6688,7 +6709,8 @@
     "Zanzibar.html": {
       "settings": {
         "title": "Топ оферта Занзибар",
-        "order": 28
+        "order": 28,
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-1920x1275.jpg"
       },
       "components": [
         {
@@ -7196,7 +7218,8 @@
     "Tenerife.html": {
       "settings": {
         "title": "Топ оферта Тенерифе",
-        "order": 27
+        "order": 27,
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-1920x1212.jpg"
       },
       "components": [
         {
@@ -7704,7 +7727,8 @@
     "Egypt.html": {
       "settings": {
         "title": "Топ оферта Египет",
-        "order": 26
+        "order": 26,
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-1920x720.jpg"
       },
       "components": [
         {
@@ -8213,7 +8237,8 @@
       "settings": {
         "title": "Топ оферти - почивки и екскурзии",
         "order": 1,
-        "meta_descr": "Дубай, Малдиви, Тенерифе или екзотичните Занзибар,  Кения и Доменикана, ами какво ще кажете за митичния Египет"
+        "meta_descr": "Дубай, Малдиви, Тенерифе или екзотичните Занзибар,  Кения и Доменикана, ами какво ще кажете за митичния Египет",
+        "meta_image": "@PROJECT_PATH@/assets/images/giphy.gif"
       },
       "components": [
         {
@@ -9141,7 +9166,8 @@
     "Krit.html": {
       "settings": {
         "title": "Топ оферти о.Крит",
-        "order": 25
+        "order": 25,
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-12-1920x1280.jpg"
       },
       "components": [
         {
@@ -9649,7 +9675,8 @@
     "Rodos.html": {
       "settings": {
         "title": "Топ оферти Родос",
-        "order": 24
+        "order": 24,
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-1920x1246.jpg"
       },
       "components": [
         {
@@ -10158,7 +10185,8 @@
       "settings": {
         "title": "Почивки",
         "order": 4,
-        "meta_descr": "Предложения за индивидуални и групови почивки в чужбина - море в Гърция, Турция, Дубай, Испания, Малта, Занзибар, Доминикана, Куба ........Изгодни предложения и Last minute оферти"
+        "meta_descr": "Предложения за индивидуални и групови почивки в чужбина - море в Гърция, Турция, Дубай, Испания, Малта, Занзибар, Доминикана, Куба ........Изгодни предложения и Last minute оферти",
+        "meta_image": "@PROJECT_PATH@/assets/images/original.gif"
       },
       "components": [
         {
@@ -11692,7 +11720,8 @@
       "settings": {
         "title": "Екскурзии",
         "order": 5,
-        "meta_descr": "Самолетни и автобусни дестинации за различни точки на света. Къде, кога и за колко, изборът е ваш!"
+        "meta_descr": "Самолетни и автобусни дестинации за различни точки на света. Къде, кога и за колко, изборът е ваш!",
+        "meta_image": "@PROJECT_PATH@/assets/images/giphy%20(1).gif"
       },
       "components": [
         {
@@ -13363,7 +13392,8 @@
     "Malta.html": {
       "settings": {
         "title": "Почивки Малта",
-        "order": 23
+        "order": 23,
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-1-1920x1202.jpg"
       },
       "components": [
         {
@@ -13824,7 +13854,8 @@
     "Italy.html": {
       "settings": {
         "title": "Екскурзии Италия",
-        "order": 18
+        "order": 18,
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-13-1920x1280.jpg"
       },
       "components": [
         {
@@ -14285,7 +14316,8 @@
     "France.html": {
       "settings": {
         "title": "Екскурзии Франция",
-        "order": 17
+        "order": 17,
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-1920x1278.jpg"
       },
       "components": [
         {
@@ -14746,7 +14778,8 @@
     "England.html": {
       "settings": {
         "title": "Екскурзии Англия",
-        "order": 16
+        "order": 16,
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-1920x1282.jpg"
       },
       "components": [
         {
@@ -15207,7 +15240,8 @@
     "Austria.html": {
       "settings": {
         "title": "Екскурзии Австрия",
-        "order": 15
+        "order": 15,
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-1920x1098.jpg"
       },
       "components": [
         {
@@ -15668,7 +15702,8 @@
     "Espana.html": {
       "settings": {
         "title": "Екскурзии Испания",
-        "order": 14
+        "order": 14,
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-1920x1080.jpg"
       },
       "components": [
         {
@@ -16129,7 +16164,8 @@
     "Germany.html": {
       "settings": {
         "title": "Екскурзии Германия",
-        "order": 13
+        "order": 13,
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-1920x979.jpg"
       },
       "components": [
         {
@@ -16590,7 +16626,8 @@
     "Switzerland.html": {
       "settings": {
         "title": "Екскурзии Швейцариа",
-        "order": 12
+        "order": 12,
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-1920x1280.jpeg"
       },
       "components": [
         {
@@ -17051,7 +17088,8 @@
     "croatia.html": {
       "settings": {
         "title": "Екскурзии Хърватия",
-        "order": 11
+        "order": 11,
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-17-1920x1280.jpeg"
       },
       "components": [
         {
@@ -17512,7 +17550,8 @@
     "Portugal.html": {
       "settings": {
         "title": "Екскурзии Португалия",
-        "order": 10
+        "order": 10,
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-19-1920x1280.jpg"
       },
       "components": [
         {
@@ -17973,7 +18012,8 @@
     "USA.html": {
       "settings": {
         "title": "Екскурзии САЩ",
-        "order": 9
+        "order": 9,
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-1-1920x1080.jpg"
       },
       "components": [
         {
@@ -18434,7 +18474,8 @@
     "Sri-Lanka.html": {
       "settings": {
         "title": "Почивки Шри Ланка",
-        "order": 22
+        "order": 22,
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-21-1920x1280.jpg"
       },
       "components": [
         {
@@ -18895,7 +18936,8 @@
     "Marocco.html": {
       "settings": {
         "title": "Екскурзии Мароко",
-        "order": 8
+        "order": 8,
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-22-1920x1280.jpg"
       },
       "components": [
         {
@@ -19356,7 +19398,8 @@
     "Jordania.html": {
       "settings": {
         "title": "Екскурзии Йордания",
-        "order": 7
+        "order": 7,
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-1920x1440.jpeg"
       },
       "components": [
         {
@@ -19817,7 +19860,8 @@
     "Mexico.html": {
       "settings": {
         "title": "Почивка Мексико",
-        "order": 21
+        "order": 21,
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-24-1920x1280.jpg"
       },
       "components": [
         {
@@ -20279,7 +20323,8 @@
       "settings": {
         "title": "Екскурзии България",
         "order": 3,
-        "meta_descr": "Най-добрите оферти за екскурзии в страната - да опознаем България!"
+        "meta_descr": "Най-добрите оферти за екскурзии в страната - да опознаем България!",
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-25-1920x1280.jpeg"
       },
       "components": [
         {
@@ -20741,7 +20786,8 @@
       "settings": {
         "title": "Почивки България",
         "order": 2,
-        "meta_descr": "Оферти за морски, планински и СПА почивки в България,  резервации с отстъпки. \nНай добрите оферти за екскурзии в страната - да опознаем България!"
+        "meta_descr": "Оферти за морски, планински и СПА почивки в България,  резервации с отстъпки. \nНай добрите оферти за екскурзии в страната - да опознаем България!",
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-7-1920x1440.jpg"
       },
       "components": [
         {
@@ -21202,7 +21248,8 @@
     "hotels.html": {
       "settings": {
         "title": "Хотели",
-        "order": 6
+        "order": 6,
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-1-1920x1280.jpg"
       },
       "components": [
         {
@@ -21687,7 +21734,8 @@
     "Turkey-plane.html": {
       "settings": {
         "title": "Почивки в Турция със самолет",
-        "order": 20
+        "order": 20,
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-2-1920x1280.jpg"
       },
       "components": [
         {
@@ -22466,7 +22514,8 @@
     "page34.html": {
       "settings": {
         "title": "Почивки Турция собствен транспорт",
-        "order": 19
+        "order": 19,
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-6-1920x1280.jpg"
       },
       "components": [
         {
