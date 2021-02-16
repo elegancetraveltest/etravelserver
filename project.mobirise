@@ -49,7 +49,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 307,
+    "uniqCompNum": 321,
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "favicon": false,
@@ -70,11 +70,11 @@
       "settings": {
         "main": true,
         "title": "Elegance travel - туристическа агенция",
-        "meta_descr": "Елеганс травел ще осъществи вашата мечтана почивка или екскурзия, до всяко кътче на света.Уникални оферти, конкурентни цени без аналог",
+        "meta_descr": "Елеганс травел ООД е лицензиран туроператор и турагент с персонален съвет за вашето пътуване. Индивидуални и организирани почивки и екскурзии до всяка точка на света. Оферти на конкурентни цени, самолетни билети, хотелски резервации, семинари, конференции, круизи, рент а кари застраховки",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/elegance%20travel%20(28)-256x256.png"
+        "meta_image": "@PROJECT_PATH@/assets/images/elegance-travel-29-160x160.png"
       },
       "components": [
         {
@@ -2882,7 +2882,7 @@
     "aboutus.html": {
       "settings": {
         "title": "За нас",
-        "order": 34
+        "order": 35
       },
       "components": [
         {
@@ -3729,7 +3729,7 @@
     "Policy.html": {
       "settings": {
         "title": "Общи условия и политики",
-        "order": 33,
+        "order": 34,
         "meta_descr": ""
       },
       "components": [
@@ -4267,7 +4267,7 @@
     "contacts.html": {
       "settings": {
         "title": "Контакти",
-        "order": 32
+        "order": 33
       },
       "components": [
         {
@@ -5162,7 +5162,7 @@
     "Dubai.html": {
       "settings": {
         "title": "Топ оферта Дубай",
-        "order": 31
+        "order": 32
       },
       "components": [
         {
@@ -5624,7 +5624,7 @@
     "Maldives.html": {
       "settings": {
         "title": "Топ оферта Малдиви",
-        "order": 30
+        "order": 31
       },
       "components": [
         {
@@ -6085,7 +6085,7 @@
     "Santorini.html": {
       "settings": {
         "title": "Топ оферта Остров Санторини",
-        "order": 29,
+        "order": 30,
         "meta_descr": ""
       },
       "components": [
@@ -6547,7 +6547,7 @@
     "Zanzibar.html": {
       "settings": {
         "title": "Топ оферта Занзибар",
-        "order": 28
+        "order": 29
       },
       "components": [
         {
@@ -7009,7 +7009,7 @@
     "Tenerife.html": {
       "settings": {
         "title": "Топ оферта Тенерифе",
-        "order": 27
+        "order": 28
       },
       "components": [
         {
@@ -7471,7 +7471,7 @@
     "Egypt.html": {
       "settings": {
         "title": "Топ оферта Египет",
-        "order": 26
+        "order": 27
       },
       "components": [
         {
@@ -7933,8 +7933,8 @@
     "Top.html": {
       "settings": {
         "title": "Топ оферти - почивки и екскурзии",
-        "order": 1,
-        "meta_descr": "Дубай, Малдиви, Тенерифе или пък екзотичните Занзибар,  Кения и Доменикана, ами какво ще кажете за митичния Египет"
+        "order": 2,
+        "meta_descr": "Дубай, Малдиви, Тенерифе или екзотичните Занзибар,  Кения и Доменикана, ами какво ще кажете за митичния Египет"
       },
       "components": [
         {
@@ -8907,7 +8907,7 @@
     "Krit.html": {
       "settings": {
         "title": "Топ оферти о.Крит",
-        "order": 25
+        "order": 26
       },
       "components": [
         {
@@ -9369,7 +9369,7 @@
     "Rodos.html": {
       "settings": {
         "title": "Топ оферти Родос",
-        "order": 24
+        "order": 25
       },
       "components": [
         {
@@ -9831,7 +9831,7 @@
     "Vacantion.html": {
       "settings": {
         "title": "Почивки",
-        "order": 18
+        "order": 19
       },
       "components": [
         {
@@ -11364,7 +11364,7 @@
     "Tours.html": {
       "settings": {
         "title": "Екскурзии",
-        "order": 5
+        "order": 6
       },
       "components": [
         {
@@ -13035,7 +13035,7 @@
     "Malta.html": {
       "settings": {
         "title": "Почивки Малта",
-        "order": 23
+        "order": 24
       },
       "components": [
         {
@@ -13496,7 +13496,7 @@
     "Italy.html": {
       "settings": {
         "title": "Екскурзии Италия",
-        "order": 17
+        "order": 18
       },
       "components": [
         {
@@ -13957,7 +13957,7 @@
     "France.html": {
       "settings": {
         "title": "Екскурзии Франция",
-        "order": 16
+        "order": 17
       },
       "components": [
         {
@@ -14418,7 +14418,7 @@
     "England.html": {
       "settings": {
         "title": "Екскурзии Англия",
-        "order": 15
+        "order": 16
       },
       "components": [
         {
@@ -14879,7 +14879,7 @@
     "Austria.html": {
       "settings": {
         "title": "Екскурзии Австрия",
-        "order": 14
+        "order": 15
       },
       "components": [
         {
@@ -15340,7 +15340,7 @@
     "Espana.html": {
       "settings": {
         "title": "Екскурзии Испания",
-        "order": 13
+        "order": 14
       },
       "components": [
         {
@@ -15801,7 +15801,7 @@
     "Germany.html": {
       "settings": {
         "title": "Екскурзии Германия",
-        "order": 12
+        "order": 13
       },
       "components": [
         {
@@ -16262,7 +16262,7 @@
     "Switzerland.html": {
       "settings": {
         "title": "Екскурзии Швейцариа",
-        "order": 11
+        "order": 12
       },
       "components": [
         {
@@ -16723,7 +16723,7 @@
     "croatia.html": {
       "settings": {
         "title": "Екскурзии Хърватия",
-        "order": 10
+        "order": 11
       },
       "components": [
         {
@@ -17184,7 +17184,7 @@
     "Portugal.html": {
       "settings": {
         "title": "Екскурзии Португалия",
-        "order": 9
+        "order": 10
       },
       "components": [
         {
@@ -17645,7 +17645,7 @@
     "USA.html": {
       "settings": {
         "title": "Екскурзии САЩ",
-        "order": 8
+        "order": 9
       },
       "components": [
         {
@@ -18106,7 +18106,7 @@
     "Sri-Lanka.html": {
       "settings": {
         "title": "Почивки Шри Ланка",
-        "order": 22
+        "order": 23
       },
       "components": [
         {
@@ -18567,7 +18567,7 @@
     "Marocco.html": {
       "settings": {
         "title": "Екскурзии Мароко",
-        "order": 7
+        "order": 8
       },
       "components": [
         {
@@ -19028,7 +19028,7 @@
     "Jordania.html": {
       "settings": {
         "title": "Екскурзии Йордания",
-        "order": 6
+        "order": 7
       },
       "components": [
         {
@@ -19489,7 +19489,7 @@
     "Mexico.html": {
       "settings": {
         "title": "Почивка Мексико",
-        "order": 21
+        "order": 22
       },
       "components": [
         {
@@ -19950,7 +19950,7 @@
     "Bulgaria-tour.html": {
       "settings": {
         "title": "Екскурзии България",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -20411,7 +20411,7 @@
     "Bulgaria-vacantion.html": {
       "settings": {
         "title": "Почивки България",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -20872,7 +20872,7 @@
     "hotels.html": {
       "settings": {
         "title": "Хотели",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -21357,7 +21357,7 @@
     "Turkey-plane.html": {
       "settings": {
         "title": "Почивки в Турция със самолет",
-        "order": 20
+        "order": 21
       },
       "components": [
         {
@@ -22136,7 +22136,7 @@
     "page34.html": {
       "settings": {
         "title": "Почивки Турция собствен транспорт",
-        "order": 19
+        "order": 20
       },
       "components": [
         {
