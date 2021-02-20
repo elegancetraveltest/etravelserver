@@ -22220,24 +22220,6 @@
           "_params": {}
         },
         {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<iframe width=\"100%\" src=\"//iframe.peakview.bg/?cl=717&amp;ifr_id=11046\" scrolling=\"no\" frameborder=\"0\" onload=\"window.scroll(0,0);\"></iframe>\n[JS_CODE_0]\n[JS_CODE_1]",
-          "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_sourceTheme": "mobirise5",
-          "_anchor": "custom-html-7p",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script type=\"text/javascript\" src=\"//iframe.peakview.bg/js/iframeResizer.min.js\"></script>",
-            "<script type=\"text/javascript\">iFrameResize({checkOrigin:false,heightCalculationMethod : 'max' })</script>"
-          ]
-        },
-        {
           "alias": false,
           "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
@@ -22260,24 +22242,6 @@
           "_global": false,
           "_once": false,
           "_params": {}
-        },
-        {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<iframe width=\"100%\" src=\"//iframe.peakview.bg/?cl=717&amp;ifr_id=11046\" scrolling=\"no\" frameborder=\"0\" onload=\"window.scroll(0,0);\"></iframe>\n[JS_CODE_0]\n[JS_CODE_1]\n",
-          "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_sourceTheme": "mobirise5",
-          "_anchor": "custom-html-7q",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script type=\"text/javascript\" src=\"//iframe.peakview.bg/js/iframeResizer.min.js\"></script>",
-            "<script type=\"text/javascript\">iFrameResize({checkOrigin:false,heightCalculationMethod : 'max' })</script>"
-          ]
         },
         {
           "alias": false,
@@ -22304,24 +22268,6 @@
           "_params": {}
         },
         {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<iframe width=\"100%\" src=\"//iframe.peakview.bg/?cl=717&amp;ifr_id=11047\" scrolling=\"no\" frameborder=\"0\" onload=\"window.scroll(0,0);\"></iframe>\n[JS_CODE_0]\n[JS_CODE_1]",
-          "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_sourceTheme": "mobirise5",
-          "_anchor": "custom-html-7r",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script type=\"text/javascript\" src=\"//iframe.peakview.bg/js/iframeResizer.min.js\"></script>",
-            "<script type=\"text/javascript\">iFrameResize({checkOrigin:false,heightCalculationMethod : 'max' })</script>"
-          ]
-        },
-        {
           "alias": false,
           "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
@@ -22344,24 +22290,6 @@
           "_global": false,
           "_once": false,
           "_params": {}
-        },
-        {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<iframe width=\"100%\" src=\"//iframe.peakview.bg/?cl=717&amp;ifr_id=11048\" scrolling=\"no\" frameborder=\"0\" onload=\"window.scroll(0,0);\"></iframe>\n[JS_CODE_0]\n[JS_CODE_1]",
-          "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_sourceTheme": "mobirise5",
-          "_anchor": "custom-html-7s",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script type=\"text/javascript\" src=\"//iframe.peakview.bg/js/iframeResizer.min.js\"></script>",
-            "<script type=\"text/javascript\">iFrameResize({checkOrigin:false,heightCalculationMethod : 'max' })</script>"
-          ]
         },
         {
           "alias": false,
@@ -22388,24 +22316,6 @@
           "_params": {}
         },
         {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<iframe width=\"100%\" src=\"//iframe.peakview.bg/?cl=717&amp;ifr_id=11049\" scrolling=\"no\" frameborder=\"0\" onload=\"window.scroll(0,0);\"></iframe>\n[JS_CODE_0]\n[JS_CODE_1]",
-          "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_sourceTheme": "mobirise5",
-          "_anchor": "custom-html-7t",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script type=\"text/javascript\" src=\"//iframe.peakview.bg/js/iframeResizer.min.js\"></script>",
-            "<script type=\"text/javascript\">iFrameResize({checkOrigin:false,heightCalculationMethod : 'max' })</script>"
-          ]
-        },
-        {
           "alias": false,
           "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
@@ -22430,24 +22340,6 @@
           "_params": {}
         },
         {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<iframe width=\"100%\" src=\"//iframe.peakview.bg/?cl=717&amp;ifr_id=11052\" scrolling=\"no\" frameborder=\"0\" onload=\"window.scroll(0,0);\"></iframe>\n[JS_CODE_0]\n[JS_CODE_1]",
-          "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_sourceTheme": "mobirise5",
-          "_anchor": "custom-html-9x",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script type=\"text/javascript\" src=\"//iframe.peakview.bg/js/iframeResizer.min.js\"></script>",
-            "<script type=\"text/javascript\">iFrameResize({checkOrigin:false,heightCalculationMethod : 'max'\t})</script>"
-          ]
-        },
-        {
           "alias": false,
           "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
@@ -22466,47 +22358,6 @@
           "_anchor": "content6-9y",
           "_isUserblock": true,
           "_cid": "sppFPRbU7F",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<iframe width=\"100%\" src=\"//iframe.peakview.bg/?cl=717&amp;ifr_id=11051\" scrolling=\"no\" frameborder=\"0\" onload=\"window.scroll(0,0);\"></iframe>\n[JS_CODE_0]\n[JS_CODE_1]",
-          "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_sourceTheme": "mobirise5",
-          "_anchor": "custom-html-9z",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script type=\"text/javascript\" src=\"//iframe.peakview.bg/js/iframeResizer.min.js\"></script>",
-            "<script type=\"text/javascript\">iFrameResize({checkOrigin:false,heightCalculationMethod : 'max'\t})</script>"
-          ]
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
-            "background-color": "@bgColor",
-            ".mbr-section-btn": {
-              "justify-content": "space-between",
-              "display": "flex",
-              "flex-wrap": "wrap"
-            }
-          },
-          "_name": "content12",
-          "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"content12\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrAddBtn\"><a class=\"btn btn-primary\" href=\"index.html\" data-app-placeholder=\"Type Text\">Начало</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content12-ap",
-          "_isUserblock": true,
-          "_cid": "spyWLYSiCb",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
