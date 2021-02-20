@@ -17870,7 +17870,7 @@ a {
   }
 }
 .cid-soPaBM6KKx {
-  padding-top: 5rem;
+  padding-top: 1rem;
   padding-bottom: 5rem;
   background-color: #ffffff;
 }
@@ -18029,6 +18029,16 @@ a {
 #custom-html-9z p {
   font-size: 60px;
   color: #777;
+}
+.cid-spyWLYSiCb {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+.cid-spyWLYSiCb .mbr-section-btn {
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
 }
 .cid-sphVhQvDbu {
   z-index: 1000;
