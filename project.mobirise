@@ -27,7 +27,7 @@
         "isGhostButtonBorder": false,
         "underlinedLinks": false,
         "isAnimatedOnScroll": false,
-        "isScrollToTopButton": true
+        "isScrollToTopButton": false
       },
       "additionalSetColors": [
         "#48ca96",
@@ -54,8 +54,8 @@
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "favicon": false,
-    "cssOptimize": true,
-    "lazyLoad": true,
+    "cssOptimize": false,
+    "lazyLoad": false,
     "lazyType": "nothing",
     "robotsSwitcher": false,
     "sitemapSwitcher": true,
