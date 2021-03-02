@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Elegance Travel",
-    "currentPage": "index.html",
+    "currentPage": "Cruise.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -68,7 +68,7 @@
       "text": "Съгласен съм със <a href='Policy.html'>общите условия</a> и <a href='Policy.html'>политики за сигурност</a> на сайта."
     },
     "publishChangesOnly": true,
-    "global_after_body": "<!-- Load Facebook SDK for JavaScript -->\n      <div id=\"fb-root\"></div>\n      <script>\n        window.fbAsyncInit = function() {\n          FB.init({\n            xfbml            : true,\n            version          : 'v9.0'\n          });\n        };\n\n        (function(d, s, id) {\n        var js, fjs = d.getElementsByTagName(s)[0];\n        if (d.getElementById(id)) return;\n        js = d.createElement(s); js.id = id;\n        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';\n        fjs.parentNode.insertBefore(js, fjs);\n      }(document, 'script', 'facebook-jssdk'));</script>\n\n      <!-- Your Chat Plugin code -->\n      <div class=\"fb-customerchat\"\n        attribution=\"setup_tool\"\n        page_id=\"174942970771599\">\n      </div>\n\n<script type=\"text/javascript\" src=\"https://kruizi.bg/js/affiliate.js\"> </script>\n\n<script>\n\n    window.addEventListener('load', function() {\n\n        CruisesAffiliate.init({\n\n            affID: 543,\n\n            width: '100%',\n\n            baseURI: 'kruizi.bg',\n\n            autoHeight: true\n\n        });\n\n    });\n",
+    "global_after_body": "<!-- Load Facebook SDK for JavaScript -->\n      <div id=\"fb-root\"></div>\n      <script>\n        window.fbAsyncInit = function() {\n          FB.init({\n            xfbml            : true,\n            version          : 'v9.0'\n          });\n        };\n\n        (function(d, s, id) {\n        var js, fjs = d.getElementsByTagName(s)[0];\n        if (d.getElementById(id)) return;\n        js = d.createElement(s); js.id = id;\n        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';\n        fjs.parentNode.insertBefore(js, fjs);\n      }(document, 'script', 'facebook-jssdk'));</script>\n\n      <!-- Your Chat Plugin code -->\n      <div class=\"fb-customerchat\"\n        attribution=\"setup_tool\"\n        page_id=\"174942970771599\">\n      </div>",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "cookiesAlert": false,
     "chatbutton": {},
@@ -30127,7 +30127,7 @@
       "settings": {
         "title": "Круизи",
         "order": 1,
-        "header_custom": "",
+        "header_custom": "<script type=\"text/javascript\" src=\"https://kruizi.bg/js/affiliate.js\"> </script>\n\n<script>\n\n    window.addEventListener('load', function() {\n\n        CruisesAffiliate.init({\n\n            affID: 543,\n\n            width: '100%',\n\n            baseURI: 'kruizi.bg',\n\n            autoHeight: true\n\n        });\n\n    });\n\n</script>",
         "meta_image": "@PROJECT_PATH@/assets/images/mbr-1920x1439.jpg",
         "footer_custom": "<div id=\"CruisesAffID\"></div>"
       },
