@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Elegance Travel",
-    "currentPage": "index.html",
+    "currentPage": "Cruise.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -71,8 +71,12 @@
     "global_after_body": "<!-- Load Facebook SDK for JavaScript -->\n      <div id=\"fb-root\"></div>\n      <script>\n        window.fbAsyncInit = function() {\n          FB.init({\n            xfbml            : true,\n            version          : 'v9.0'\n          });\n        };\n\n        (function(d, s, id) {\n        var js, fjs = d.getElementsByTagName(s)[0];\n        if (d.getElementById(id)) return;\n        js = d.createElement(s); js.id = id;\n        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';\n        fjs.parentNode.insertBefore(js, fjs);\n      }(document, 'script', 'facebook-jssdk'));</script>\n\n      <!-- Your Chat Plugin code -->\n      <div class=\"fb-customerchat\"\n        attribution=\"setup_tool\"\n        page_id=\"174942970771599\">\n      </div>",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "cookiesAlert": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@",
     "chatbutton": {},
-    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-X4WMX9QNKB\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-X4WMX9QNKB');\n</script>"
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-X4WMX9QNKB\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-X4WMX9QNKB');\n</script>",
+    "gitHubName": "elegancetraveltest",
+    "gitHubPath": "etravelserver"
   },
   "pages": {
     "index.html": {
@@ -30127,8 +30131,9 @@
       "settings": {
         "title": "Круизи",
         "order": 1,
-        "header_custom": "<script type=\"text/javascript\" src=\"https://kruizi.bg/js/affiliate.js\"> </script>\n\n<script>\n\n    window.addEventListener('load', function() {\n\n        CruisesAffiliate.init({\n\n            affID: 543,\n\n            width: '100%',\n\n            baseURI: 'kruizi.bg',\n\n            autoHeight: true\n\n        });\n\n    });\n\n</script>",
-        "meta_image": "@PROJECT_PATH@/assets/images/mbr-1920x1439.jpg"
+        "header_custom": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-1920x1439.jpg",
+        "footer_custom": ""
       },
       "components": [
         {
