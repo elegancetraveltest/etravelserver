@@ -50,7 +50,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 415,
+    "uniqCompNum": 417,
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "favicon": false,
@@ -31434,7 +31434,7 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<param value=\"searchBox.php?u=51ba63fe99cd230a7ad25650017e222a&amp;obj=searchbox_1&amp;lang=bg\" id=\"searchbox_1\" style=\"width:300px;height:300px\" class=\"trabaseBox\">\n",
+          "_customHTML": "<param value=\"searchBox.php?u=51ba63fe99cd230a7ad25650017e222a&amp;obj=searchbox_1&amp;lang=bg\" id=\"searchbox_1\" style=\"width:300px;height:300px\" class=\"trabaseBox\">\n\n",
           "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
           "alias": "code-editor",
           "_tags": [
