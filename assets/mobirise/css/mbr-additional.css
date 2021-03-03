@@ -25174,3 +25174,15 @@ a {
   font-size: 60px;
   color: #777;
 }
+#custom-html-be {
+  /* Type valid CSS here */
+}
+#custom-html-be div {
+  padding: 80px 0;
+  color: #777;
+  text-align: center;
+}
+#custom-html-be p {
+  font-size: 60px;
+  color: #777;
+}
