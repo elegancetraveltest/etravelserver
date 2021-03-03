@@ -71,8 +71,12 @@
     "global_after_body": "<!-- Load Facebook SDK for JavaScript -->\n      <div id=\"fb-root\"></div>\n      <script>\n        window.fbAsyncInit = function() {\n          FB.init({\n            xfbml            : true,\n            version          : 'v9.0'\n          });\n        };\n\n        (function(d, s, id) {\n        var js, fjs = d.getElementsByTagName(s)[0];\n        if (d.getElementById(id)) return;\n        js = d.createElement(s); js.id = id;\n        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';\n        fjs.parentNode.insertBefore(js, fjs);\n      }(document, 'script', 'facebook-jssdk'));</script>\n\n      <!-- Your Chat Plugin code -->\n      <div class=\"fb-customerchat\"\n        attribution=\"setup_tool\"\n        page_id=\"174942970771599\">\n      </div>",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "cookiesAlert": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@",
     "chatbutton": {},
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-X4WMX9QNKB\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-X4WMX9QNKB');\n</script>",
+    "gitHubName": "elegancetraveltest",
+    "gitHubPath": "etravelserver",
     "global_header_custom": "<script type=\"text/javascript\">\n\tvar _u = '51ba63fe99cd230a7ad25650017e222a';\n\tvar _src = 'https://a.trabase.com/easyxdm-trabase.js?rnd=' + Math.random();\n\twindow.onload = function() {\n\t\tvar _trabase = document.createElement('script'); _trabase.type = 'text/javascript'; _trabase.async = true; _trabase.src = _src;\n\t\tvar _body = document.getElementsByTagName('body')[0];\n\t\t_body.appendChild(_trabase);\n\t\t};\n\tvar ua = navigator.userAgent.toLowerCase(); \n\tif (ua.indexOf('safari')!=-1){\n\t\tif(ua.indexOf('chrome')  > -1){\n\t\t} else {\n\t\t\t\tif(document.cookie.indexOf(\"trbsafari=1\") >= 0) {\n\t\t\t\t}\n\t\t\t\telse {\n\t\t\t\t\tdocument.cookie = \"trbsafari=1; expires=0\";\n\t\t\t\t\tvar url = 'https://web.trabase.com/web/safari.php?u='+_u+'&r='+encodeURIComponent(window.location.href);\n\t\t\t\t\twindow.location.href = url;\t\n\t\t\t\t}\n\t\t}\n\t}\t\t\n</script>"
   },
   "pages": {
@@ -30577,7 +30581,7 @@
         "order": 1,
         "header_custom": "",
         "meta_image": "@PROJECT_PATH@/assets/images/mbr-3-1920x1281.jpg",
-        "footer_custom": "<div id=\"divTRBBooking\" style=\"width:400px\"></div>\n\n\n\n\n"
+        "footer_custom": "<div id=\"divTRBBooking\" style=\"width:780px\"></div>\n\n\n\n\n"
       },
       "components": [
         {
