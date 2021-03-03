@@ -50,7 +50,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 408,
+    "uniqCompNum": 409,
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "favicon": false,
@@ -30990,9 +30990,9 @@
       "settings": {
         "title": "Самолетни билети",
         "order": 1,
-        "header_custom": "<script type=\"text/javascript\">\n\tvar _u = '51ba63fe99cd230a7ad25650017e222a';\n\tvar _src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'a.trabase.com/static/easyxdm-trabase.js?rnd=' + Math.random();\n\twindow.onload = function() {\n\t\tvar _trabase = document.createElement('script'); _trabase.type = 'text/javascript'; _trabase.async = true; _trabase.src = _src;\n\t\tvar _body = document.getElementsByTagName('body')[0];\n\t\t_body.appendChild(_trabase);\n\t\t};\n</script>",
+        "header_custom": "",
         "meta_image": "@PROJECT_PATH@/assets/images/mbr-3-1920x1281.jpg",
-        "footer_custom": ""
+        "footer_custom": "<div id=\"divTRBBooking\" style=\"width:980\"></div>"
       },
       "components": [
         {
@@ -31434,7 +31434,7 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<div id=\"divTRBBooking\" style=\"width:980\"></div>",
+          "_customHTML": "<param value=\"searchBox.php?u=51ba63fe99cd230a7ad25650017e222a&amp;obj=searchbox_1&amp;lang=bg\" id=\"searchbox_1\" style=\"width:300px;height:300px\" class=\"trabaseBox\">\n",
           "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
           "alias": "code-editor",
           "_tags": [
