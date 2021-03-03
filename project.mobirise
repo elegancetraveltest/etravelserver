@@ -50,7 +50,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 428,
+    "uniqCompNum": 429,
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "favicon": false,
@@ -30992,7 +30992,7 @@
         "order": 1,
         "header_custom": "",
         "meta_image": "@PROJECT_PATH@/assets/images/mbr-3-1920x1281.jpg",
-        "footer_custom": "<div id=\"divTRBBooking\" style=\"width:250px\"></div>\n\n\n\n"
+        "footer_custom": "<div id=\"divTRBBooking\" style=\"width:780px\"></div>\n\n\n\n\n"
       },
       "components": [
         {
