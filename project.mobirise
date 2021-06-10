@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Elegance Travel",
-    "currentPage": "index.html",
+    "currentPage": "Top.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -13028,7 +13028,7 @@
                 "bestSeller": false,
                 "onSale": false,
                 "oldPrice": false,
-                "itemTitle": "Комплексни екскурзии",
+                "itemTitle": "Комбинирани екскурзии",
                 "itemDescription": "Посети няколко държави в Азия",
                 "itemPriceTitle": "From: ",
                 "itemPrice": "",
