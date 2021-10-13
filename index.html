@@ -42,12 +42,25 @@
   
   <script type="text/javascript">
 	var _u = '51ba63fe99cd230a7ad25650017e222a';
-	var _src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'a.trabase.com/static/easyxdm-trabase.js?rnd=' + Math.random();
+	var _src = 'https://a.trabase.com/easyxdm-trabase.js?rnd=' + Math.random();
 	window.onload = function() {
 		var _trabase = document.createElement('script'); _trabase.type = 'text/javascript'; _trabase.async = true; _trabase.src = _src;
 		var _body = document.getElementsByTagName('body')[0];
 		_body.appendChild(_trabase);
 		};
+	var ua = navigator.userAgent.toLowerCase(); 
+	if (ua.indexOf('safari')!=-1){
+		if(ua.indexOf('chrome')  > -1){
+		} else {
+				if(document.cookie.indexOf("trbsafari=1") >= 0) {
+				}
+				else {
+					document.cookie = "trbsafari=1; expires=0";
+					var url = 'https://web.trabase.com/web/safari.php?u='+_u+'&r='+encodeURIComponent(window.location.href);
+					window.location.href = url;	
+				}
+		}
+	}		
 </script>
   
 </script>
@@ -135,7 +148,7 @@
 		<div class="row justify-content-center align-center">
 			<div class="media-container-column col-lg-12 col-md-10 col-sm-12 align-center" data-form-type="formoid">
 <!--Formbuilder Form-->
-<form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Запитване за оферта"><input type="hidden" name="email" data-form-email="true" value="Lt0uDdhA9egWxo1Glv0xdhxNkrLHUYbL2OeBMHVMDy9x2SxwABysMLvWHHnPcFQc5my8Q5QEYIwgEAvl/V/54M0NP0b2Uzn0zxA1x0EFKzwXYhv86KTMJmWGPbPNbAWN.ZrGMbHf/PIs2Qa4O8kuw1dpGTIqsfTBYALwaj9BE0HIZo9P90UIDB5Y/1CroOt85zpSSSif0bCWfYtjCLXw4E0c08+7Mt9JHki/OgUC/aHmFjmDR2EmEbt+Bk5K4eEKV">
+<form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Запитване за оферта"><input type="hidden" name="email" data-form-email="true" value="bAmRm9/sVfELlcOkVrgXzD1i0BcGrQS4ezvRbPeHHWvAv0He5zOzkPocPcD0745ufpnDrrKrJMhbqZ6u+XPZe49GWFiLQ2Bv3bNccU3zRda+U2ZRbQFVlFoMhi2n6144.fMcR+Cr+Mv8y+xuBdIc5FoelYYaYnp1qP725tAKqixNn9xCTSH57kIfPndh/wBnfBtMHtdo1PXDCl62pfeeWYVySt8X1aQLJZbZ/eojz+BztEL/CE5cx0iq37OqyXIKd">
     
 <div class="dragArea row">
 <div class="col-lg-3 col-md-12 col-sm-12 relative form-group mb-3" data-for="message">
@@ -526,7 +539,7 @@
         </div>
         <div class="row justify-content-center mt-4">
             <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
-                <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler mx-auto" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="QMZiaCYom+Isp1+UPHf15QyvSNVcGVj7YrM9xUi+kGqO/lv8199eGvcpL2h3BXneyaC+EWWZwBZoQ6GGxUZxp5FwvmsU+jbo+2glRpCrxlNo7txbi4wEMvLIIInXID4g.IBE7yC+2TbpPOuegUK2K31K7PeI0o4/aaTTTergcUBEJ75v3HwEjawfwZwph3liSRxpKX0EbzvMD9dpCe18jB5QDW/Cj+IpYtVpEkNiuqEX6O8M+h0TbFddrQnGbcG8j">
+                <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler mx-auto" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="OmlqaXStZyrJgggzY6u5t9OptY/ltpuwI/ZMVQhgdjwWusB56uQpwKSbW40O3X2Qo7Qx2TaCTIbWOeYspxRBZ6sE3TR9hgQ5rJq5+O7wdfx2enXzXC1DnNsme+H2BE7T.kK7F82ON4yK4asHWKUCU2OtgzPe7MJB2pcO2WTTq2trBvkaITji9CJz35Vn7iCRq80EWklaRT9fWHrYZfNNINlza7IAhMLJcpWp5ZCaYodzTrUqnM2tFpf/NHpnS2ldK">
                     <div class="">
                         <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Потвърден абонамент !</div>
                         <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">Oops...! some problem!</div>
@@ -699,7 +712,7 @@
 
                             <div class="form-wrapper" data-form-type="formoid">
 <!--Formbuilder Form-->
-<form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Question"><input type="hidden" name="email" data-form-email="true" value="TO8Ep1ee+/5/V008PyDiyYQkOExsNJvgI40BQSmMol8K6w1O7mBRlpPTcWL+R3slQtWZVm1id8xR95s+y/nLjElGdmec1lVh5uaeuSugkA7N7DueunsWtsmV9z3mbXmA.hHcH3/pXslQPr2SX49zspwBEQ5PB48bICRr3qieyGqKWgQCOkuW78tCUOnlPWxptZmIX+b5MoOxfiJITiMq3079IJs+fq/OofMU2Xd3hV1KoHW3CRMmgKuCfdI5MyJbg">
+<form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Question"><input type="hidden" name="email" data-form-email="true" value="3BNbyiCHaoQvRAi+M3Z2rifWFnt9Nq+Hsez61XMMZwtIyhO8m803mhh0+vP9jCt0NDihteg9Z2Q0u2sq3L6uCj+ccfgk+dNoN2EfbtglUG72T4+T4E5tGd4DO4VRpPZZ.bTv+HcTjQ/cHlpvFO+zsLK8o8lX//iGYoEIjaIBVFkR/2IMGdMC4WY2FNscejvpgklxkvzcQJ3E/5+s6W4gRlxjgxPMq+WthVbhVkmfB44WKCVGEXHdBG1DK83TUlfrW">
 <div class="">
 <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Съобщението е изпратено успешно!</div>
 <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
