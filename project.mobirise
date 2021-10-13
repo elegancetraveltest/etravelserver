@@ -74,7 +74,9 @@
     "chatbutton": {},
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-X4WMX9QNKB\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-X4WMX9QNKB');\n</script>",
     "global_header_custom": "<script type=\"text/javascript\">\n\tvar _u = '51ba63fe99cd230a7ad25650017e222a';\n\tvar _src = 'https://a.trabase.com/easyxdm-trabase.js?rnd=' + Math.random();\n\twindow.onload = function() {\n\t\tvar _trabase = document.createElement('script'); _trabase.type = 'text/javascript'; _trabase.async = true; _trabase.src = _src;\n\t\tvar _body = document.getElementsByTagName('body')[0];\n\t\t_body.appendChild(_trabase);\n\t\t};\n\tvar ua = navigator.userAgent.toLowerCase(); \n\tif (ua.indexOf('safari')!=-1){\n\t\tif(ua.indexOf('chrome')  > -1){\n\t\t} else {\n\t\t\t\tif(document.cookie.indexOf(\"trbsafari=1\") >= 0) {\n\t\t\t\t}\n\t\t\t\telse {\n\t\t\t\t\tdocument.cookie = \"trbsafari=1; expires=0\";\n\t\t\t\t\tvar url = 'https://web.trabase.com/web/safari.php?u='+_u+'&r='+encodeURIComponent(window.location.href);\n\t\t\t\t\twindow.location.href = url;\t\n\t\t\t\t}\n\t\t}\n\t}\t\t\n</script>",
-    "mbrsiteDomain": "lievxfj7hu",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@",
+    "mbrsiteDomain": "sffvr8z7o8",
     "pwa-switcher": false
   },
   "pages": {
@@ -29488,7 +29490,7 @@
         "order": 8,
         "header_custom": "",
         "meta_image": "@PROJECT_PATH@/assets/images/mbr-3-1920x1281.jpg",
-        "footer_custom": "<div id=\"divTRBBooking\" style=\"width:980\"></div>\n\n"
+        "footer_custom": "\n\n"
       },
       "components": [
         {
@@ -29957,7 +29959,7 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<div id=\"divTRBBooking\" style=\"width:100%\"></div>\n\n",
+          "_customHTML": "<div id=\"divTRBBooking\" style=\"width:980\"></div>\n\n",
           "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
           "alias": "code-editor",
           "_tags": [
