@@ -32,12 +32,25 @@
   
   <script type="text/javascript">
 	var _u = '51ba63fe99cd230a7ad25650017e222a';
-	var _src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'a.trabase.com/static/easyxdm-trabase.js?rnd=' + Math.random();
+	var _src = 'https://a.trabase.com/easyxdm-trabase.js?rnd=' + Math.random();
 	window.onload = function() {
 		var _trabase = document.createElement('script'); _trabase.type = 'text/javascript'; _trabase.async = true; _trabase.src = _src;
 		var _body = document.getElementsByTagName('body')[0];
 		_body.appendChild(_trabase);
 		};
+	var ua = navigator.userAgent.toLowerCase(); 
+	if (ua.indexOf('safari')!=-1){
+		if(ua.indexOf('chrome')  > -1){
+		} else {
+				if(document.cookie.indexOf("trbsafari=1") >= 0) {
+				}
+				else {
+					document.cookie = "trbsafari=1; expires=0";
+					var url = 'https://web.trabase.com/web/safari.php?u='+_u+'&r='+encodeURIComponent(window.location.href);
+					window.location.href = url;	
+				}
+		}
+	}		
 </script>
   
 </head>
@@ -79,7 +92,7 @@
         attribution="setup_tool"
         page_id="174942970771599">
       </div>
-  <section data-bs-version="5.1" class="menu menu2 cid-sphVhQvDbu" once="menu" id="menu2-b4" data-sortbtn="btn-primary">
+  <section class="menu menu2 cid-sphVhQvDbu" once="menu" id="menu2-b4">
     
     <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
         <div class="container-fluid">
@@ -91,7 +104,7 @@
                 </span>
                 
             </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <div class="hamburger">
                     <span></span>
                     <span></span>
@@ -101,7 +114,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-white display-4" href="index.html">Начало</a></li><li class="nav-item"><a class="nav-link link text-white text-primary display-4" href="aboutus.html">За нас</a></li>
-                    <li class="nav-item dropdown"><a class="nav-link link dropdown-toggle text-white display-4" href="#" data-toggle="dropdown-submenu" data-bs-toggle="dropdown" aria-expanded="false">България</a><div class="dropdown-menu"><a class="dropdown-item text-white display-4" href="Bulgaria-vacantion.html">Почивки</a><a class="dropdown-item text-white display-4" href="Bulgaria-tour.html" aria-expanded="false">Екскурзии</a></div></li>
+                    <li class="nav-item dropdown"><a class="nav-link link dropdown-toggle text-white display-4" href="#" data-toggle="dropdown-submenu" aria-expanded="false">България</a><div class="dropdown-menu"><a class="dropdown-item text-white display-4" href="Bulgaria-vacantion.html">Почивки</a><a class="dropdown-item text-white display-4" href="Bulgaria-tour.html" aria-expanded="false">Екскурзии</a></div></li>
                     <li class="nav-item"><a class="nav-link link text-white text-primary display-4" href="Top-offers.html">Топ оферти</a>
                     </li><li class="nav-item"><a class="nav-link link text-white display-4" href="Vacantion.html" aria-expanded="false">Почивки</a></li><li class="nav-item"><a class="nav-link link text-white display-4" href="Tours.html">Екскурзии</a></li><li class="nav-item"><a class="nav-link link text-white text-primary display-4" href="Holidays.html">Прзнични оферти</a></li></ul>
                 
@@ -111,7 +124,7 @@
     </nav>
 </section>
 
-<section data-bs-version="5.1" class="content4 cid-sqyFK0jrRn" id="content4-br" data-sortbtn="btn-primary">
+<section class="content4 cid-sqyFK0jrRn" id="content4-br">
     
     <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(0, 0, 0);">
     </div>
@@ -126,22 +139,23 @@
     </div>
 </section>
 
-<section data-bs-version="5.1" class="content6 cid-sxTn7o54WU" id="content6-e7" data-sortbtn="btn-primary">
+<section class="content6 cid-sxTn7o54WU" id="content6-e7">
     
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12 col-lg-10">
                 <hr class="line">
-                <p class="mbr-text align-center mbr-fonts-style my-4 display-2"><em>Самолетни билети</em></p>
+                <p class="mbr-text align-center mbr-fonts-style my-4 display-2"><em>Търси самолетни билети</em></p>
                 <hr class="line">
             </div>
         </div>
     </div>
 </section>
 
-<div id="custom-html-d0"><div id="divTRBBooking" style="width:980"></div></div>
+<div id="custom-html-d0"><div id="divTRBBooking" style="width:100%"></div>
+</div>
 
-<section data-bs-version="5.1" class="header1 cid-sqyzI2TQC4 mbr-fullscreen" id="header1-bo" data-sortbtn="btn-primary">
+<section class="header1 cid-sqyzI2TQC4 mbr-fullscreen" id="header1-bo">
 
     
 
@@ -152,7 +166,7 @@
             <div class="col-12 col-lg-4">
                 
                 
-                <param value="searchBox.php?u=51ba63fe99cd230a7ad25650017e222a&amp;obj=searchboxx&amp;lang=bg" id="searchboxx" style="width:250px;height:250px" class="trabaseBox">
+                <param value="searchBox.php?u=51ba63fe99cd230a7ad25650017e222a&amp;obj=searchbox_1&amp;lang=bg" id="searchbox_1" style="width:250px;height:250px" class="trabaseBox">
 
                 
                 
@@ -163,7 +177,7 @@
     </div>
 </section>
 
-<section data-bs-version="5.1" class="social1 cid-sxTcxGkGxw" id="share1-e6" data-sortbtn="btn-primary">
+<section class="social1 cid-sxTcxGkGxw" id="share1-e6">
     
     
     
@@ -209,6 +223,9 @@
   
   
   
+
+
+
 
 
 </body>

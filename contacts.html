@@ -37,12 +37,25 @@
   
   <script type="text/javascript">
 	var _u = '51ba63fe99cd230a7ad25650017e222a';
-	var _src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'a.trabase.com/static/easyxdm-trabase.js?rnd=' + Math.random();
+	var _src = 'https://a.trabase.com/easyxdm-trabase.js?rnd=' + Math.random();
 	window.onload = function() {
 		var _trabase = document.createElement('script'); _trabase.type = 'text/javascript'; _trabase.async = true; _trabase.src = _src;
 		var _body = document.getElementsByTagName('body')[0];
 		_body.appendChild(_trabase);
 		};
+	var ua = navigator.userAgent.toLowerCase(); 
+	if (ua.indexOf('safari')!=-1){
+		if(ua.indexOf('chrome')  > -1){
+		} else {
+				if(document.cookie.indexOf("trbsafari=1") >= 0) {
+				}
+				else {
+					document.cookie = "trbsafari=1; expires=0";
+					var url = 'https://web.trabase.com/web/safari.php?u='+_u+'&r='+encodeURIComponent(window.location.href);
+					window.location.href = url;	
+				}
+		}
+	}		
 </script>
   
 </head>
@@ -159,7 +172,7 @@
                 </div>
             </div>
             <div class="map-wrapper col-12 col-md-6">
-                <div class="google-map"><iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCNveGQ9bfpKFwWzQLLftrR9hNiHwdqQG8&amp;q=Симеоновски Шосе 1 " allowfullscreen=""></iframe></div>
+                <div class="google-map"><iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCZI5F_k6S1k46ujh0SNrapM89f7mJxd30&amp;q=Симеоновски Шосе 1 " allowfullscreen=""></iframe></div>
             </div>
         </div>
     </div>
@@ -222,7 +235,7 @@
 
                             <div class="form-wrapper" data-form-type="formoid">
 <!--Formbuilder Form-->
-<form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Question"><input type="hidden" name="email" data-form-email="true" value="rpxqRpXdW+wJVPtLHv5vNi4ate3I466GoliozAj+bCiIksr39EN88QKku7QeaVT5+qlitfGUipHMnpK2H8AoOWw1gz49AjFAqFpdcLxsmg79uHbpKqdw6FU+Wey5vJUS.EQRJKU8b/W49TZI512+2EhBH8/wDwRrQbBwLb6P6ZbMJ+f7JN6rJCsa5DPwYWsxHZQD1rUpCUgP01IfGo2aeIM5NO4ypMkHAqsBB/hSQ8q9hZGWFlYHBJYIg63bjgTwX">
+<form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Question"><input type="hidden" name="email" data-form-email="true" value="kAKCSSK5SgnoE2fFVic5q3/0Xj63Gp2njLzVfucp52EplKm4zdb+OUtKcoo6xAblBhOET3HivW/oVPAT8VdZOgIByr+0reSrzMp7B2rp53B6GDC9S1Iuwuf2OE51dH1G.sIzKlbGrLCucO3bAgzu1WWCf7sxN3BaML2xVuJ5emsnfJO7uhyLshRUp5eCHVlnkHpKeY6DegMSr1IQj3wHcuaFK+TWNf+DwGLOVb04g3HtUQA6VPfDpSSYD6EEegR4A">
 <div class="">
 <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Съобщението е изпратено успешно!</div>
 <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
