@@ -50,7 +50,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 520,
+    "uniqCompNum": 522,
     "versionPublish": "5.4.1",
     "screenshot": "screenshot.png",
     "favicon": false,
@@ -74,7 +74,7 @@
     "chatbutton": {},
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-X4WMX9QNKB\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-X4WMX9QNKB');\n</script>",
     "global_header_custom": "<script type=\"text/javascript\">\n\tvar _u = '51ba63fe99cd230a7ad25650017e222a';\n\tvar _src = 'https://a.trabase.com/easyxdm-trabase.js?rnd=' + Math.random();\n\twindow.onload = function() {\n\t\tvar _trabase = document.createElement('script'); _trabase.type = 'text/javascript'; _trabase.async = true; _trabase.src = _src;\n\t\tvar _body = document.getElementsByTagName('body')[0];\n\t\t_body.appendChild(_trabase);\n\t\t};\n\tvar ua = navigator.userAgent.toLowerCase(); \n\tif (ua.indexOf('safari')!=-1){\n\t\tif(ua.indexOf('chrome')  > -1){\n\t\t} else {\n\t\t\t\tif(document.cookie.indexOf(\"trbsafari=1\") >= 0) {\n\t\t\t\t}\n\t\t\t\telse {\n\t\t\t\t\tdocument.cookie = \"trbsafari=1; expires=0\";\n\t\t\t\t\tvar url = 'https://web.trabase.com/web/safari.php?u='+_u+'&r='+encodeURIComponent(window.location.href);\n\t\t\t\t\twindow.location.href = url;\t\n\t\t\t\t}\n\t\t}\n\t}\t\t\n</script>",
-    "mbrsiteDomain": "4ylczhly3o",
+    "mbrsiteDomain": "nwmx1mrx3o",
     "pwa-switcher": false
   },
   "pages": {
@@ -89,121 +89,6 @@
         "meta_image": "@PROJECT_PATH@/assets/images/elegance%20travel%20(27)-1-774x676.png"
       },
       "components": [
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".ico": {
-              "position": "absolute",
-              "right": "30px",
-              "top": "12px",
-              "z-index": "100",
-              "span": {
-                "font-size": "1.5rem",
-                "color": "@iconColor"
-              }
-            },
-            ".relative": {
-              "position": "relative"
-            },
-            ".row": {
-              "-webkit-justify-content": "center",
-              "justify-content": "center"
-            },
-            ".jq-selectbox__trigger-arrow": {
-              "display": "none"
-            },
-            ".jq-selectbox__select": {
-              "padding": "10px 25px",
-              "min-height": "20px",
-              "height": "100%"
-            },
-            ".form-control": {
-              "min-height": "49px",
-              "padding": "0"
-            },
-            ".form-group": {
-              "text-align": "left",
-              "border": "0px solid #CCC",
-              "border-radius": "5px"
-            },
-            ".jq-selectbox li.selected": {
-              "background-color": "@hover"
-            },
-            ".jq-selectbox li:hover": {
-              "background-color": "@hover"
-            },
-            ".jq-selectbox:hover .jq-selectbox__trigger-arrow": {
-              "border-top-color": "@hover"
-            },
-            ".mbr-iconfont-btn": {
-              "margin": "0"
-            },
-            ".jq-selectbox__dropdown": {
-              "top": "45px !important"
-            },
-            "input.form-control": {
-              "padding": "10px 25px",
-              "min-height": "49px",
-              "&:focus": {
-                "outline": "none",
-                "box-shadow": "0"
-              },
-              "&:active": {
-                "outline": "none",
-                "box-shadow": "0"
-              }
-            },
-            ".input-group-btn .btn": {
-              "margin": "0 !important",
-              "border-radius": "5px",
-              "height": "49px",
-              "display": "block",
-              "width": "100%"
-            },
-            ".input-group-btn": {
-              "max-width": "260px",
-              "width": "100%"
-            },
-            "@media (max-width: 991px)": {
-              ".form-group": {
-                "margin-bottom": "2rem"
-              },
-              ".align-left": {
-                "text-align": "center"
-              }
-            },
-            "@media (max-width: 576px)": {
-              ".input-group-btn": {
-                "margin": "auto"
-              }
-            },
-            ".mbr-section-title": {
-              "text-align": "center",
-              "color": "#48ca96"
-            },
-            ".mbr-section-sub-title": {
-              "color": "#ececec",
-              "text-align": "center"
-            }
-          },
-          "_name": "header3",
-          "_sourceTheme": "travelm4",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header3 travelm4_header3\" plugins=\"formstyler, datepicker\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"20\" value=\"20\">\n\t\t<input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"20\" value=\"20\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked=\"\">\n\t\t<input type=\"checkbox\" title=\"Main Subtitle\" name=\"showMainsubtitle\" checked=\"\">\n\t\t<input type=\"checkbox\" title=\"Icon\" name=\"showIcon\" checked=\"\">\n\t\t<header>Colors</header>\n\t\t<input type=\"color\" title=\"Hover\" name=\"hover\" value=\"#1ec6b6\">\n\t\t<input type=\"color\" title=\"Icon\" name=\"iconColor\" value=\"#656565\" condition=\"showIcon\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax=\"\">\n\t\t\t<input type=\"image\" value=\"../_images/background2.jpg\" title=\"Image\" selected=\"\">\n\t\t\t<input type=\"color\" value=\"#1ec6b6\" title=\"Color\">\n\t\t\t<input type=\"video\" value=\"https://www.youtube.com/watch?v=JPe2mwq96cw\" title=\"Video\">\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n\t\t<input type=\"color\" title=\"Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n\t\t<input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t<input type=\"hidden\" name=\"usedRecaptcha\" value=\"false\"></mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n\n\t<div class=\"container\">\n\t\t<h1 class=\"mbr-section-title mbr-bold align-left mbr-white pb-1 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">We have your dreams<br></h1>\n\n\t\t<h3 class=\"mbr-section-sub-title pb-4 mbr-normal mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" mbr-if=\"showMainsubtitle\" data-app-selector=\".mbr-section-sub-title\">Къде искаш да отидеш ?<br></h3>\n\t\t<div class=\"row justify-content-center align-center\">\n\t\t\t<div mbr-form=\"\" class=\"media-container-column col-lg-12 col-md-10 col-sm-12 align-center\">\n<!--Formbuilder Form-->\n<form action=\"offer@elegance-travel.net\" name=\"Mobirise Form\" method=\"POST\" class=\"mbr-form form-with-styler\">\n<div class=\"row\">\n<div hidden=\"hidden\" data-form-alert=\"\" class=\"alert alert-success col-12\">Thanks for filling out the form!</div>\n<div hidden=\"hidden\" data-form-alert-danger=\"\" class=\"alert alert-danger col-12\">\n</div>\n</div>\n<div class=\"dragArea row\">\n<div class=\"col-lg-3 col-md-12 relative form-group mb-3\" data-for=\"Дестинация\">\n<input type=\"text\" name=\"Дестинация\" placeholder=\"Дестинация\" data-form-field=\"Дестинация\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control input\" value=\"\">\n</div>\n<div class=\"col-lg-3 col-md-12 col-sm-12 form-group\" data-for=\"date\">\n<input type=\"date\" name=\"date\" data-form-field=\"date\" mbr-theme-style=\"display-7\" class=\"form-control\" value=\"2021-01-01\">\n</div>\n<div data-for=\"date1\" class=\"col-lg-3 col-md-12 col-sm-12 form-group\">\n<input type=\"date\" name=\"date1\" data-form-field=\"date1\" mbr-theme-style=\"display-7\" class=\"form-control\" value=\"2021-01-02\">\n</div>\n<div data-for=\"email\" class=\"col-lg-3 col-md-12 col-sm-12 form-group\">\n<input type=\"email\" name=\"email\" placeholder=\"name@email.com\" data-form-field=\"email\" mbr-theme-style=\"display-7\" class=\"form-control\" required=\"required\" value=\"\">\n</div>\n<div class=\"col-lg-6 col-md-12 col-sm-12 input-group-btn\" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\">\n<a data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" type=\"submit\" class=\"btn btn-md btn-form btn-primary\">Изпрати ми оферта</a>\n</div>\n</div>\n</form><!--Formbuilder Form-->\n</div>\n\t\t</div>\n\t</div>\n</section>",
-          "_cid": "sLW7AyeL69",
-          "_anchor": "header3-ef",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
         {
           "alias": false,
           "_styles": {
@@ -610,6 +495,40 @@
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "& when not (@gradientBg)": {
+                "background-color": "@bg-value"
+              },
+              "& when (@gradientBg)": {
+                "background-image": "linear-gradient(~\"@{gradientAngle}deg\", @gradientColor2 10%, @bg-value 100%) !important"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#48ca96"
+            }
+          },
+          "_name": "header18",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header18\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"9\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#4479d9\">4479d9\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Bg\" name=\"gradientBg\" checked condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"gradientColor2\" value=\"#e43f3f\" condition=\"gradientBg && bg.type == 'color'\">\n        <input type=\"range\" inline name=\"gradientAngle\" title=\"Gradient Angle\" min=\"0\" max=\"360\" value=\"104\" step=\"1\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#4479d9\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b><br></b><b>We have your dreams</b><br><b><br></b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\"><b>\n                        Header Subtitle\n                    </b></h2>\n                <p class=\"mbr-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Къде искаш да отидеш ?</p>\n                <!--Formbuilder Form-->\n<form action=\"offer@elegance-travel.net\" name=\"Запитване за оферта\" method=\"POST\" class=\"mbr-form form-with-styler\">\n    \n<div class=\"dragArea row\">\n<div class=\"col-lg-3 col-md-12 col-sm-12 relative form-group mb-3\" data-for=\"message\">\n<input type=\"text\" name=\"message\" placeholder=\"Дестинация\" data-form-field=\"Message\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control input\" value>\n    <div class=\"ico\" mbr-if=\"showIcon\">\n\t\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont mobi-mbri-map-pin mobi-mbri\"></span>\n\t\t\t\t\t\t\t</div>\n</div>\n<div class=\"col-lg-3 col-md-12 col-sm-12 form-group mb-3\" data-for=\"от\" style>\n<input type=\"date\" name=\"от\" data-form-field=\"от\" mbr-theme-style=\"display-7\" class=\"form-control\" value=\"2021-01-01\">\n</div>\n<div data-for=\"до\" class=\"col-lg-3 col-md-12 col-sm-12 form-group mb-3\">\n<input type=\"date\" name=\"до\" data-form-field=\"до\" mbr-theme-style=\"display-7\" class=\"form-control\" value=\"2021-01-02\">\n</div>\n<div class=\"col-lg-3 col-md-12 col-sm-12 form-group mb-3\" data-for=\"Имейл\">\n<input type=\"email\" name=\"Имейл\" placeholder=\"name@mail.com\" data-form-field=\"Имейл\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\" value>\n    <div class=\"ico\" mbr-if=\"showIcon\">\n\t\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont socicon-mailru socicon\"></span>\n\t\t\t\t\t\t\t</div>\n</div>\n<div mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" class=\"col-lg-12 col-md-12 col-sm-12 input-group-btn\">\n<a data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" type=\"submit\" class=\"btn btn-md btn-form btn-primary\">Изпрати ми оферти</a>\n</div>\n</div>\n</form><!--Formbuilder Form-->\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Create\n                        Your Website!</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sLVU89yDXU",
+          "_anchor": "header18-eh",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
           "_params": {}
         },
         {
