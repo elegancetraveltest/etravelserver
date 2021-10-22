@@ -1214,7 +1214,7 @@ a {
 }
 .cid-sozOIIjDAd {
   padding-top: 0px;
-  padding-bottom: 45px;
+  padding-bottom: 0px;
   background-color: #ffffff;
   overflow: hidden;
 }
@@ -2068,6 +2068,9 @@ a {
   font-weight: 400 !important;
 }
 .cid-sozOIIjDAd .card-description {
+  text-align: left;
+}
+.cid-sozOIIjDAd .item-title {
   text-align: left;
 }
 .cid-sozbybjf8d {
