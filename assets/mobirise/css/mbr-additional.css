@@ -3439,59 +3439,51 @@ a {
 .cid-soQrBW15WM .mbr-section-title {
   color: #48ca96;
 }
-.cid-soQsz77Ihk {
-  padding-top: 75px;
-  padding-bottom: 75px;
+.cid-sN1v1xrtet {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   background-color: #ffffff;
 }
-.cid-soQsz77Ihk .nav-tabs .nav-item.open .nav-link:focus,
-.cid-soQsz77Ihk .nav-tabs .nav-link.active:focus {
+.cid-sN1v1xrtet .nav-tabs .nav-item.open .nav-link:focus,
+.cid-sN1v1xrtet .nav-tabs .nav-link.active:focus {
   outline: none;
 }
-.cid-soQsz77Ihk .nav-tabs {
-  -webkit-flex-wrap: wrap;
+.cid-sN1v1xrtet .nav-tabs {
   flex-wrap: wrap;
-  border-bottom: 0px solid lightgray;
+  border-bottom: 1px solid #6592e6;
 }
-.cid-soQsz77Ihk .nav-tabs .nav-item {
-  padding: .0rem;
+@media (max-width: 767px) {
+  .cid-sN1v1xrtet .nav-item {
+    width: 100%;
+    margin: 0;
+  }
 }
-.cid-soQsz77Ihk .nav-link {
-  padding: .4rem 0.8rem;
-}
-.cid-soQsz77Ihk .nav-tabs .nav-link {
-  color: #232323;
-  font-style: normal;
-  font-weight: 500;
+.cid-sN1v1xrtet .nav-tabs .nav-link {
   transition: all .5s;
-  background: transparent;
   border: none;
+  border-bottom: 3px solid transparent;
   border-radius: 0 !important;
-  border-bottom: 2px solid #232323;
 }
-.cid-soQsz77Ihk .nav-tabs .nav-link:hover {
-  cursor: pointer;
-  color: #1425cc;
-  border-bottom: 2px solid #1425cc;
+.cid-sN1v1xrtet .nav-tabs .nav-link:not(.active) {
+  color: #000000;
 }
-.cid-soQsz77Ihk .nav-tabs .nav-link.active {
-  font-weight: 500;
-  color: #1425cc;
-  font-style: normal;
-  border-bottom: 2px solid #1425cc;
+.cid-sN1v1xrtet .nav-tabs .nav-item {
+  margin-right: 1.5rem;
 }
-.cid-soQsz77Ihk P {
-  color: #767676;
+.cid-sN1v1xrtet .nav-link,
+.cid-sN1v1xrtet .nav-link.active {
+  padding: 1rem 0;
+  background-color: transparent;
 }
-@media (max-width: 576px) {
-  .cid-soQsz77Ihk .nav-tabs {
-    flex-direction: column;
-    justify-content: center;
-  }
-  .cid-soQsz77Ihk .mbr-text,
-  .cid-soQsz77Ihk .nav-link {
-    text-align: center;
-  }
+.cid-sN1v1xrtet .nav-tabs .nav-link.active {
+  color: #6592e6;
+  border-bottom: 3px solid #6592e6;
+}
+.cid-sN1v1xrtet H4 {
+  text-align: center;
+}
+.cid-sN1v1xrtet H3 {
+  text-align: center;
 }
 .cid-soQtLIs0UH {
   padding-top: 0rem;
@@ -30150,8 +30142,8 @@ a {
   }
 }
 .cid-sxexQnZ3a0 {
-  padding-top: 375px;
-  padding-bottom: 45px;
+  padding-top: 315px;
+  padding-bottom: 0px;
   background-image: url("../../../assets/images/mbr-35-1920x1280.jpg");
 }
 .cid-sxexQnZ3a0 .mbr-section-title DIV {
