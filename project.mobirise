@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Elegance Travel",
-    "currentPage": "index.html",
+    "currentPage": "contacts.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -50,7 +50,7 @@
       }
     ],
     "imageResize": false,
-    "uniqCompNum": 584,
+    "uniqCompNum": 586,
     "versionPublish": "5.4.6",
     "screenshot": "screenshot.png",
     "favicon": false,
@@ -3981,7 +3981,7 @@
           },
           "_name": "features16",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features15\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"color\" title=\"Card Color\" name=\"cardColor\" value=\"#fafafa\" selected>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"content-wrapper\">\n            <div class=\"row align-items-center\">\n                <div class=\"col-12 col-lg\">\n                    <div class=\"text-wrapper\">\n                        <h6 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>Запитване</b></h6>\n                        <p class=\"mbr-text mbr-fonts-style mb-4\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Тук можете да ни изпратите вашите въпроси, ние ще се постарем да ви дадем бърз и изчерпателен отговор.</p>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"popup:#mbr-popup-25\" data-app-placeholder=\"Type Text\" data-toggle=\"modal\" data-bs-toggle=\"modal\" data-target=\"#mbr-popup-25\" data-bs-target=\"#mbr-popup-25\">Запитеване</a></div>\n                    </div>\n                </div>\n                <div class=\"col-12 col-lg-{{imageWidth}}\">\n                    <div class=\"image-wrapper\">\n                        <a href=\"popup:#mbr-popup-25\" data-toggle=\"modal\" data-bs-toggle=\"modal\" data-target=\"#mbr-popup-25\" data-bs-target=\"#mbr-popup-25\"><img src=\"@PROJECT_PATH@/assets/images/mbr-1266x725.jpg\" alt></a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features15\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"color\" title=\"Card Color\" name=\"cardColor\" value=\"#fafafa\" selected>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"content-wrapper\">\n            <div class=\"row align-items-center\">\n                <div class=\"col-12 col-lg\">\n                    <div class=\"text-wrapper\">\n                        <h6 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>Запитване</b></h6>\n                        <p class=\"mbr-text mbr-fonts-style mb-4\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Тук можете да ни изпратите вашите въпроси, ние ще се постарем да ви дадем бърз и изчерпателен отговор.</p>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"popup:#mbr-popup-g9\" data-app-placeholder=\"Type Text\" data-toggle=\"modal\" data-bs-toggle=\"modal\" data-target=\"#mbr-popup-g9\" data-bs-target=\"#mbr-popup-g9\">Запитеване</a></div>\n                    </div>\n                </div>\n                <div class=\"col-12 col-lg-{{imageWidth}}\">\n                    <div class=\"image-wrapper\">\n                        <a href=\"popup:#mbr-popup-25\" data-toggle=\"modal\" data-bs-toggle=\"modal\" data-target=\"#mbr-popup-25\" data-bs-target=\"#mbr-popup-25\"><img src=\"@PROJECT_PATH@/assets/images/mbr-1266x725.jpg\" alt></a>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "snTIo3Ap7W",
           "_anchor": "features16-26",
           "_protectedParams": [],
@@ -4026,7 +4026,13 @@
               },
               ".modal-dialog": {
                 "margin-top": "60px",
-                "margin-bottom": "60px"
+                "margin-bottom": "60px",
+                "& when (@popupSize = '5')": {
+                  "margin-top": "0",
+                  "margin-bottom": "0",
+                  "margin": "0",
+                  "height": "100%"
+                }
               }
             },
             ".modal-content, .modal-dialog": {
@@ -4108,7 +4114,12 @@
               "position": "relative",
               "width": "auto",
               "margin": ".5rem",
-              "pointer-events": "none"
+              "pointer-events": "none",
+              "& when (@popupSize = '5')": {
+                "max-width": "100%",
+                "height": "100%",
+                "margin": "0"
+              }
             },
             ".modal.fade .modal-dialog": {
               "transition": "transform 0.3s ease-out, -webkit-transform 0.3s ease-out",
@@ -4142,7 +4153,16 @@
               "border": "none",
               "outline": "0",
               "-webkit-box-shadow": "0 10px 40px 0 rgba(0, 0, 0, 0.2)",
-              "box-shadow": "0 10px 40px 0 rgba(0, 0, 0, 0.2)"
+              "box-shadow": "0 10px 40px 0 rgba(0, 0, 0, 0.2)",
+              "& when (@popupSize = '5')": {
+                "border-radius": "0",
+                "height": "100%",
+                "overflow": "auto"
+              }
+            },
+            ".margin-center-pos": {
+              "margin-top": "auto",
+              "margin-bottom": "auto"
             },
             ".modal-backdrop": {
               "position": "fixed",
@@ -4165,16 +4185,24 @@
               "align-items": "flex-start",
               "-ms-flex-pack": "justify",
               "justify-content": "space-between",
-              "padding": "1rem",
+              "@media (min-width: 992px)": {
+                "padding": "2rem 2rem 1rem"
+              },
+              "@media (max-width: 991px)": {
+                "padding": "1rem"
+              },
               "border-bottom": "none"
             },
             ".modal-header .close": {
               "position": "absolute",
-              "top": "auto",
+              "top": "1rem",
               "right": "1rem",
               "margin": "-1rem -1rem -1rem auto",
               "padding": "1rem",
               "opacity": ".75",
+              "svg": {
+                "fill": "@closeButton"
+              },
               "&:hover": {
                 "opacity": "1"
               },
@@ -4192,8 +4220,12 @@
               "position": "relative",
               "-ms-flex": "1 1 auto",
               "flex": "1 1 auto",
-              "padding": "1rem",
-              "min-height": "100%"
+              "@media (min-width: 992px)": {
+                "padding": "1rem 2rem 2rem"
+              },
+              "@media (max-width: 991px)": {
+                "padding": "1rem"
+              }
             },
             ".modal-footer": {
               "display": "flex",
@@ -4201,7 +4233,12 @@
               "align-items": "center",
               "-ms-flex-pack": "center",
               "justify-content": "center",
-              "padding": "1rem",
+              "@media (min-width: 992px)": {
+                "padding": "0rem 2rem 2rem"
+              },
+              "@media (max-width: 991px)": {
+                "padding": "1rem"
+              },
               "border-top": "none",
               "text-align": "center"
             },
@@ -4214,8 +4251,10 @@
             },
             "@media (min-width: 576px)": {
               ".modal-dialog": {
-                "max-width": "500px",
-                "margin": "1.75rem auto"
+                "& when not (@popupSize = '5')": {
+                  "max-width": "500px",
+                  "margin": "1.75rem auto"
+                }
               },
               ".modal-dialog-centered": {
                 "min-height": "~\"calc(100% - (1.75rem * 2))\""
@@ -4225,37 +4264,16 @@
               },
               ".modal-sm": {
                 "max-width": "300px"
-              },
-              ".container": {
-                "max-width": "540px"
               }
             },
             "@media (min-width: 992px)": {
               ".modal-lg, .modal-xl": {
                 "max-width": "800px"
-              },
-              ".container": {
-                "max-width": "960px"
               }
             },
             "@media (min-width: 1200px)": {
               ".modal-xl": {
                 "max-width": "1140px"
-              },
-              ".container": {
-                "max-width": "1140px"
-              }
-            },
-            ".container": {
-              "width": "100%",
-              "padding-right": "15px",
-              "padding-left": "15px",
-              "margin-right": "auto",
-              "margin-left": "auto"
-            },
-            "@media (min-width: 768px)": {
-              ".container": {
-                "max-width": "720px"
               }
             },
             ".row": {
@@ -4299,18 +4317,25 @@
               "flex": "0 0 auto",
               "width": "auto",
               "max-width": "100%"
+            },
+            ".mbr-section-btn": {
+              "margin": "0",
+              ".btn": {
+                "margin": "0"
+              }
             }
           },
           "_name": "mbr-popup",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"popup-builder\" group=\"Popup\" plugins=\"formstyler, datepicker\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Triggers / Show Popup</header>\n        <label>On Click</label>\n        <label>Use [popup-id] with any link or button (Link -&gt; Popup tab)</label>\n\n        <input type=\"checkbox\" title=\"On Timer\" name=\"onTimer\">\n        <input type=\"range\" title=\"Delay (s)\" name=\"onTimerDelay\" min=\"0\" max=\"30\" step=\"1\" value=\"5\" condition=\"onTimer == true\">\n\n        <input type=\"checkbox\" title=\"On Page Exit\" name=\"onPageExit\">\n\n        <input type=\"checkbox\" title=\"On Scroll to End\" name=\"onScroll\">\n\n        <select title=\"Add to Pages:\" name=\"popupOnPages\" multiple condition=\"onTimer == true || onPageExit == true || onScroll == true\"></select>\n\n        <header>Content</header>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n\n        <select title=\"Content Type\" name=\"popupContentType\">\n            <option value=\"1\">None</option>\n            <option value=\"2\">Image</option>\n            <option value=\"3\">Video</option>\n            <option value=\"4\" selected>Form</option>\n        </select>\n\n        <select title=\"Size\" name=\"popupSize\">\n            <option value=\"1\">Small</option>\n            <option value=\"2\">Default</option>\n            <option value=\"3\" selected>Large</option>\n            <option value=\"4\">Extra large</option>\n        </select>\n\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"cardBg\" value=\"#ffffff\">\n\n        <header>Overlay</header>\n        <input type=\"color\" title=\"Color\" name=\"popupOverlayColor\" value=\"#000000\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\">\n        <!-- End block parameters -->\n    <input type=\"hidden\" name=\"usedRecaptcha\" value=\"false\"></mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': popupOverlayColor, 'top': 0, 'right': 0, 'bottom': 0, 'left': 0, 'position': absolute, 'z-index': 0, 'pointer-events': none}\">\n    </div>\n\n    <div class=\"modal mbr-popup\" tabindex=\"-1\" role=\"dialog\" data-overlay-color=\"{{popupOverlayColor}}\" data-overlay-opacity=\"{{overlayOpacity}}\" data-on-timer-delay=\"{{onTimer ? onTimerDelay : ''}}\" data-on-exit=\"{{onPageExit}}\" data-on-scroll=\"{{onScroll}}\">\n        <div class=\"modal-dialog\" role=\"document\" mbr-class=\"{\n            'modal-sm': popupSize == 1,\n            '': popupSize == 2,\n            'modal-lg': popupSize == 3,\n            'modal-xl': popupSize == 4\n            }\">\n            <div class=\"modal-content\">\n                <div class=\"modal-header\" mbr-class=\"{'pb-0': showTitle && showText}\">\n                    <h5 class=\"modal-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".modal-title\" mbr-if=\"showTitle\">Задай ни въпрос</h5>\n                    <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n                        <svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 32 32\" fill=\"currentColor\">\n                            <path d=\"M31.797 0.191c-0.264-0.256-0.686-0.25-0.942 0.015l-13.328 13.326c-0.598 0.581 0.342 1.543 0.942 0.942l13.328-13.326c0.27-0.262 0.27-0.695 0-0.957zM14.472 17.515c-0.264-0.256-0.686-0.25-0.942 0.015l-13.328 13.326c-0.613 0.595 0.34 1.562 0.942 0.942l13.328-13.326c0.27-0.262 0.27-0.695 0-0.957zM1.144 0.205c-0.584-0.587-1.544 0.336-0.942 0.942l30.654 30.651c0.613 0.625 1.563-0.325 0.942-0.942z\"></path>\n                        </svg>\n                    </button>\n                </div>\n\n                <div class=\"modal-body\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"showText\">Тук можете да ни изпратите вашите въпроси, ние ще се постарем да ви дадем бърз и изчерпателен отговор.</p>\n\n                    <div mbr-if=\"popupContentType !== 1\">\n                        <div class=\"card-img mbr-figure\" mbr-if=\"popupContentType == 2\">\n                            <img src=\"../_images/popup.jpg\" alt=\"Mobirise\">\n                        </div>\n                            <div mbr-video class=\"video-block mbr-figure\" mbr-if=\"popupContentType == 3\">\n                                <iframe src=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\"></iframe>\n                            </div>\n\n                            <div mbr-form mbr-if=\"popupContentType == 4\" class=\"form-wrapper\">\n<!--Formbuilder Form-->\n<form action=\"Info@elegance-travel.net\" name=\"Question\" method=\"POST\" class=\"mbr-form form-with-styler\">\n<div class>\n<div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Съобщението е изпратено успешно!</div>\n<div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\">\n</div>\n</div>\n<div class=\"dragArea\">\n<div class=\"col-md-4 form-group\" data-for=\"Име\">\n<input type=\"text\" name=\"Име\" placeholder=\"Име\" data-form-field=\"Име\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\" value>\n</div>\n<div class=\"col-lg-12 col-md-12 col-sm-12 form-group\" data-for=\"phone\">\n<input type=\"tel\" name=\"phone\" placeholder=\"Телефон\" data-form-field=\"phone\" mbr-theme-style=\"display-7\" class=\"form-control\" value>\n</div>\n<div data-for=\"email\" class=\"col form-group \">\n<input type=\"email\" name=\"email\" placeholder=\"Имейл\" data-form-field=\"Email\" mbr-theme-style=\"display-7\" class=\"form-control\" required=\"required\" value>\n</div>\n<div data-for=\"текст\" class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<textarea name=\"текст\" placeholder=\"Съобщение\" data-form-field=\"текст\" mbr-theme-style=\"display-7\" class=\"form-control\"></textarea>\n</div>\n<div class=\"col input-group-btn\" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\">\n<a data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" type=\"submit\" class=\"btn btn-primary\">Изпрати</a>\n</div>\n</div>\n</form><!--Formbuilder Form-->\n</div>\n                        </div>\n                    </div>\n\n                    <div class=\"modal-footer\" mbr-class=\"{'pt-0': popupContentType == 1 || popupContentType == 4}\" mbr-if=\"showButtons\">\n                        <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                                LEARN MORE\n                            </a></div>\n                    </div>\n                </div>\n            </div>\n        </div>\n\n</section>",
-          "_popupId": "mbr-popup-25",
-          "_cid": "snTIHwSvXY",
-          "_anchor": "mbr-popup-27",
+          "_customHTML": "<section class=\"popup-builder\" group=\"Popup\" plugins=\"formstyler, datepicker\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Triggers / Show Popup</header>\n        <label>On Click</label>\n        <label>Use [popup-id] with any link or button (Link -&gt; Popup tab)</label>\n        <input type=\"checkbox\" title=\"On Timer\" name=\"onTimer\">\n        <input type=\"range\" title=\"Delay (s)\" name=\"onTimerDelay\" min=\"0\" max=\"30\" step=\"1\" value=\"5\" condition=\"onTimer == true\">\n\n        <input type=\"checkbox\" title=\"On Page Exit\" name=\"onPageExit\">\n\n        <input type=\"checkbox\" title=\"On Scroll to End\" name=\"onScroll\">\n\n        <select title=\"Add to Pages:\" name=\"popupOnPages\" multiple condition=\"onTimer == true || onPageExit == true || onScroll == true\"></select>\n\n        <header>Content</header>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n\n        <select title=\"Content Type\" name=\"popupContentType\">\n            <option value=\"1\">None</option>\n            <option value=\"2\">Image</option>\n            <option value=\"3\">Video</option>\n            <option value=\"4\" selected>Form</option>\n        </select>\n\n        <select title=\"Size\" name=\"popupSize\">\n            <option value=\"1\">Small</option>\n            <option value=\"2\" selected>Default</option>\n            <option value=\"3\">Large</option>\n            <option value=\"4\">Extra large</option>\n            <option value=\"5\">Full Screen</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"cardBg\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Close Button\" name=\"closeButton\" value=\"#353535\">\n\n        <header>Overlay</header>\n        <input type=\"color\" title=\"Color\" name=\"popupOverlayColor\" value=\"#000000\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\">\n        <!-- End block parameters -->\n    <input type=\"hidden\" name=\"usedRecaptcha\" value=\"false\"></mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': popupOverlayColor, 'top': 0, 'right': 0, 'bottom': 0, 'left': 0, 'position': absolute, 'z-index': 0, 'pointer-events': none}\">\n    </div>\n\n    <div class=\"modal mbr-popup\" tabindex=\"-1\" role=\"dialog\" data-overlay-color=\"{{popupOverlayColor}}\" data-overlay-opacity=\"{{overlayOpacity}}\" data-on-timer-delay=\"{{onTimer ? onTimerDelay : ''}}\" data-on-exit=\"{{onPageExit}}\" data-on-scroll=\"{{onScroll}}\">\n        <div class=\"modal-dialog\" role=\"document\" mbr-class=\"{\n            'modal-sm': popupSize == 1,\n            '': popupSize == 2,\n            'modal-lg': popupSize == 3,\n            'modal-xl': popupSize == 4\n            }\">\n            <div class=\"modal-content\">\n                <div class=\"container position-static margin-center-pos\">\n                    <div class=\"modal-header\" mbr-class=\"{'pb-0': showTitle && showText}\">\n                        <h5 class=\"modal-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".modal-title\" mbr-if=\"showTitle\">Задай ни въпрос</h5>\n                        <button type=\"button\" class=\"close d-flex\" data-dismiss=\"modal\" data-bs-dismiss=\"modal\" aria-label=\"Close\">\n                            <svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"23\" height=\"23\" viewBox=\"0 0 23 23\" fill=\"currentColor\">\n                                <path d=\"M13.4 12l10.3 10.3-1.4 1.4L12 13.4 1.7 23.7.3 22.3 10.6 12 .3 1.7 1.7.3 12 10.6 22.3.3l1.4 1.4L13.4 12z\">\n                                </path>\n                            </svg>\n                        </button>\n                    </div>\n\n                    <div class=\"modal-body\">\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"showText\">Тук можете да ни изпратите вашите въпроси, ние ще се постарем да ви дадем бърз и изчерпателен отговор.</p>\n\n                        <div mbr-if=\"popupContentType !== 1\">\n                            <div class=\"card-img mbr-figure\" mbr-if=\"popupContentType == 2\">\n                                <img src=\"@PROJECT_PATH@/assets/images/popup.jpg\" alt=\"Mobirise\">\n                            </div>\n                            <div mbr-video class=\"video-block mbr-figure\" mbr-if=\"popupContentType == 3\">\n                                <iframe src=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\"></iframe>\n                            </div>\n\n                            <div mbr-form mbr-if=\"popupContentType == 4\" class=\"form-wrapper\">\n<!--Formbuilder Form-->\n<form action=\"Info@elegance-travel.net\" name=\"Задаване на въпроси\" method=\"POST\" class=\"mbr-form form-with-styler\">\n<div class>\n<div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Съобщението е изпратено успешно!</div>\n<div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\"> </div>\n</div>\n<div class=\"dragArea\">\n<div class=\"col-lg-12 col-md-12 col-sm-12 form-group\" data-for=\"Име\">\n<input type=\"text\" name=\"Име\" placeholder=\"Име\" data-form-field=\"Име\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\" value>\n</div>\n<div class=\"col-lg-12 col-md-12 col-sm-12 form-group\" data-for=\"Телефон\">\n<input type=\"text\" name=\"Телефон\" placeholder=\"Телефон\" data-form-field=\"Телефон\" mbr-theme-style=\"display-7\" class=\"form-control\" value>\n</div>\n<div data-for=\"email\" class=\"col form-group \">\n<input type=\"email\" name=\"email\" placeholder=\"Email\" data-form-field=\"Email\" mbr-theme-style=\"display-7\" class=\"form-control\" required=\"required\" value>\n</div>\n<div data-for=\"Съобщение\" class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<textarea name=\"Съобщение\" placeholder=\"Съобщение\" data-form-field=\"Съобщение\" mbr-theme-style=\"display-7\" class=\"form-control\"></textarea>\n</div>\n<div class=\"col-md-auto input-group-btn\" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\">\n<a data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" type=\"submit\" class=\"btn btn-primary\">Изпрати</a>\n</div>\n</div>\n</form><!--Formbuilder Form-->\n</div>\n                        </div>\n                    </div>\n\n                    <div class=\"modal-footer\" mbr-class=\"{'pt-0': popupContentType == 1 || popupContentType == 4}\" mbr-if=\"showButtons\">\n                        <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                            <a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se\">\n                                LEARN MORE\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_anchor": "mbr-popup-g9",
+          "_isUserblock": true,
+          "_cid": "sNDUfP0W5c",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_popupId": "mbr-popup-g9"
         },
         {
           "alias": false,
